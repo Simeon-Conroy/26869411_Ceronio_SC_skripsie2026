@@ -1,0 +1,1784 @@
+[01:34:09.951] DASHBOARD_LOG_FILE C:\Users\ceron\Downloads\Year 4\Skripsie\Main\Glove\dashboard_logs\Dashboard_20261019_013409.log
+[01:34:11.979] STARTUP_IMU_CHECK PASS 17/17 IMUs configured and streaming.
+[01:34:17.993] CALIBRATION_PLAN [{"code": "stationary", "name": "Stationary bias and gravity hold"}, {"code": "pose_001_refrence", "name": "Refrence"}, {"code": "pose_002_fist_1", "name": "Fist_1"}, {"code": "pose_003_refrence", "name": "Refrence"}, {"code": "pose_004_fist_2", "name": "Fist_2"}, {"code": "pose_005_thumb_1", "name": "Thumb_1"}, {"code": "pose_006_thumb_2", "name": "Thumb_2"}, {"code": "pose_007_thumb_3", "name": "THumb_3"}, {"code": "pose_008_thumb_4", "name": "Thumb_4"}, {"code": "pose_009_refrence", "name": "Refrence"}, {"code": "pose_010_flex_1", "name": "flex_1"}, {"code": "pose_011_spread", "name": "Spread"}, {"code": "pose_012_refrence", "name": "Refrence"}]
+[01:34:17.995] CALIBRATION_REDO_OPTIONS {"Stationary bias/gravity hold": "stationary", "1. Refrence": "pose_001_refrence", "2. Fist_1": "pose_002_fist_1", "3. Refrence": "pose_003_refrence", "4. Fist_2": "pose_004_fist_2", "5. Thumb_1": "pose_005_thumb_1", "6. Thumb_2": "pose_006_thumb_2", "7. THumb_3": "pose_007_thumb_3", "8. Thumb_4": "pose_008_thumb_4", "9. Refrence": "pose_009_refrence", "10. flex_1": "pose_010_flex_1", "11. Spread": "pose_011_spread", "12. Refrence": "pose_012_refrence"}
+[01:34:18.000] CALIBRATION_STAGE1_BEGIN Strict reference and first-pose qpos calibration.
+[01:34:18.636] MUJOCO_HWND 1248264
+[01:34:19.059] CALIBRATION_PREVIEW_RECORDING C:\Users\ceron\Downloads\Year 4\Skripsie\Main\Glove\recordings\Live_IMU_20261019_013418.h5
+[01:34:19.063] CALIBRATION_REFERENCE_IMAGE {"path": "C:\\Users\\ceron\\Downloads\\Year 4\\Skripsie\\Main\\Glove\\live_tracking\\.pose_calibration_images\\pose_001_refrence.ppm", "label": "Refrence"}
+[01:34:19.143] CALIBRATION_STEP_READY stationary 10 Hold the straight reference pose naturally still. Collection starts automatically; movement only pauses collection.
+[01:34:19.915] MainBoard serial connected on COM14 at 921600 baud
+[01:34:20.025] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 27.7 dps; that IMU paused while the others continue.
+[01:34:20.027] CALIBRATION_STEP_PROGRESS stationary 0 0 1000
+[01:34:20.029] CALIBRATION_STABLE Hand is stable again; collection resumed from 1/1000 accumulated frames.
+[01:34:20.031] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 28.3 dps; that IMU paused while the others continue.
+[01:34:20.031] CALIBRATION_STABLE Hand is stable again; collection resumed from 3/1000 accumulated frames.
+[01:34:20.034] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 27.8 dps; that IMU paused while the others continue.
+[01:34:20.036] CALIBRATION_STABLE Hand is stable again; collection resumed from 5/1000 accumulated frames.
+[01:34:20.137] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 26.6 dps; that IMU paused while the others continue.
+[01:34:20.137] CALIBRATION_STABLE Hand is stable again; collection resumed from 6/1000 accumulated frames.
+[01:34:20.139] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 29.7 dps; that IMU paused while the others continue.
+[01:34:20.141] CALIBRATION_STABLE Hand is stable again; collection resumed from 8/1000 accumulated frames.
+[01:34:20.142] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 19.6 dps; that IMU paused while the others continue.
+[01:34:20.245] CALIBRATION_STABLE Hand is stable again; collection resumed from 9/1000 accumulated frames.
+[01:34:20.247] CALIBRATION_MOTION Significant movement at imu_ring_dist: acceleration 9.55 m/s^2; that IMU paused while the others continue.
+[01:34:20.247] CALIBRATION_STEP_PROGRESS stationary 1 10 1000
+[01:34:20.247] CALIBRATION_STABLE Hand is stable again; collection resumed from 11/1000 accumulated frames.
+[01:34:20.250] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 26.4 dps; that IMU paused while the others continue.
+[01:34:20.361] CALIBRATION_STABLE Hand is stable again; collection resumed from 14/1000 accumulated frames.
+[01:34:20.363] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 19.5 dps; that IMU paused while the others continue.
+[01:34:20.472] CALIBRATION_STABLE Hand is stable again; collection resumed from 16/1000 accumulated frames.
+[01:34:20.472] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 18.0 dps; that IMU paused while the others continue.
+[01:34:20.472] CALIBRATION_STABLE Hand is stable again; collection resumed from 19/1000 accumulated frames.
+[01:34:20.474] CALIBRATION_STEP_PROGRESS stationary 2 20 1000
+[01:34:20.585] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 27.0 dps; that IMU paused while the others continue.
+[01:34:20.586] CALIBRATION_STABLE Hand is stable again; collection resumed from 23/1000 accumulated frames.
+[01:34:20.698] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 27.0 dps; that IMU paused while the others continue.
+[01:34:20.699] CALIBRATION_STABLE Hand is stable again; collection resumed from 29/1000 accumulated frames.
+[01:34:20.700] CALIBRATION_STEP_PROGRESS stationary 3 30 1000
+[01:34:20.702] CALIBRATION_MOTION Significant movement at imu_ring_mid: acceleration 9.84 m/s^2; that IMU paused while the others continue.
+[01:34:20.812] CALIBRATION_STABLE Hand is stable again; collection resumed from 32/1000 accumulated frames.
+[01:34:20.813] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 19.2 dps; that IMU paused while the others continue.
+[01:34:20.813] CALIBRATION_STABLE Hand is stable again; collection resumed from 34/1000 accumulated frames.
+[01:34:20.926] CALIBRATION_MOTION Significant movement at imu_pinky_mid: acceleration 9.55 m/s^2; that IMU paused while the others continue.
+[01:34:20.928] CALIBRATION_STABLE Hand is stable again; collection resumed from 39/1000 accumulated frames.
+[01:34:20.929] CALIBRATION_STEP_PROGRESS stationary 4 40 1000
+[01:34:20.931] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 26.8 dps; that IMU paused while the others continue.
+[01:34:21.039] CALIBRATION_STABLE Hand is stable again; collection resumed from 41/1000 accumulated frames.
+[01:34:21.040] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 26.5 dps; that IMU paused while the others continue.
+[01:34:21.043] CALIBRATION_STABLE Hand is stable again; collection resumed from 42/1000 accumulated frames.
+[01:34:21.043] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 27.9 dps; that IMU paused while the others continue.
+[01:34:21.154] CALIBRATION_STABLE Hand is stable again; collection resumed from 44/1000 accumulated frames.
+[01:34:21.154] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 27.2 dps; that IMU paused while the others continue.
+[01:34:21.156] CALIBRATION_STABLE Hand is stable again; collection resumed from 47/1000 accumulated frames.
+[01:34:21.156] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 26.7 dps; that IMU paused while the others continue.
+[01:34:21.268] CALIBRATION_STABLE Hand is stable again; collection resumed from 48/1000 accumulated frames.
+[01:34:21.270] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 26.9 dps; that IMU paused while the others continue.
+[01:34:21.375] CALIBRATION_STABLE Hand is stable again; collection resumed from 49/1000 accumulated frames.
+[01:34:21.375] CALIBRATION_STEP_PROGRESS stationary 5 50 1000
+[01:34:21.378] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 20.2 dps; that IMU paused while the others continue.
+[01:34:21.378] CALIBRATION_STABLE Hand is stable again; collection resumed from 51/1000 accumulated frames.
+[01:34:21.485] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 26.1 dps; that IMU paused while the others continue.
+[01:34:21.486] CALIBRATION_STABLE Hand is stable again; collection resumed from 52/1000 accumulated frames.
+[01:34:21.488] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 20.7 dps; that IMU paused while the others continue.
+[01:34:21.488] CALIBRATION_STABLE Hand is stable again; collection resumed from 53/1000 accumulated frames.
+[01:34:21.604] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 19.8 dps; that IMU paused while the others continue.
+[01:34:21.606] CALIBRATION_STABLE Hand is stable again; collection resumed from 60/1000 accumulated frames.
+[01:34:21.606] CALIBRATION_STEP_PROGRESS stationary 6 60 1000
+[01:34:21.608] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 26.2 dps; that IMU paused while the others continue.
+[01:34:21.723] CALIBRATION_STABLE Hand is stable again; collection resumed from 63/1000 accumulated frames.
+[01:34:21.725] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 18.2 dps; that IMU paused while the others continue.
+[01:34:21.725] CALIBRATION_STABLE Hand is stable again; collection resumed from 64/1000 accumulated frames.
+[01:34:21.726] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 21.9 dps; that IMU paused while the others continue.
+[01:34:21.838] CALIBRATION_STABLE Hand is stable again; collection resumed from 67/1000 accumulated frames.
+[01:34:21.840] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 28.5 dps; that IMU paused while the others continue.
+[01:34:21.841] CALIBRATION_STABLE Hand is stable again; collection resumed from 68/1000 accumulated frames.
+[01:34:21.841] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 22.0 dps; that IMU paused while the others continue.
+[01:34:21.950] CALIBRATION_STABLE Hand is stable again; collection resumed from 70/1000 accumulated frames.
+[01:34:21.951] CALIBRATION_STEP_PROGRESS stationary 7 70 1000
+[01:34:21.952] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 27.8 dps; that IMU paused while the others continue.
+[01:34:21.954] CALIBRATION_STABLE Hand is stable again; collection resumed from 72/1000 accumulated frames.
+[01:34:21.954] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 21.0 dps; that IMU paused while the others continue.
+[01:34:21.957] CALIBRATION_STABLE Hand is stable again; collection resumed from 74/1000 accumulated frames.
+[01:34:22.068] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 27.6 dps; that IMU paused while the others continue.
+[01:34:22.068] CALIBRATION_STABLE Hand is stable again; collection resumed from 78/1000 accumulated frames.
+[01:34:22.071] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 26.7 dps; that IMU paused while the others continue.
+[01:34:22.181] CALIBRATION_STEP_PROGRESS stationary 8 80 1000
+[01:34:22.181] CALIBRATION_STABLE Hand is stable again; collection resumed from 81/1000 accumulated frames.
+[01:34:22.183] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 21.1 dps; that IMU paused while the others continue.
+[01:34:22.294] CALIBRATION_STABLE Hand is stable again; collection resumed from 84/1000 accumulated frames.
+[01:34:22.294] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 34.0 dps; that IMU paused while the others continue.
+[01:34:22.402] CALIBRATION_STABLE Hand is stable again; collection resumed from 86/1000 accumulated frames.
+[01:34:22.404] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 18.4 dps; that IMU paused while the others continue.
+[01:34:22.518] CALIBRATION_STABLE Hand is stable again; collection resumed from 89/1000 accumulated frames.
+[01:34:22.518] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 28.0 dps; that IMU paused while the others continue.
+[01:34:22.520] CALIBRATION_STABLE Hand is stable again; collection resumed from 90/1000 accumulated frames.
+[01:34:22.523] CALIBRATION_STEP_PROGRESS stationary 9 90 1000
+[01:34:22.523] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 19.2 dps; that IMU paused while the others continue.
+[01:34:22.632] CALIBRATION_STABLE Hand is stable again; collection resumed from 91/1000 accumulated frames.
+[01:34:22.632] CALIBRATION_MOTION Significant movement at imu_pinky_mid: acceleration 9.89 m/s^2; that IMU paused while the others continue.
+[01:34:22.746] CALIBRATION_STABLE Hand is stable again; collection resumed from 94/1000 accumulated frames.
+[01:34:22.747] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 27.1 dps; that IMU paused while the others continue.
+[01:34:23.283] CALIBRATION_STABLE Hand is stable again; collection resumed from 100/1000 accumulated frames.
+[01:34:23.283] CALIBRATION_STEP_PROGRESS stationary 10 100 1000
+[01:34:23.285] CALIBRATION_MOTION Significant movement at imu_thumb_dist: acceleration 0.91 m/s^2; that IMU paused while the others continue.
+[01:34:23.287] CALIBRATION_STABLE Hand is stable again; collection resumed from 102/1000 accumulated frames.
+[01:34:23.287] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 5.6 dps; that IMU paused while the others continue.
+[01:34:23.495] CALIBRATION_STABLE Hand is stable again; collection resumed from 105/1000 accumulated frames.
+[01:34:23.497] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 30.9 dps; that IMU paused while the others continue.
+[01:34:23.823] CALIBRATION_STABLE Hand is stable again; collection resumed from 108/1000 accumulated frames.
+[01:34:23.823] CALIBRATION_STEP_PROGRESS stationary 11 110 1000
+[01:34:23.826] CALIBRATION_MOTION Significant movement at imu_thumb_cmc: gyro 5.4 dps; that IMU paused while the others continue.
+[01:34:23.938] CALIBRATION_STABLE Hand is stable again; collection resumed from 116/1000 accumulated frames.
+[01:34:23.940] CALIBRATION_MOTION Significant movement at imu_index_mid: gyro 4.4 dps; that IMU paused while the others continue.
+[01:34:23.941] CALIBRATION_STEP_PROGRESS stationary 12 120 1000
+[01:34:24.046] CALIBRATION_STABLE Hand is stable again; collection resumed from 122/1000 accumulated frames.
+[01:34:24.046] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 27.7 dps; that IMU paused while the others continue.
+[01:34:24.046] CALIBRATION_STABLE Hand is stable again; collection resumed from 125/1000 accumulated frames.
+[01:34:24.048] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 28.3 dps; that IMU paused while the others continue.
+[01:34:24.156] CALIBRATION_STABLE Hand is stable again; collection resumed from 126/1000 accumulated frames.
+[01:34:24.156] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 26.8 dps; that IMU paused while the others continue.
+[01:34:24.158] CALIBRATION_STABLE Hand is stable again; collection resumed from 129/1000 accumulated frames.
+[01:34:24.158] CALIBRATION_STEP_PROGRESS stationary 13 130 1000
+[01:34:24.159] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 20.3 dps; that IMU paused while the others continue.
+[01:34:24.261] CALIBRATION_STABLE Hand is stable again; collection resumed from 133/1000 accumulated frames.
+[01:34:24.263] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 21.2 dps; that IMU paused while the others continue.
+[01:34:24.372] CALIBRATION_STABLE Hand is stable again; collection resumed from 136/1000 accumulated frames.
+[01:34:24.484] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 19.3 dps; that IMU paused while the others continue.
+[01:34:24.486] CALIBRATION_STABLE Hand is stable again; collection resumed from 138/1000 accumulated frames.
+[01:34:24.486] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 28.4 dps; that IMU paused while the others continue.
+[01:34:24.486] CALIBRATION_STABLE Hand is stable again; collection resumed from 139/1000 accumulated frames.
+[01:34:24.490] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 18.2 dps; that IMU paused while the others continue.
+[01:34:24.596] CALIBRATION_STEP_PROGRESS stationary 14 140 1000
+[01:34:24.912] CALIBRATION_STABLE Hand is stable again; collection resumed from 142/1000 accumulated frames.
+[01:34:25.021] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 33.1 dps; that IMU paused while the others continue.
+[01:34:25.131] CALIBRATION_STABLE Hand is stable again; collection resumed from 149/1000 accumulated frames.
+[01:34:25.131] CALIBRATION_STEP_PROGRESS stationary 15 150 1000
+[01:34:25.236] CALIBRATION_MOTION Significant movement at imu_index_dist: gyro 5.2 dps; that IMU paused while the others continue.
+[01:34:25.236] CALIBRATION_STABLE Hand is stable again; collection resumed from 157/1000 accumulated frames.
+[01:34:25.236] CALIBRATION_MOTION Significant movement at imu_palm: gyro 4.2 dps; that IMU paused while the others continue.
+[01:34:25.341] CALIBRATION_STEP_PROGRESS stationary 16 160 1000
+[01:34:25.445] CALIBRATION_STABLE Hand is stable again; collection resumed from 168/1000 accumulated frames.
+[01:34:25.445] CALIBRATION_STEP_PROGRESS stationary 17 170 1000
+[01:34:25.445] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 4.9 dps; that IMU paused while the others continue.
+[01:34:25.445] CALIBRATION_STABLE Hand is stable again; collection resumed from 172/1000 accumulated frames.
+[01:34:25.554] CALIBRATION_MOTION Significant movement at imu_ring_dist: acceleration 9.49 m/s^2; that IMU paused while the others continue.
+[01:34:25.554] CALIBRATION_STABLE Hand is stable again; collection resumed from 176/1000 accumulated frames.
+[01:34:25.668] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 28.2 dps; that IMU paused while the others continue.
+[01:34:25.668] CALIBRATION_STABLE Hand is stable again; collection resumed from 178/1000 accumulated frames.
+[01:34:25.668] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 26.0 dps; that IMU paused while the others continue.
+[01:34:25.668] CALIBRATION_STABLE Hand is stable again; collection resumed from 180/1000 accumulated frames.
+[01:34:25.673] CALIBRATION_STEP_PROGRESS stationary 18 180 1000
+[01:34:25.673] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 27.5 dps; that IMU paused while the others continue.
+[01:34:25.894] CALIBRATION_STABLE Hand is stable again; collection resumed from 182/1000 accumulated frames.
+[01:34:25.894] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 27.2 dps; that IMU paused while the others continue.
+[01:34:25.997] CALIBRATION_STABLE Hand is stable again; collection resumed from 183/1000 accumulated frames.
+[01:34:25.997] CALIBRATION_MOTION Significant movement at imu_ring_mid: acceleration 9.88 m/s^2; that IMU paused while the others continue.
+[01:34:25.999] CALIBRATION_STABLE Hand is stable again; collection resumed from 186/1000 accumulated frames.
+[01:34:26.000] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 20.9 dps; that IMU paused while the others continue.
+[01:34:26.104] CALIBRATION_STABLE Hand is stable again; collection resumed from 190/1000 accumulated frames.
+[01:34:26.106] CALIBRATION_STEP_PROGRESS stationary 19 190 1000
+[01:34:26.107] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 28.8 dps; that IMU paused while the others continue.
+[01:34:26.206] CALIBRATION_STABLE Hand is stable again; collection resumed from 194/1000 accumulated frames.
+[01:34:26.210] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 4.6 dps; that IMU paused while the others continue.
+[01:34:26.325] CALIBRATION_STABLE Hand is stable again; collection resumed from 196/1000 accumulated frames.
+[01:34:26.327] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 19.4 dps; that IMU paused while the others continue.
+[01:34:26.327] CALIBRATION_STABLE Hand is stable again; collection resumed from 197/1000 accumulated frames.
+[01:34:26.437] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 27.9 dps; that IMU paused while the others continue.
+[01:34:26.438] CALIBRATION_STABLE Hand is stable again; collection resumed from 198/1000 accumulated frames.
+[01:34:26.439] CALIBRATION_STEP_PROGRESS stationary 20 200 1000
+[01:34:26.540] CALIBRATION_STEP_PROGRESS stationary 21 210 1000
+[01:34:26.540] CALIBRATION_MOTION Significant movement at imu_thumb_dist: gyro 4.0 dps; that IMU paused while the others continue.
+[01:34:26.654] CALIBRATION_STABLE Hand is stable again; collection resumed from 217/1000 accumulated frames.
+[01:34:26.654] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 20.6 dps; that IMU paused while the others continue.
+[01:34:26.757] CALIBRATION_STABLE Hand is stable again; collection resumed from 218/1000 accumulated frames.
+[01:34:26.758] CALIBRATION_STEP_PROGRESS stationary 22 220 1000
+[01:34:26.871] CALIBRATION_MOTION Significant movement at imu_ring_dist: acceleration 9.49 m/s^2; that IMU paused while the others continue.
+[01:34:27.281] CALIBRATION_STEP_PROGRESS stationary 23 230 1000
+[01:34:27.283] CALIBRATION_STABLE Hand is stable again; collection resumed from 231/1000 accumulated frames.
+[01:34:27.392] CALIBRATION_STEP_PROGRESS stationary 24 240 1000
+[01:34:27.392] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 19.6 dps; that IMU paused while the others continue.
+[01:34:27.501] CALIBRATION_STABLE Hand is stable again; collection resumed from 250/1000 accumulated frames.
+[01:34:27.502] CALIBRATION_STEP_PROGRESS stationary 25 250 1000
+[01:34:27.502] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 20.1 dps; that IMU paused while the others continue.
+[01:34:27.610] CALIBRATION_STABLE Hand is stable again; collection resumed from 257/1000 accumulated frames.
+[01:34:27.612] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 19.6 dps; that IMU paused while the others continue.
+[01:34:27.725] CALIBRATION_STABLE Hand is stable again; collection resumed from 258/1000 accumulated frames.
+[01:34:27.725] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 21.5 dps; that IMU paused while the others continue.
+[01:34:27.725] CALIBRATION_STABLE Hand is stable again; collection resumed from 260/1000 accumulated frames.
+[01:34:27.728] CALIBRATION_STEP_PROGRESS stationary 26 260 1000
+[01:34:27.730] CALIBRATION_MOTION Significant movement at imu_middle_dist: gyro 4.9 dps; that IMU paused while the others continue.
+[01:34:27.842] CALIBRATION_STABLE Hand is stable again; collection resumed from 268/1000 accumulated frames.
+[01:34:27.843] CALIBRATION_MOTION Significant movement at imu_middle_dist: gyro 5.1 dps; that IMU paused while the others continue.
+[01:34:27.843] CALIBRATION_STEP_PROGRESS stationary 27 270 1000
+[01:34:27.843] CALIBRATION_STABLE Hand is stable again; collection resumed from 273/1000 accumulated frames.
+[01:34:27.843] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 29.5 dps; that IMU paused while the others continue.
+[01:34:27.846] CALIBRATION_STABLE Hand is stable again; collection resumed from 274/1000 accumulated frames.
+[01:34:27.957] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 33.2 dps; that IMU paused while the others continue.
+[01:34:28.166] CALIBRATION_STABLE Hand is stable again; collection resumed from 279/1000 accumulated frames.
+[01:34:28.166] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 28.4 dps; that IMU paused while the others continue.
+[01:34:28.168] CALIBRATION_STABLE Hand is stable again; collection resumed from 280/1000 accumulated frames.
+[01:34:28.168] CALIBRATION_STEP_PROGRESS stationary 28 280 1000
+[01:34:28.269] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 27.2 dps; that IMU paused while the others continue.
+[01:34:28.272] CALIBRATION_STABLE Hand is stable again; collection resumed from 285/1000 accumulated frames.
+[01:34:28.372] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 19.0 dps; that IMU paused while the others continue.
+[01:34:28.483] CALIBRATION_STEP_PROGRESS stationary 29 290 1000
+[01:34:28.594] CALIBRATION_STABLE Hand is stable again; collection resumed from 291/1000 accumulated frames.
+[01:34:28.596] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 28.2 dps; that IMU paused while the others continue.
+[01:34:28.703] CALIBRATION_STABLE Hand is stable again; collection resumed from 294/1000 accumulated frames.
+[01:34:28.703] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 18.7 dps; that IMU paused while the others continue.
+[01:34:28.811] CALIBRATION_STABLE Hand is stable again; collection resumed from 295/1000 accumulated frames.
+[01:34:28.811] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 20.4 dps; that IMU paused while the others continue.
+[01:34:28.813] CALIBRATION_STABLE Hand is stable again; collection resumed from 297/1000 accumulated frames.
+[01:34:28.813] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 20.6 dps; that IMU paused while the others continue.
+[01:34:28.921] CALIBRATION_STABLE Hand is stable again; collection resumed from 300/1000 accumulated frames.
+[01:34:28.921] CALIBRATION_STEP_PROGRESS stationary 30 300 1000
+[01:34:28.927] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 26.6 dps; that IMU paused while the others continue.
+[01:34:28.929] CALIBRATION_STABLE Hand is stable again; collection resumed from 304/1000 accumulated frames.
+[01:34:29.031] CALIBRATION_STEP_PROGRESS stationary 31 310 1000
+[01:34:29.031] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 19.8 dps; that IMU paused while the others continue.
+[01:34:29.031] CALIBRATION_STABLE Hand is stable again; collection resumed from 313/1000 accumulated frames.
+[01:34:29.035] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 26.4 dps; that IMU paused while the others continue.
+[01:34:29.139] CALIBRATION_STABLE Hand is stable again; collection resumed from 314/1000 accumulated frames.
+[01:34:29.139] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 28.0 dps; that IMU paused while the others continue.
+[01:34:29.142] CALIBRATION_STABLE Hand is stable again; collection resumed from 315/1000 accumulated frames.
+[01:34:29.245] CALIBRATION_STEP_PROGRESS stationary 32 320 1000
+[01:34:29.247] CALIBRATION_MOTION Significant movement at imu_index_dist: gyro 4.6 dps; that IMU paused while the others continue.
+[01:34:29.247] CALIBRATION_STABLE Hand is stable again; collection resumed from 328/1000 accumulated frames.
+[01:34:29.247] CALIBRATION_STEP_PROGRESS stationary 33 330 1000
+[01:34:29.354] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 4.8 dps; that IMU paused while the others continue.
+[01:34:29.354] CALIBRATION_STABLE Hand is stable again; collection resumed from 334/1000 accumulated frames.
+[01:34:29.356] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 22.6 dps; that IMU paused while the others continue.
+[01:34:29.574] CALIBRATION_STABLE Hand is stable again; collection resumed from 336/1000 accumulated frames.
+[01:34:29.576] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 28.8 dps; that IMU paused while the others continue.
+[01:34:29.686] CALIBRATION_STABLE Hand is stable again; collection resumed from 337/1000 accumulated frames.
+[01:34:29.686] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 19.0 dps; that IMU paused while the others continue.
+[01:34:29.797] CALIBRATION_STABLE Hand is stable again; collection resumed from 340/1000 accumulated frames.
+[01:34:29.799] CALIBRATION_STEP_PROGRESS stationary 34 340 1000
+[01:34:29.800] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 21.0 dps; that IMU paused while the others continue.
+[01:34:29.800] CALIBRATION_STABLE Hand is stable again; collection resumed from 342/1000 accumulated frames.
+[01:34:29.906] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 37.1 dps; that IMU paused while the others continue.
+[01:34:30.009] CALIBRATION_STATIONARY_WAIT Still waiting for clean stationary data from: imu_wrist, imu_palm, imu_thumb_cmc, imu_thumb_prox, imu_thumb_dist, imu_index_prox, imu_index_mid, imu_index_dist, imu_middle_prox, imu_middle_mid, imu_middle_dist, imu_ring_prox, imu_ring_mid, imu_ring_dist, imu_pinky_prox, imu_pinky_mid, imu_pinky_dist.
+[01:34:30.012] CALIBRATION_STABLE Hand is stable again; collection resumed from 343/1000 accumulated frames.
+[01:34:30.015] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 33.3 dps; that IMU paused while the others continue.
+[01:34:30.015] CALIBRATION_STABLE Hand is stable again; collection resumed from 344/1000 accumulated frames.
+[01:34:30.125] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 28.2 dps; that IMU paused while the others continue.
+[01:34:30.127] CALIBRATION_STABLE Hand is stable again; collection resumed from 349/1000 accumulated frames.
+[01:34:30.127] CALIBRATION_STEP_PROGRESS stationary 35 350 1000
+[01:34:30.130] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 27.8 dps; that IMU paused while the others continue.
+[01:34:30.234] CALIBRATION_STABLE Hand is stable again; collection resumed from 351/1000 accumulated frames.
+[01:34:30.336] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 27.6 dps; that IMU paused while the others continue.
+[01:34:30.337] CALIBRATION_STABLE Hand is stable again; collection resumed from 360/1000 accumulated frames.
+[01:34:30.339] CALIBRATION_STEP_PROGRESS stationary 36 360 1000
+[01:34:30.339] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 28.5 dps; that IMU paused while the others continue.
+[01:34:30.452] CALIBRATION_STABLE Hand is stable again; collection resumed from 364/1000 accumulated frames.
+[01:34:30.454] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 28.0 dps; that IMU paused while the others continue.
+[01:34:30.454] CALIBRATION_STABLE Hand is stable again; collection resumed from 365/1000 accumulated frames.
+[01:34:30.561] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 34.6 dps; that IMU paused while the others continue.
+[01:34:30.561] CALIBRATION_STABLE Hand is stable again; collection resumed from 367/1000 accumulated frames.
+[01:34:30.669] CALIBRATION_STEP_PROGRESS stationary 37 370 1000
+[01:34:30.674] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 30.2 dps; that IMU paused while the others continue.
+[01:34:30.674] CALIBRATION_STABLE Hand is stable again; collection resumed from 372/1000 accumulated frames.
+[01:34:30.780] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 4.4 dps; that IMU paused while the others continue.
+[01:34:30.780] CALIBRATION_SENSOR_COMPLETE stationary imu_wrist 1000/1000
+[01:34:30.782] CALIBRATION_STABLE Hand is stable again; collection resumed from 378/1000 accumulated frames.
+[01:34:30.782] CALIBRATION_STEP_PROGRESS stationary 38 380 1000
+[01:34:30.890] CALIBRATION_MOTION Significant movement at imu_middle_dist: gyro 4.2 dps; that IMU paused while the others continue.
+[01:34:30.891] CALIBRATION_STABLE Hand is stable again; collection resumed from 386/1000 accumulated frames.
+[01:34:30.892] CALIBRATION_SENSOR_COMPLETE stationary imu_palm 1000/1000
+[01:34:30.894] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 32.7 dps; that IMU paused while the others continue.
+[01:34:31.001] CALIBRATION_STABLE Hand is stable again; collection resumed from 390/1000 accumulated frames.
+[01:34:31.001] CALIBRATION_STEP_PROGRESS stationary 39 390 1000
+[01:34:31.003] CALIBRATION_MOTION Significant movement at imu_ring_prox: gyro 5.2 dps; that IMU paused while the others continue.
+[01:34:31.003] CALIBRATION_SENSOR_COMPLETE stationary imu_index_prox 1000/1000
+[01:34:31.003] CALIBRATION_SENSOR_COMPLETE stationary imu_thumb_cmc 1000/1000
+[01:34:31.003] CALIBRATION_SENSOR_COMPLETE stationary imu_pinky_prox 1000/1000
+[01:34:31.003] CALIBRATION_SENSOR_COMPLETE stationary imu_thumb_prox 1000/1000
+[01:34:31.219] CALIBRATION_STABLE Hand is stable again; collection resumed from 398/1000 accumulated frames.
+[01:34:31.219] CALIBRATION_SENSOR_COMPLETE stationary imu_thumb_dist 1000/1000
+[01:34:31.221] CALIBRATION_STEP_PROGRESS stationary 40 400 1000
+[01:34:31.223] CALIBRATION_SENSOR_COMPLETE stationary imu_ring_prox 1000/1000
+[01:34:31.224] CALIBRATION_MOTION Significant movement at imu_middle_prox: gyro 4.4 dps; that IMU paused while the others continue.
+[01:34:31.224] CALIBRATION_SENSOR_COMPLETE stationary imu_index_mid 1000/1000
+[01:34:31.336] CALIBRATION_SENSOR_COMPLETE stationary imu_pinky_dist 1000/1000
+[01:34:31.338] CALIBRATION_SENSOR_COMPLETE stationary imu_middle_prox 1000/1000
+[01:34:31.339] CALIBRATION_SENSOR_COMPLETE stationary imu_index_dist 1000/1000
+[01:34:31.339] CALIBRATION_SENSOR_COMPLETE stationary imu_middle_mid 1000/1000
+[01:34:31.339] CALIBRATION_STABLE Hand is stable again; collection resumed from 404/1000 accumulated frames.
+[01:34:31.339] CALIBRATION_MOTION Significant movement at imu_middle_dist: gyro 4.7 dps; that IMU paused while the others continue.
+[01:34:31.448] CALIBRATION_STEP_PROGRESS stationary 41 410 1000
+[01:34:31.657] CALIBRATION_STABLE Hand is stable again; collection resumed from 411/1000 accumulated frames.
+[01:34:31.658] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 32.3 dps; that IMU paused while the others continue.
+[01:34:31.658] CALIBRATION_STABLE Hand is stable again; collection resumed from 412/1000 accumulated frames.
+[01:34:31.763] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 38.7 dps; that IMU paused while the others continue.
+[01:34:31.763] CALIBRATION_STEP_PROGRESS stationary 42 420 1000
+[01:34:31.765] CALIBRATION_STABLE Hand is stable again; collection resumed from 421/1000 accumulated frames.
+[01:34:31.766] CALIBRATION_SENSOR_COMPLETE stationary imu_middle_dist 1000/1000
+[01:34:31.766] CALIBRATION_MOTION Significant movement at imu_ring_dist: acceleration 9.42 m/s^2; that IMU paused while the others continue.
+[01:34:31.879] CALIBRATION_STABLE Hand is stable again; collection resumed from 424/1000 accumulated frames.
+[01:34:31.880] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 4.1 dps; that IMU paused while the others continue.
+[01:34:31.883] CALIBRATION_STABLE Hand is stable again; collection resumed from 425/1000 accumulated frames.
+[01:34:31.883] CALIBRATION_STEP_PROGRESS stationary 43 430 1000
+[01:34:31.993] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 5.5 dps; that IMU paused while the others continue.
+[01:34:31.995] CALIBRATION_STABLE Hand is stable again; collection resumed from 433/1000 accumulated frames.
+[01:34:31.995] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 21.0 dps; that IMU paused while the others continue.
+[01:34:31.997] CALIBRATION_STABLE Hand is stable again; collection resumed from 438/1000 accumulated frames.
+[01:34:32.102] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 18.4 dps; that IMU paused while the others continue.
+[01:34:32.102] CALIBRATION_STEP_PROGRESS stationary 44 440 1000
+[01:34:32.104] CALIBRATION_STABLE Hand is stable again; collection resumed from 442/1000 accumulated frames.
+[01:34:32.106] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 5.3 dps; that IMU paused while the others continue.
+[01:34:32.107] CALIBRATION_STABLE Hand is stable again; collection resumed from 444/1000 accumulated frames.
+[01:34:32.219] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 5.8 dps; that IMU paused while the others continue.
+[01:34:32.220] CALIBRATION_STABLE Hand is stable again; collection resumed from 448/1000 accumulated frames.
+[01:34:32.220] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 6.4 dps; that IMU paused while the others continue.
+[01:34:32.428] CALIBRATION_STABLE Hand is stable again; collection resumed from 450/1000 accumulated frames.
+[01:34:32.428] CALIBRATION_STEP_PROGRESS stationary 45 450 1000
+[01:34:32.430] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 21.7 dps; all pending IMUs paused.
+[01:34:32.963] CALIBRATION_STABLE Hand is stable again; collection resumed from 456/1000 accumulated frames.
+[01:34:32.966] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 21.3 dps; all pending IMUs paused.
+[01:34:33.073] CALIBRATION_STABLE Hand is stable again; collection resumed from 458/1000 accumulated frames.
+[01:34:33.073] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 27.4 dps; all pending IMUs paused.
+[01:34:33.185] CALIBRATION_STABLE Hand is stable again; collection resumed from 459/1000 accumulated frames.
+[01:34:33.185] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 29.1 dps; all pending IMUs paused.
+[01:34:33.295] CALIBRATION_STABLE Hand is stable again; collection resumed from 460/1000 accumulated frames.
+[01:34:33.297] CALIBRATION_STEP_PROGRESS stationary 46 460 1000
+[01:34:33.297] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 28.0 dps; that IMU paused while the others continue.
+[01:34:33.299] CALIBRATION_STABLE Hand is stable again; collection resumed from 462/1000 accumulated frames.
+[01:34:33.299] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 25.7 dps; all pending IMUs paused.
+[01:34:33.512] CALIBRATION_STABLE Hand is stable again; collection resumed from 464/1000 accumulated frames.
+[01:34:33.513] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 25.1 dps; all pending IMUs paused.
+[01:34:33.515] CALIBRATION_STABLE Hand is stable again; collection resumed from 465/1000 accumulated frames.
+[01:34:33.515] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 37.6 dps; that IMU paused while the others continue.
+[01:34:33.728] CALIBRATION_STABLE Hand is stable again; collection resumed from 469/1000 accumulated frames.
+[01:34:33.730] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 19.3 dps; that IMU paused while the others continue.
+[01:34:33.834] CALIBRATION_STABLE Hand is stable again; collection resumed from 470/1000 accumulated frames.
+[01:34:33.834] CALIBRATION_STEP_PROGRESS stationary 47 470 1000
+[01:34:33.837] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 30.8 dps; all pending IMUs paused.
+[01:34:33.951] CALIBRATION_STABLE Hand is stable again; collection resumed from 471/1000 accumulated frames.
+[01:34:33.952] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 29.9 dps; all pending IMUs paused.
+[01:34:33.952] CALIBRATION_STABLE Hand is stable again; collection resumed from 472/1000 accumulated frames.
+[01:34:33.954] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 24.7 dps; all pending IMUs paused.
+[01:34:34.057] CALIBRATION_STABLE Hand is stable again; collection resumed from 473/1000 accumulated frames.
+[01:34:34.168] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 37.7 dps; all pending IMUs paused.
+[01:34:34.169] CALIBRATION_STABLE Hand is stable again; collection resumed from 474/1000 accumulated frames.
+[01:34:34.171] CALIBRATION_MOTION Significant movement at imu_pinky_mid: acceleration 9.91 m/s^2; that IMU paused while the others continue.
+[01:34:34.276] CALIBRATION_STABLE Hand is stable again; collection resumed from 475/1000 accumulated frames.
+[01:34:34.276] CALIBRATION_MOTION Significant movement at imu_ring_mid: acceleration 9.80 m/s^2; all pending IMUs paused.
+[01:34:34.278] CALIBRATION_STABLE Hand is stable again; collection resumed from 476/1000 accumulated frames.
+[01:34:34.278] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 17.7 dps; that IMU paused while the others continue.
+[01:34:34.496] CALIBRATION_STABLE Hand is stable again; collection resumed from 479/1000 accumulated frames.
+[01:34:34.496] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 28.4 dps; that IMU paused while the others continue.
+[01:34:34.496] CALIBRATION_STEP_PROGRESS stationary 48 480 1000
+[01:34:34.500] CALIBRATION_STABLE Hand is stable again; collection resumed from 482/1000 accumulated frames.
+[01:34:34.501] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 17.7 dps; all pending IMUs paused.
+[01:34:34.609] CALIBRATION_STABLE Hand is stable again; collection resumed from 484/1000 accumulated frames.
+[01:34:34.610] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 30.7 dps; all pending IMUs paused.
+[01:34:34.724] CALIBRATION_STABLE Hand is stable again; collection resumed from 485/1000 accumulated frames.
+[01:34:34.724] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 27.4 dps; all pending IMUs paused.
+[01:34:34.830] CALIBRATION_STABLE Hand is stable again; collection resumed from 486/1000 accumulated frames.
+[01:34:34.830] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 20.3 dps; all pending IMUs paused.
+[01:34:34.942] CALIBRATION_STABLE Hand is stable again; collection resumed from 488/1000 accumulated frames.
+[01:34:34.944] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 19.9 dps; all pending IMUs paused.
+[01:34:35.054] CALIBRATION_STABLE Hand is stable again; collection resumed from 489/1000 accumulated frames.
+[01:34:35.054] CALIBRATION_STEP_PROGRESS stationary 49 490 1000
+[01:34:35.166] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 27.1 dps; all pending IMUs paused.
+[01:34:35.168] CALIBRATION_STABLE Hand is stable again; collection resumed from 493/1000 accumulated frames.
+[01:34:35.170] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 29.0 dps; all pending IMUs paused.
+[01:34:35.277] CALIBRATION_STABLE Hand is stable again; collection resumed from 499/1000 accumulated frames.
+[01:34:35.279] CALIBRATION_STEP_PROGRESS stationary 50 500 1000
+[01:34:35.279] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 18.9 dps; that IMU paused while the others continue.
+[01:34:35.281] CALIBRATION_STABLE Hand is stable again; collection resumed from 503/1000 accumulated frames.
+[01:34:35.393] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 30.9 dps; all pending IMUs paused.
+[01:34:35.394] CALIBRATION_STABLE Hand is stable again; collection resumed from 509/1000 accumulated frames.
+[01:34:35.394] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 27.0 dps; that IMU paused while the others continue.
+[01:34:35.397] CALIBRATION_STEP_PROGRESS stationary 51 510 1000
+[01:34:35.610] CALIBRATION_STABLE Hand is stable again; collection resumed from 511/1000 accumulated frames.
+[01:34:35.610] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 37.2 dps; that IMU paused while the others continue.
+[01:34:35.721] CALIBRATION_STABLE Hand is stable again; collection resumed from 513/1000 accumulated frames.
+[01:34:35.721] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 28.2 dps; that IMU paused while the others continue.
+[01:34:35.835] CALIBRATION_STABLE Hand is stable again; collection resumed from 518/1000 accumulated frames.
+[01:34:35.836] CALIBRATION_STEP_PROGRESS stationary 52 520 1000
+[01:34:35.948] CALIBRATION_MOTION Significant movement at imu_ring_dist: acceleration 0.91 m/s^2; that IMU paused while the others continue.
+[01:34:35.949] CALIBRATION_STABLE Hand is stable again; collection resumed from 528/1000 accumulated frames.
+[01:34:35.950] CALIBRATION_MOTION Significant movement at imu_pinky_mid: acceleration 9.78 m/s^2; all pending IMUs paused.
+[01:34:36.064] CALIBRATION_STABLE Hand is stable again; collection resumed from 530/1000 accumulated frames.
+[01:34:36.064] CALIBRATION_STEP_PROGRESS stationary 53 530 1000
+[01:34:36.064] CALIBRATION_STEP_PROGRESS stationary 54 540 1000
+[01:34:36.064] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 17.5 dps; that IMU paused while the others continue.
+[01:34:36.177] CALIBRATION_STABLE Hand is stable again; collection resumed from 541/1000 accumulated frames.
+[01:34:36.179] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 20.3 dps; all pending IMUs paused.
+[01:34:36.179] CALIBRATION_STABLE Hand is stable again; collection resumed from 547/1000 accumulated frames.
+[01:34:36.289] CALIBRATION_STEP_PROGRESS stationary 55 550 1000
+[01:34:36.291] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 19.9 dps; all pending IMUs paused.
+[01:34:36.514] CALIBRATION_STABLE Hand is stable again; collection resumed from 556/1000 accumulated frames.
+[01:34:36.516] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 26.5 dps; all pending IMUs paused.
+[01:34:36.516] CALIBRATION_STABLE Hand is stable again; collection resumed from 558/1000 accumulated frames.
+[01:34:36.518] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 16.7 dps; that IMU paused while the others continue.
+[01:34:36.519] CALIBRATION_STEP_PROGRESS stationary 56 560 1000
+[01:34:36.521] CALIBRATION_STABLE Hand is stable again; collection resumed from 561/1000 accumulated frames.
+[01:34:36.623] CALIBRATION_MOTION Significant movement at imu_ring_dist: acceleration 9.29 m/s^2; that IMU paused while the others continue.
+[01:34:36.624] CALIBRATION_STABLE Hand is stable again; collection resumed from 565/1000 accumulated frames.
+[01:34:36.626] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 30.0 dps; all pending IMUs paused.
+[01:34:36.628] CALIBRATION_STABLE Hand is stable again; collection resumed from 567/1000 accumulated frames.
+[01:34:36.630] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 19.5 dps; all pending IMUs paused.
+[01:34:36.739] CALIBRATION_STABLE Hand is stable again; collection resumed from 568/1000 accumulated frames.
+[01:34:36.741] CALIBRATION_STEP_PROGRESS stationary 57 570 1000
+[01:34:36.742] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 25.5 dps; all pending IMUs paused.
+[01:34:36.742] CALIBRATION_STABLE Hand is stable again; collection resumed from 572/1000 accumulated frames.
+[01:34:36.845] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 22.8 dps; that IMU paused while the others continue.
+[01:34:36.955] CALIBRATION_STABLE Hand is stable again; collection resumed from 577/1000 accumulated frames.
+[01:34:36.956] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 28.0 dps; all pending IMUs paused.
+[01:34:36.956] CALIBRATION_STABLE Hand is stable again; collection resumed from 578/1000 accumulated frames.
+[01:34:36.958] CALIBRATION_STEP_PROGRESS stationary 58 580 1000
+[01:34:36.958] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 19.0 dps; that IMU paused while the others continue.
+[01:34:37.062] CALIBRATION_STABLE Hand is stable again; collection resumed from 583/1000 accumulated frames.
+[01:34:37.064] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 32.5 dps; that IMU paused while the others continue.
+[01:34:37.164] CALIBRATION_STABLE Hand is stable again; collection resumed from 584/1000 accumulated frames.
+[01:34:37.164] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 27.5 dps; all pending IMUs paused.
+[01:34:37.279] CALIBRATION_STABLE Hand is stable again; collection resumed from 586/1000 accumulated frames.
+[01:34:37.279] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 29.1 dps; that IMU paused while the others continue.
+[01:34:37.390] CALIBRATION_STABLE Hand is stable again; collection resumed from 590/1000 accumulated frames.
+[01:34:37.392] CALIBRATION_STEP_PROGRESS stationary 59 590 1000
+[01:34:37.392] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 29.9 dps; all pending IMUs paused.
+[01:34:37.392] CALIBRATION_STABLE Hand is stable again; collection resumed from 594/1000 accumulated frames.
+[01:34:37.501] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 27.0 dps; all pending IMUs paused.
+[01:34:37.502] CALIBRATION_STABLE Hand is stable again; collection resumed from 598/1000 accumulated frames.
+[01:34:37.504] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 35.7 dps; all pending IMUs paused.
+[01:34:37.608] CALIBRATION_STEP_PROGRESS stationary 60 600 1000
+[01:34:37.610] CALIBRATION_STABLE Hand is stable again; collection resumed from 601/1000 accumulated frames.
+[01:34:37.611] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 20.4 dps; all pending IMUs paused.
+[01:34:37.612] CALIBRATION_STABLE Hand is stable again; collection resumed from 602/1000 accumulated frames.
+[01:34:37.612] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 29.3 dps; all pending IMUs paused.
+[01:34:37.822] CALIBRATION_STABLE Hand is stable again; collection resumed from 603/1000 accumulated frames.
+[01:34:37.823] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 22.0 dps; that IMU paused while the others continue.
+[01:34:37.932] CALIBRATION_STABLE Hand is stable again; collection resumed from 609/1000 accumulated frames.
+[01:34:37.934] CALIBRATION_STEP_PROGRESS stationary 61 610 1000
+[01:34:37.937] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 26.7 dps; that IMU paused while the others continue.
+[01:34:38.049] CALIBRATION_STABLE Hand is stable again; collection resumed from 613/1000 accumulated frames.
+[01:34:38.050] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 34.5 dps; all pending IMUs paused.
+[01:34:38.052] CALIBRATION_STABLE Hand is stable again; collection resumed from 614/1000 accumulated frames.
+[01:34:38.052] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 34.5 dps; all pending IMUs paused.
+[01:34:38.055] CALIBRATION_STABLE Hand is stable again; collection resumed from 617/1000 accumulated frames.
+[01:34:38.158] CALIBRATION_STEP_PROGRESS stationary 62 620 1000
+[01:34:38.273] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 27.5 dps; that IMU paused while the others continue.
+[01:34:38.273] CALIBRATION_STABLE Hand is stable again; collection resumed from 630/1000 accumulated frames.
+[01:34:38.276] CALIBRATION_STEP_PROGRESS stationary 63 630 1000
+[01:34:38.277] CALIBRATION_MOTION Significant movement at imu_ring_dist: acceleration 9.95 m/s^2; all pending IMUs paused.
+[01:34:38.389] CALIBRATION_STABLE Hand is stable again; collection resumed from 632/1000 accumulated frames.
+[01:34:38.390] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 26.3 dps; that IMU paused while the others continue.
+[01:34:38.501] CALIBRATION_STABLE Hand is stable again; collection resumed from 634/1000 accumulated frames.
+[01:34:38.502] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 28.2 dps; that IMU paused while the others continue.
+[01:34:38.610] CALIBRATION_STABLE Hand is stable again; collection resumed from 636/1000 accumulated frames.
+[01:34:38.611] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 27.8 dps; all pending IMUs paused.
+[01:34:38.723] CALIBRATION_STABLE Hand is stable again; collection resumed from 639/1000 accumulated frames.
+[01:34:38.725] CALIBRATION_STEP_PROGRESS stationary 64 640 1000
+[01:34:38.726] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 28.5 dps; that IMU paused while the others continue.
+[01:34:38.728] CALIBRATION_STABLE Hand is stable again; collection resumed from 643/1000 accumulated frames.
+[01:34:38.728] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 28.4 dps; all pending IMUs paused.
+[01:34:38.841] CALIBRATION_STABLE Hand is stable again; collection resumed from 644/1000 accumulated frames.
+[01:34:38.953] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 28.7 dps; that IMU paused while the others continue.
+[01:34:38.955] CALIBRATION_STABLE Hand is stable again; collection resumed from 650/1000 accumulated frames.
+[01:34:38.955] CALIBRATION_STEP_PROGRESS stationary 65 650 1000
+[01:34:38.957] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 19.0 dps; that IMU paused while the others continue.
+[01:34:39.060] CALIBRATION_STABLE Hand is stable again; collection resumed from 653/1000 accumulated frames.
+[01:34:39.061] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 19.9 dps; all pending IMUs paused.
+[01:34:39.170] CALIBRATION_STABLE Hand is stable again; collection resumed from 657/1000 accumulated frames.
+[01:34:39.172] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 21.8 dps; all pending IMUs paused.
+[01:34:39.282] CALIBRATION_STABLE Hand is stable again; collection resumed from 660/1000 accumulated frames.
+[01:34:39.282] CALIBRATION_STEP_PROGRESS stationary 66 660 1000
+[01:34:39.285] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 27.5 dps; that IMU paused while the others continue.
+[01:34:39.398] CALIBRATION_STABLE Hand is stable again; collection resumed from 666/1000 accumulated frames.
+[01:34:39.400] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 27.1 dps; all pending IMUs paused.
+[01:34:39.505] CALIBRATION_STABLE Hand is stable again; collection resumed from 669/1000 accumulated frames.
+[01:34:39.506] CALIBRATION_STEP_PROGRESS stationary 67 670 1000
+[01:34:39.508] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 32.9 dps; that IMU paused while the others continue.
+[01:34:39.732] CALIBRATION_STABLE Hand is stable again; collection resumed from 675/1000 accumulated frames.
+[01:34:39.738] CALIBRATION_STEP_PROGRESS stationary 68 680 1000
+[01:34:39.740] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 20.8 dps; that IMU paused while the others continue.
+[01:34:39.740] CALIBRATION_STABLE Hand is stable again; collection resumed from 684/1000 accumulated frames.
+[01:34:39.743] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 28.5 dps; all pending IMUs paused.
+[01:34:39.949] CALIBRATION_STATIONARY_WAIT Still waiting for clean stationary data from: imu_ring_mid, imu_ring_dist, imu_pinky_mid.
+[01:34:40.062] CALIBRATION_STABLE Hand is stable again; collection resumed from 686/1000 accumulated frames.
+[01:34:40.062] CALIBRATION_MOTION Significant movement at imu_ring_dist: acceleration 9.83 m/s^2; all pending IMUs paused.
+[01:34:40.176] CALIBRATION_STABLE Hand is stable again; collection resumed from 688/1000 accumulated frames.
+[01:34:40.176] CALIBRATION_STEP_PROGRESS stationary 69 690 1000
+[01:34:40.178] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 26.1 dps; all pending IMUs paused.
+[01:34:40.285] CALIBRATION_STABLE Hand is stable again; collection resumed from 694/1000 accumulated frames.
+[01:34:40.285] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 27.0 dps; all pending IMUs paused.
+[01:34:40.390] CALIBRATION_STABLE Hand is stable again; collection resumed from 697/1000 accumulated frames.
+[01:34:40.391] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 28.7 dps; that IMU paused while the others continue.
+[01:34:40.393] CALIBRATION_STEP_PROGRESS stationary 70 700 1000
+[01:34:40.393] CALIBRATION_STABLE Hand is stable again; collection resumed from 701/1000 accumulated frames.
+[01:34:40.395] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 7.0 dps; that IMU paused while the others continue.
+[01:34:40.599] CALIBRATION_STABLE Hand is stable again; collection resumed from 705/1000 accumulated frames.
+[01:34:40.599] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 33.4 dps; all pending IMUs paused.
+[01:34:40.706] CALIBRATION_STABLE Hand is stable again; collection resumed from 710/1000 accumulated frames.
+[01:34:40.708] CALIBRATION_STEP_PROGRESS stationary 71 710 1000
+[01:34:40.709] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 35.0 dps; all pending IMUs paused.
+[01:34:40.710] CALIBRATION_STABLE Hand is stable again; collection resumed from 713/1000 accumulated frames.
+[01:34:40.711] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 21.2 dps; that IMU paused while the others continue.
+[01:34:40.812] CALIBRATION_STABLE Hand is stable again; collection resumed from 714/1000 accumulated frames.
+[01:34:40.812] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 19.5 dps; all pending IMUs paused.
+[01:34:40.812] CALIBRATION_STABLE Hand is stable again; collection resumed from 716/1000 accumulated frames.
+[01:34:40.815] CALIBRATION_MOTION Significant movement at imu_pinky_mid: acceleration 9.52 m/s^2; all pending IMUs paused.
+[01:34:40.815] CALIBRATION_STABLE Hand is stable again; collection resumed from 718/1000 accumulated frames.
+[01:34:40.929] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 27.8 dps; all pending IMUs paused.
+[01:34:40.931] CALIBRATION_STABLE Hand is stable again; collection resumed from 720/1000 accumulated frames.
+[01:34:40.931] CALIBRATION_STEP_PROGRESS stationary 72 720 1000
+[01:34:40.933] CALIBRATION_MOTION Significant movement at imu_pinky_mid: acceleration 9.89 m/s^2; all pending IMUs paused.
+[01:34:40.934] CALIBRATION_STABLE Hand is stable again; collection resumed from 721/1000 accumulated frames.
+[01:34:41.037] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 26.8 dps; that IMU paused while the others continue.
+[01:34:41.038] CALIBRATION_STABLE Hand is stable again; collection resumed from 726/1000 accumulated frames.
+[01:34:41.139] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 20.5 dps; all pending IMUs paused.
+[01:34:41.141] CALIBRATION_STABLE Hand is stable again; collection resumed from 730/1000 accumulated frames.
+[01:34:41.141] CALIBRATION_STEP_PROGRESS stationary 73 730 1000
+[01:34:41.144] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 20.6 dps; all pending IMUs paused.
+[01:34:41.144] CALIBRATION_STABLE Hand is stable again; collection resumed from 731/1000 accumulated frames.
+[01:34:41.146] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 27.6 dps; all pending IMUs paused.
+[01:34:41.361] CALIBRATION_STABLE Hand is stable again; collection resumed from 733/1000 accumulated frames.
+[01:34:41.361] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 36.5 dps; that IMU paused while the others continue.
+[01:34:41.363] CALIBRATION_STABLE Hand is stable again; collection resumed from 737/1000 accumulated frames.
+[01:34:41.467] CALIBRATION_STEP_PROGRESS stationary 74 740 1000
+[01:34:41.469] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 19.6 dps; that IMU paused while the others continue.
+[01:34:41.576] CALIBRATION_STABLE Hand is stable again; collection resumed from 747/1000 accumulated frames.
+[01:34:41.577] CALIBRATION_STEP_PROGRESS stationary 75 750 1000
+[01:34:41.579] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 32.5 dps; that IMU paused while the others continue.
+[01:34:41.579] CALIBRATION_STABLE Hand is stable again; collection resumed from 751/1000 accumulated frames.
+[01:34:41.694] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 28.0 dps; that IMU paused while the others continue.
+[01:34:41.694] CALIBRATION_STABLE Hand is stable again; collection resumed from 757/1000 accumulated frames.
+[01:34:41.696] CALIBRATION_STEP_PROGRESS stationary 76 760 1000
+[01:34:41.807] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 23.2 dps; that IMU paused while the others continue.
+[01:34:41.909] CALIBRATION_STABLE Hand is stable again; collection resumed from 769/1000 accumulated frames.
+[01:34:41.910] CALIBRATION_STEP_PROGRESS stationary 77 770 1000
+[01:34:42.013] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 20.3 dps; all pending IMUs paused.
+[01:34:42.224] CALIBRATION_STABLE Hand is stable again; collection resumed from 775/1000 accumulated frames.
+[01:34:42.224] CALIBRATION_STEP_PROGRESS stationary 78 780 1000
+[01:34:42.226] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 25.2 dps; all pending IMUs paused.
+[01:34:42.339] CALIBRATION_STABLE Hand is stable again; collection resumed from 782/1000 accumulated frames.
+[01:34:42.340] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 30.0 dps; that IMU paused while the others continue.
+[01:34:42.342] CALIBRATION_STABLE Hand is stable again; collection resumed from 784/1000 accumulated frames.
+[01:34:42.342] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 26.7 dps; that IMU paused while the others continue.
+[01:34:42.342] CALIBRATION_STABLE Hand is stable again; collection resumed from 786/1000 accumulated frames.
+[01:34:42.456] CALIBRATION_STEP_PROGRESS stationary 79 790 1000
+[01:34:42.456] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 19.5 dps; all pending IMUs paused.
+[01:34:42.456] CALIBRATION_STABLE Hand is stable again; collection resumed from 792/1000 accumulated frames.
+[01:34:42.458] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 26.9 dps; that IMU paused while the others continue.
+[01:34:42.458] CALIBRATION_STABLE Hand is stable again; collection resumed from 794/1000 accumulated frames.
+[01:34:42.570] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 5.3 dps; that IMU paused while the others continue.
+[01:34:42.570] CALIBRATION_STABLE Hand is stable again; collection resumed from 797/1000 accumulated frames.
+[01:34:42.673] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 18.9 dps; all pending IMUs paused.
+[01:34:42.673] CALIBRATION_STABLE Hand is stable again; collection resumed from 799/1000 accumulated frames.
+[01:34:42.676] CALIBRATION_STEP_PROGRESS stationary 80 800 1000
+[01:34:42.677] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 18.8 dps; all pending IMUs paused.
+[01:34:42.782] CALIBRATION_STABLE Hand is stable again; collection resumed from 801/1000 accumulated frames.
+[01:34:42.783] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 20.0 dps; all pending IMUs paused.
+[01:34:42.784] CALIBRATION_STABLE Hand is stable again; collection resumed from 803/1000 accumulated frames.
+[01:34:42.784] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 18.9 dps; that IMU paused while the others continue.
+[01:34:42.896] CALIBRATION_STABLE Hand is stable again; collection resumed from 805/1000 accumulated frames.
+[01:34:42.896] CALIBRATION_MOTION Significant movement at imu_pinky_mid: acceleration 9.64 m/s^2; all pending IMUs paused.
+[01:34:43.011] CALIBRATION_STABLE Hand is stable again; collection resumed from 806/1000 accumulated frames.
+[01:34:43.119] CALIBRATION_STEP_PROGRESS stationary 81 810 1000
+[01:34:43.121] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 37.3 dps; all pending IMUs paused.
+[01:34:43.334] CALIBRATION_STABLE Hand is stable again; collection resumed from 818/1000 accumulated frames.
+[01:34:43.334] CALIBRATION_STEP_PROGRESS stationary 82 820 1000
+[01:34:43.446] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 28.4 dps; that IMU paused while the others continue.
+[01:34:43.562] CALIBRATION_STABLE Hand is stable again; collection resumed from 830/1000 accumulated frames.
+[01:34:43.562] CALIBRATION_STEP_PROGRESS stationary 83 830 1000
+[01:34:43.564] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 34.2 dps; all pending IMUs paused.
+[01:34:43.564] CALIBRATION_STABLE Hand is stable again; collection resumed from 831/1000 accumulated frames.
+[01:34:43.566] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 19.6 dps; that IMU paused while the others continue.
+[01:34:43.668] CALIBRATION_STABLE Hand is stable again; collection resumed from 838/1000 accumulated frames.
+[01:34:43.668] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 28.6 dps; all pending IMUs paused.
+[01:34:43.671] CALIBRATION_STABLE Hand is stable again; collection resumed from 840/1000 accumulated frames.
+[01:34:43.671] CALIBRATION_STEP_PROGRESS stationary 84 840 1000
+[01:34:43.673] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 20.0 dps; that IMU paused while the others continue.
+[01:34:43.777] CALIBRATION_STABLE Hand is stable again; collection resumed from 842/1000 accumulated frames.
+[01:34:43.777] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 27.5 dps; that IMU paused while the others continue.
+[01:34:43.779] CALIBRATION_STABLE Hand is stable again; collection resumed from 847/1000 accumulated frames.
+[01:34:43.781] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 18.9 dps; all pending IMUs paused.
+[01:34:43.781] CALIBRATION_STABLE Hand is stable again; collection resumed from 850/1000 accumulated frames.
+[01:34:43.782] CALIBRATION_STEP_PROGRESS stationary 85 850 1000
+[01:34:43.893] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 27.5 dps; all pending IMUs paused.
+[01:34:43.894] CALIBRATION_STABLE Hand is stable again; collection resumed from 854/1000 accumulated frames.
+[01:34:43.896] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 18.6 dps; that IMU paused while the others continue.
+[01:34:43.897] CALIBRATION_STABLE Hand is stable again; collection resumed from 859/1000 accumulated frames.
+[01:34:44.006] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 20.0 dps; that IMU paused while the others continue.
+[01:34:44.006] CALIBRATION_STABLE Hand is stable again; collection resumed from 860/1000 accumulated frames.
+[01:34:44.009] CALIBRATION_STEP_PROGRESS stationary 86 860 1000
+[01:34:44.009] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 19.0 dps; all pending IMUs paused.
+[01:34:44.009] CALIBRATION_STABLE Hand is stable again; collection resumed from 862/1000 accumulated frames.
+[01:34:44.012] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 20.4 dps; that IMU paused while the others continue.
+[01:34:44.124] CALIBRATION_STABLE Hand is stable again; collection resumed from 866/1000 accumulated frames.
+[01:34:44.124] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 28.3 dps; all pending IMUs paused.
+[01:34:44.235] CALIBRATION_STABLE Hand is stable again; collection resumed from 868/1000 accumulated frames.
+[01:34:44.236] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 19.9 dps; that IMU paused while the others continue.
+[01:34:44.236] CALIBRATION_STABLE Hand is stable again; collection resumed from 870/1000 accumulated frames.
+[01:34:44.238] CALIBRATION_STEP_PROGRESS stationary 87 870 1000
+[01:34:44.239] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 19.7 dps; all pending IMUs paused.
+[01:34:44.341] CALIBRATION_STABLE Hand is stable again; collection resumed from 872/1000 accumulated frames.
+[01:34:44.342] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 33.7 dps; all pending IMUs paused.
+[01:34:44.451] CALIBRATION_STABLE Hand is stable again; collection resumed from 873/1000 accumulated frames.
+[01:34:44.451] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 35.6 dps; that IMU paused while the others continue.
+[01:34:44.453] CALIBRATION_STABLE Hand is stable again; collection resumed from 877/1000 accumulated frames.
+[01:34:44.453] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 4.7 dps; all pending IMUs paused.
+[01:34:44.453] CALIBRATION_STABLE Hand is stable again; collection resumed from 878/1000 accumulated frames.
+[01:34:44.556] CALIBRATION_STEP_PROGRESS stationary 88 880 1000
+[01:34:44.557] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 21.0 dps; all pending IMUs paused.
+[01:34:44.666] CALIBRATION_STABLE Hand is stable again; collection resumed from 885/1000 accumulated frames.
+[01:34:44.668] CALIBRATION_STEP_PROGRESS stationary 89 890 1000
+[01:34:44.669] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 34.5 dps; all pending IMUs paused.
+[01:34:44.669] CALIBRATION_STABLE Hand is stable again; collection resumed from 892/1000 accumulated frames.
+[01:34:44.779] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 21.0 dps; that IMU paused while the others continue.
+[01:34:44.780] CALIBRATION_STABLE Hand is stable again; collection resumed from 894/1000 accumulated frames.
+[01:34:44.780] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 29.5 dps; all pending IMUs paused.
+[01:34:44.888] CALIBRATION_STABLE Hand is stable again; collection resumed from 897/1000 accumulated frames.
+[01:34:44.889] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 20.2 dps; all pending IMUs paused.
+[01:34:44.889] CALIBRATION_STABLE Hand is stable again; collection resumed from 899/1000 accumulated frames.
+[01:34:44.891] CALIBRATION_STEP_PROGRESS stationary 90 900 1000
+[01:34:44.993] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 19.3 dps; that IMU paused while the others continue.
+[01:34:44.995] CALIBRATION_STABLE Hand is stable again; collection resumed from 905/1000 accumulated frames.
+[01:34:44.996] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 19.6 dps; all pending IMUs paused.
+[01:34:45.218] CALIBRATION_STABLE Hand is stable again; collection resumed from 907/1000 accumulated frames.
+[01:34:45.327] CALIBRATION_STEP_PROGRESS stationary 91 910 1000
+[01:34:45.327] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 19.1 dps; that IMU paused while the others continue.
+[01:34:45.329] CALIBRATION_STABLE Hand is stable again; collection resumed from 914/1000 accumulated frames.
+[01:34:45.434] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 19.2 dps; that IMU paused while the others continue.
+[01:34:45.543] CALIBRATION_STABLE Hand is stable again; collection resumed from 918/1000 accumulated frames.
+[01:34:45.543] CALIBRATION_STEP_PROGRESS stationary 92 920 1000
+[01:34:45.546] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 34.5 dps; all pending IMUs paused.
+[01:34:45.546] CALIBRATION_STABLE Hand is stable again; collection resumed from 921/1000 accumulated frames.
+[01:34:45.656] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 19.4 dps; all pending IMUs paused.
+[01:34:45.656] CALIBRATION_STABLE Hand is stable again; collection resumed from 923/1000 accumulated frames.
+[01:34:45.658] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 20.1 dps; all pending IMUs paused.
+[01:34:45.660] CALIBRATION_STABLE Hand is stable again; collection resumed from 924/1000 accumulated frames.
+[01:34:45.775] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 22.8 dps; all pending IMUs paused.
+[01:34:45.775] CALIBRATION_STABLE Hand is stable again; collection resumed from 927/1000 accumulated frames.
+[01:34:45.778] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 19.6 dps; all pending IMUs paused.
+[01:34:45.778] CALIBRATION_STABLE Hand is stable again; collection resumed from 930/1000 accumulated frames.
+[01:34:45.778] CALIBRATION_STEP_PROGRESS stationary 93 930 1000
+[01:34:45.780] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 20.7 dps; all pending IMUs paused.
+[01:34:45.884] CALIBRATION_STABLE Hand is stable again; collection resumed from 933/1000 accumulated frames.
+[01:34:45.885] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 26.9 dps; that IMU paused while the others continue.
+[01:34:45.885] CALIBRATION_STABLE Hand is stable again; collection resumed from 934/1000 accumulated frames.
+[01:34:45.885] CALIBRATION_MOTION Significant movement at imu_ring_mid: gyro 21.3 dps; all pending IMUs paused.
+[01:34:45.888] CALIBRATION_STABLE Hand is stable again; collection resumed from 937/1000 accumulated frames.
+[01:34:45.995] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 35.8 dps; all pending IMUs paused.
+[01:34:45.995] CALIBRATION_STABLE Hand is stable again; collection resumed from 940/1000 accumulated frames.
+[01:34:45.996] CALIBRATION_STEP_PROGRESS stationary 94 940 1000
+[01:34:45.996] CALIBRATION_MOTION Significant movement at imu_ring_mid: acceleration 9.82 m/s^2; all pending IMUs paused.
+[01:34:46.108] CALIBRATION_STABLE Hand is stable again; collection resumed from 943/1000 accumulated frames.
+[01:34:46.109] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 21.4 dps; all pending IMUs paused.
+[01:34:46.224] CALIBRATION_STABLE Hand is stable again; collection resumed from 944/1000 accumulated frames.
+[01:34:46.224] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 20.6 dps; all pending IMUs paused.
+[01:34:46.333] CALIBRATION_STABLE Hand is stable again; collection resumed from 945/1000 accumulated frames.
+[01:34:46.333] CALIBRATION_SENSOR_COMPLETE stationary imu_ring_mid 1000/1000
+[01:34:46.334] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 28.1 dps; all pending IMUs paused.
+[01:34:46.336] CALIBRATION_STABLE Hand is stable again; collection resumed from 950/1000 accumulated frames.
+[01:34:46.336] CALIBRATION_STEP_PROGRESS stationary 95 950 1000
+[01:34:46.448] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 36.1 dps; all pending IMUs paused.
+[01:34:46.561] CALIBRATION_STABLE Hand is stable again; collection resumed from 957/1000 accumulated frames.
+[01:34:46.561] CALIBRATION_STEP_PROGRESS stationary 96 960 1000
+[01:34:46.672] CALIBRATION_STEP_PROGRESS stationary 97 970 1000
+[01:34:46.674] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 27.6 dps; all pending IMUs paused.
+[01:34:46.779] CALIBRATION_STABLE Hand is stable again; collection resumed from 975/1000 accumulated frames.
+[01:34:46.779] CALIBRATION_STEP_PROGRESS stationary 98 980 1000
+[01:34:46.780] CALIBRATION_MOTION Significant movement at imu_ring_dist: acceleration 9.74 m/s^2; all pending IMUs paused.
+[01:34:46.894] CALIBRATION_STABLE Hand is stable again; collection resumed from 981/1000 accumulated frames.
+[01:34:46.895] CALIBRATION_MOTION Significant movement at imu_ring_dist: gyro 28.9 dps; all pending IMUs paused.
+[01:34:46.896] CALIBRATION_STABLE Hand is stable again; collection resumed from 983/1000 accumulated frames.
+[01:34:46.897] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 20.6 dps; all pending IMUs paused.
+[01:34:46.898] CALIBRATION_STABLE Hand is stable again; collection resumed from 985/1000 accumulated frames.
+[01:34:47.002] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 19.7 dps; all pending IMUs paused.
+[01:34:47.002] CALIBRATION_STABLE Hand is stable again; collection resumed from 988/1000 accumulated frames.
+[01:34:47.002] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 27.4 dps; all pending IMUs paused.
+[01:34:47.005] CALIBRATION_STABLE Hand is stable again; collection resumed from 990/1000 accumulated frames.
+[01:34:47.005] CALIBRATION_STEP_PROGRESS stationary 99 990 1000
+[01:34:47.108] CALIBRATION_SENSOR_COMPLETE stationary imu_ring_dist 1000/1000
+[01:34:47.108] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 20.4 dps; all pending IMUs paused.
+[01:34:47.111] CALIBRATION_STABLE Hand is stable again; collection resumed from 996/1000 accumulated frames.
+[01:34:47.221] CALIBRATION_MOTION Significant movement at imu_pinky_mid: gyro 26.2 dps; all pending IMUs paused.
+[01:34:47.223] CALIBRATION_STABLE Hand is stable again; collection resumed from 997/1000 accumulated frames.
+[01:34:47.223] CALIBRATION_SENSOR_COMPLETE stationary imu_pinky_mid 1000/1000
+[01:34:47.223] CALIBRATION_STEP_PROGRESS stationary 100 1000 1000
+[01:34:47.334] CALIBRATION_IMU imu_wrist gravity=9.844 max_gyro_std_dps=1.142
+[01:34:47.335] CALIBRATION_VALIDITY imu_wrist PASS
+[01:34:47.335] CALIBRATION_IMU imu_palm gravity=9.819 max_gyro_std_dps=1.127
+[01:34:47.335] CALIBRATION_VALIDITY imu_palm PASS
+[01:34:47.335] CALIBRATION_IMU imu_thumb_cmc gravity=9.718 max_gyro_std_dps=1.320
+[01:34:47.335] CALIBRATION_VALIDITY imu_thumb_cmc PASS
+[01:34:47.335] CALIBRATION_IMU imu_thumb_prox gravity=9.598 max_gyro_std_dps=1.316
+[01:34:47.335] CALIBRATION_VALIDITY imu_thumb_prox PASS
+[01:34:47.339] CALIBRATION_IMU imu_thumb_dist gravity=9.870 max_gyro_std_dps=1.340
+[01:34:47.340] CALIBRATION_VALIDITY imu_thumb_dist PASS
+[01:34:47.340] CALIBRATION_IMU imu_index_prox gravity=9.734 max_gyro_std_dps=1.206
+[01:34:47.341] CALIBRATION_VALIDITY imu_index_prox PASS
+[01:34:47.341] CALIBRATION_IMU imu_index_mid gravity=9.723 max_gyro_std_dps=1.380
+[01:34:47.341] CALIBRATION_VALIDITY imu_index_mid PASS
+[01:34:47.343] CALIBRATION_IMU imu_index_dist gravity=9.916 max_gyro_std_dps=1.387
+[01:34:47.344] CALIBRATION_VALIDITY imu_index_dist PASS
+[01:34:47.344] CALIBRATION_IMU imu_middle_prox gravity=9.765 max_gyro_std_dps=1.288
+[01:34:47.344] CALIBRATION_VALIDITY imu_middle_prox PASS
+[01:34:47.347] CALIBRATION_IMU imu_middle_mid gravity=9.840 max_gyro_std_dps=1.315
+[01:34:47.347] CALIBRATION_VALIDITY imu_middle_mid PASS
+[01:34:47.347] CALIBRATION_IMU imu_middle_dist gravity=9.781 max_gyro_std_dps=1.316
+[01:34:47.347] CALIBRATION_VALIDITY imu_middle_dist PASS
+[01:34:47.350] CALIBRATION_IMU imu_ring_prox gravity=9.930 max_gyro_std_dps=1.276
+[01:34:47.350] CALIBRATION_VALIDITY imu_ring_prox PASS
+[01:34:47.352] CALIBRATION_IMU imu_ring_mid gravity=9.815 max_gyro_std_dps=1.226
+[01:34:47.352] CALIBRATION_VALIDITY imu_ring_mid PASS
+[01:34:47.352] CALIBRATION_IMU imu_ring_dist gravity=9.664 max_gyro_std_dps=1.389
+[01:34:47.352] CALIBRATION_VALIDITY imu_ring_dist PASS
+[01:34:47.355] CALIBRATION_IMU imu_pinky_prox gravity=9.893 max_gyro_std_dps=1.173
+[01:34:47.355] CALIBRATION_VALIDITY imu_pinky_prox PASS
+[01:34:47.355] CALIBRATION_IMU imu_pinky_mid gravity=9.709 max_gyro_std_dps=1.245
+[01:34:47.355] CALIBRATION_VALIDITY imu_pinky_mid PASS
+[01:34:47.355] CALIBRATION_IMU imu_pinky_dist gravity=10.036 max_gyro_std_dps=1.252
+[01:34:47.355] CALIBRATION_VALIDITY imu_pinky_dist PASS
+[01:34:47.459] CALIBRATION_STEP_REVIEW stationary Bias and gravity captured. Accept or redo the stationary hold.
+[01:34:47.461] IMU_HEALTH imu_wrist GOOD 0 0 0 00 00 00 00
+[01:34:47.461] IMU_HEALTH imu_palm GOOD 0 0 0 00 00 00 00
+[01:34:47.462] IMU_HEALTH imu_thumb_cmc GOOD 0 0 0 00 00 00 00
+[01:34:47.462] IMU_HEALTH imu_thumb_prox GOOD 0 0 0 00 00 00 00
+[01:34:47.462] IMU_HEALTH imu_thumb_dist GOOD 0 0 0 00 00 00 00
+[01:34:47.462] IMU_HEALTH imu_index_prox GOOD 0 0 0 00 00 00 00
+[01:34:47.462] IMU_HEALTH imu_index_mid GOOD 0 0 0 00 00 00 00
+[01:34:47.462] IMU_HEALTH imu_index_dist GOOD 0 0 0 00 00 00 00
+[01:34:47.464] IMU_HEALTH imu_middle_prox GOOD 0 0 0 00 00 00 00
+[01:34:47.464] IMU_HEALTH imu_middle_mid GOOD 0 0 0 00 00 00 00
+[01:34:47.464] IMU_HEALTH imu_middle_dist GOOD 0 0 0 00 00 00 00
+[01:34:47.464] IMU_HEALTH imu_ring_prox GOOD 0 0 0 00 00 00 00
+[01:34:47.464] IMU_HEALTH imu_ring_mid GOOD 0 0 0 00 00 00 00
+[01:34:47.465] IMU_HEALTH imu_ring_dist GOOD 0 0 0 00 00 00 00
+[01:34:47.465] IMU_HEALTH imu_pinky_prox GOOD 0 0 0 00 00 00 00
+[01:34:47.465] IMU_HEALTH imu_pinky_mid GOOD 0 0 0 00 00 00 00
+[01:34:47.465] IMU_HEALTH imu_pinky_dist GOOD 0 0 0 00 00 00 00
+[01:34:48.909] CALIBRATION_REFERENCE_IMAGE {"path": "C:\\Users\\ceron\\Downloads\\Year 4\\Skripsie\\Main\\Glove\\live_tracking\\.pose_calibration_images\\pose_001_refrence.ppm", "label": "Refrence"}
+[01:34:48.924] CALIBRATION_STEP_READY pose_001_refrence 2.5 Match the pictured pose: Refrence. Hold it comfortably still, then start the capture.
+[01:34:51.151] CALIBRATION_STEP_PROGRESS pose_001_refrence 0 1 250
+[01:34:51.151] CALIBRATION_STEP_PROGRESS pose_001_refrence 1 3 250
+[01:34:51.153] CALIBRATION_STEP_PROGRESS pose_001_refrence 2 5 250
+[01:34:51.155] CALIBRATION_STEP_PROGRESS pose_001_refrence 3 8 250
+[01:34:51.264] CALIBRATION_STEP_PROGRESS pose_001_refrence 4 10 250
+[01:34:51.264] CALIBRATION_STEP_PROGRESS pose_001_refrence 5 13 250
+[01:34:51.268] CALIBRATION_STEP_PROGRESS pose_001_refrence 6 15 250
+[01:34:51.268] CALIBRATION_STEP_PROGRESS pose_001_refrence 7 18 250
+[01:34:51.270] CALIBRATION_STEP_PROGRESS pose_001_refrence 8 20 250
+[01:34:51.378] CALIBRATION_STEP_PROGRESS pose_001_refrence 9 23 250
+[01:34:51.380] CALIBRATION_STEP_PROGRESS pose_001_refrence 10 25 250
+[01:34:51.380] CALIBRATION_STEP_PROGRESS pose_001_refrence 11 28 250
+[01:34:51.382] CALIBRATION_STEP_PROGRESS pose_001_refrence 12 30 250
+[01:34:51.491] CALIBRATION_STEP_PROGRESS pose_001_refrence 13 33 250
+[01:34:51.491] CALIBRATION_STEP_PROGRESS pose_001_refrence 14 35 250
+[01:34:51.493] CALIBRATION_STEP_PROGRESS pose_001_refrence 15 38 250
+[01:34:51.493] CALIBRATION_STEP_PROGRESS pose_001_refrence 16 40 250
+[01:34:51.493] CALIBRATION_STEP_PROGRESS pose_001_refrence 17 43 250
+[01:34:51.600] CALIBRATION_STEP_PROGRESS pose_001_refrence 18 45 250
+[01:34:51.600] CALIBRATION_STEP_PROGRESS pose_001_refrence 19 48 250
+[01:34:51.604] CALIBRATION_STEP_PROGRESS pose_001_refrence 20 50 250
+[01:34:51.604] CALIBRATION_STEP_PROGRESS pose_001_refrence 21 53 250
+[01:34:51.711] CALIBRATION_STEP_PROGRESS pose_001_refrence 22 55 250
+[01:34:51.714] CALIBRATION_STEP_PROGRESS pose_001_refrence 23 58 250
+[01:34:51.714] CALIBRATION_STEP_PROGRESS pose_001_refrence 24 60 250
+[01:34:51.716] CALIBRATION_STEP_PROGRESS pose_001_refrence 25 63 250
+[01:34:51.716] CALIBRATION_STEP_PROGRESS pose_001_refrence 26 65 250
+[01:34:51.818] CALIBRATION_STEP_PROGRESS pose_001_refrence 27 68 250
+[01:34:51.819] CALIBRATION_STEP_PROGRESS pose_001_refrence 28 70 250
+[01:34:51.821] CALIBRATION_STEP_PROGRESS pose_001_refrence 29 73 250
+[01:34:51.821] CALIBRATION_STEP_PROGRESS pose_001_refrence 30 75 250
+[01:34:51.929] CALIBRATION_STEP_PROGRESS pose_001_refrence 31 78 250
+[01:34:51.929] CALIBRATION_STEP_PROGRESS pose_001_refrence 32 80 250
+[01:34:51.931] CALIBRATION_STEP_PROGRESS pose_001_refrence 33 83 250
+[01:34:51.932] CALIBRATION_STEP_PROGRESS pose_001_refrence 34 85 250
+[01:34:52.036] CALIBRATION_STEP_PROGRESS pose_001_refrence 35 88 250
+[01:34:52.037] CALIBRATION_STEP_PROGRESS pose_001_refrence 36 90 250
+[01:34:52.039] CALIBRATION_STEP_PROGRESS pose_001_refrence 37 93 250
+[01:34:52.039] CALIBRATION_STEP_PROGRESS pose_001_refrence 38 95 250
+[01:34:52.150] CALIBRATION_STEP_PROGRESS pose_001_refrence 39 98 250
+[01:34:52.150] CALIBRATION_STEP_PROGRESS pose_001_refrence 40 100 250
+[01:34:52.150] CALIBRATION_STEP_PROGRESS pose_001_refrence 41 103 250
+[01:34:52.153] CALIBRATION_STEP_PROGRESS pose_001_refrence 42 105 250
+[01:34:52.154] CALIBRATION_STEP_PROGRESS pose_001_refrence 43 108 250
+[01:34:52.155] CALIBRATION_STEP_PROGRESS pose_001_refrence 44 110 250
+[01:34:52.255] CALIBRATION_STEP_PROGRESS pose_001_refrence 45 113 250
+[01:34:52.255] CALIBRATION_STEP_PROGRESS pose_001_refrence 46 115 250
+[01:34:52.255] CALIBRATION_STEP_PROGRESS pose_001_refrence 47 118 250
+[01:34:52.255] CALIBRATION_STEP_PROGRESS pose_001_refrence 48 120 250
+[01:34:52.360] CALIBRATION_STEP_PROGRESS pose_001_refrence 49 123 250
+[01:34:52.360] CALIBRATION_STEP_PROGRESS pose_001_refrence 50 125 250
+[01:34:52.362] CALIBRATION_STEP_PROGRESS pose_001_refrence 51 128 250
+[01:34:52.362] CALIBRATION_STEP_PROGRESS pose_001_refrence 52 130 250
+[01:34:52.477] CALIBRATION_STEP_PROGRESS pose_001_refrence 53 133 250
+[01:34:52.477] CALIBRATION_STEP_PROGRESS pose_001_refrence 54 135 250
+[01:34:52.478] CALIBRATION_STEP_PROGRESS pose_001_refrence 55 138 250
+[01:34:52.478] CALIBRATION_STEP_PROGRESS pose_001_refrence 56 140 250
+[01:34:52.588] CALIBRATION_STEP_PROGRESS pose_001_refrence 57 143 250
+[01:34:52.590] CALIBRATION_STEP_PROGRESS pose_001_refrence 58 145 250
+[01:34:52.590] CALIBRATION_STEP_PROGRESS pose_001_refrence 59 148 250
+[01:34:52.590] CALIBRATION_STEP_PROGRESS pose_001_refrence 60 150 250
+[01:34:52.591] CALIBRATION_STEP_PROGRESS pose_001_refrence 61 153 250
+[01:34:52.699] CALIBRATION_STEP_PROGRESS pose_001_refrence 62 155 250
+[01:34:52.700] CALIBRATION_STEP_PROGRESS pose_001_refrence 63 158 250
+[01:34:52.700] CALIBRATION_STEP_PROGRESS pose_001_refrence 64 160 250
+[01:34:52.700] CALIBRATION_STEP_PROGRESS pose_001_refrence 65 163 250
+[01:34:52.802] CALIBRATION_STEP_PROGRESS pose_001_refrence 66 165 250
+[01:34:52.802] CALIBRATION_STEP_PROGRESS pose_001_refrence 67 168 250
+[01:34:52.805] CALIBRATION_STEP_PROGRESS pose_001_refrence 68 170 250
+[01:34:52.805] CALIBRATION_STEP_PROGRESS pose_001_refrence 69 173 250
+[01:34:52.915] CALIBRATION_STEP_PROGRESS pose_001_refrence 70 175 250
+[01:34:52.916] CALIBRATION_STEP_PROGRESS pose_001_refrence 71 178 250
+[01:34:52.916] CALIBRATION_STEP_PROGRESS pose_001_refrence 72 180 250
+[01:34:52.918] CALIBRATION_STEP_PROGRESS pose_001_refrence 73 183 250
+[01:34:52.918] CALIBRATION_STEP_PROGRESS pose_001_refrence 74 185 250
+[01:34:53.023] CALIBRATION_STEP_PROGRESS pose_001_refrence 75 188 250
+[01:34:53.026] CALIBRATION_STEP_PROGRESS pose_001_refrence 76 190 250
+[01:34:53.026] CALIBRATION_STEP_PROGRESS pose_001_refrence 77 193 250
+[01:34:53.028] CALIBRATION_STEP_PROGRESS pose_001_refrence 78 195 250
+[01:34:53.132] CALIBRATION_STEP_PROGRESS pose_001_refrence 79 198 250
+[01:34:53.132] CALIBRATION_STEP_PROGRESS pose_001_refrence 80 200 250
+[01:34:53.134] CALIBRATION_STEP_PROGRESS pose_001_refrence 81 203 250
+[01:34:53.134] CALIBRATION_STEP_PROGRESS pose_001_refrence 82 205 250
+[01:34:53.244] CALIBRATION_STEP_PROGRESS pose_001_refrence 83 208 250
+[01:34:53.245] CALIBRATION_STEP_PROGRESS pose_001_refrence 84 210 250
+[01:34:53.245] CALIBRATION_STEP_PROGRESS pose_001_refrence 85 213 250
+[01:34:53.355] CALIBRATION_STEP_PROGRESS pose_001_refrence 86 215 250
+[01:34:53.355] CALIBRATION_STEP_PROGRESS pose_001_refrence 87 218 250
+[01:34:53.358] CALIBRATION_STEP_PROGRESS pose_001_refrence 88 220 250
+[01:34:53.358] CALIBRATION_STEP_PROGRESS pose_001_refrence 89 223 250
+[01:34:53.358] CALIBRATION_STEP_PROGRESS pose_001_refrence 90 225 250
+[01:34:53.471] CALIBRATION_STEP_PROGRESS pose_001_refrence 91 228 250
+[01:34:53.471] CALIBRATION_STEP_PROGRESS pose_001_refrence 92 230 250
+[01:34:53.471] CALIBRATION_STEP_PROGRESS pose_001_refrence 93 233 250
+[01:34:53.471] CALIBRATION_STEP_PROGRESS pose_001_refrence 94 235 250
+[01:34:53.474] CALIBRATION_STEP_PROGRESS pose_001_refrence 95 238 250
+[01:34:53.474] CALIBRATION_STEP_PROGRESS pose_001_refrence 96 240 250
+[01:34:53.575] CALIBRATION_STEP_PROGRESS pose_001_refrence 97 243 250
+[01:34:53.575] CALIBRATION_STEP_PROGRESS pose_001_refrence 98 245 250
+[01:34:53.577] CALIBRATION_STEP_PROGRESS pose_001_refrence 99 248 250
+[01:34:53.579] CALIBRATION_STEP_PROGRESS pose_001_refrence 100 250 250
+[01:34:53.580] CALIBRATION_STEP_REVIEW pose_001_refrence The new correction is active in the live viewer. Compare it with the reference picture, then accept/next or redo this pose.
+[01:34:54.820] CALIBRATION_REFERENCE_IMAGE {"path": "C:\\Users\\ceron\\Downloads\\Year 4\\Skripsie\\Main\\Glove\\live_tracking\\.pose_calibration_images\\pose_002_fist_1.ppm", "label": "Fist_1"}
+[01:34:54.865] CALIBRATION_STEP_READY pose_002_fist_1 2.5 Match the pictured pose: Fist_1. Hold it comfortably still, then start the capture.
+[01:34:54.869] CALIBRATION_CAN_GO_BACK
+[01:35:41.894] CALIBRATION_STEP_PROGRESS pose_002_fist_1 0 1 250
+[01:35:41.997] CALIBRATION_STEP_PROGRESS pose_002_fist_1 1 3 250
+[01:35:41.997] CALIBRATION_STEP_PROGRESS pose_002_fist_1 2 5 250
+[01:35:41.999] CALIBRATION_STEP_PROGRESS pose_002_fist_1 3 8 250
+[01:35:42.000] CALIBRATION_STEP_PROGRESS pose_002_fist_1 4 10 250
+[01:35:42.107] CALIBRATION_STEP_PROGRESS pose_002_fist_1 5 13 250
+[01:35:42.107] CALIBRATION_STEP_PROGRESS pose_002_fist_1 6 15 250
+[01:35:42.107] CALIBRATION_STEP_PROGRESS pose_002_fist_1 7 18 250
+[01:35:42.111] CALIBRATION_STEP_PROGRESS pose_002_fist_1 8 20 250
+[01:35:42.111] CALIBRATION_STEP_PROGRESS pose_002_fist_1 9 23 250
+[01:35:42.222] CALIBRATION_STEP_PROGRESS pose_002_fist_1 10 25 250
+[01:35:42.222] CALIBRATION_STEP_PROGRESS pose_002_fist_1 11 28 250
+[01:35:42.224] CALIBRATION_STEP_PROGRESS pose_002_fist_1 12 30 250
+[01:35:42.224] CALIBRATION_STEP_PROGRESS pose_002_fist_1 13 33 250
+[01:35:42.225] CALIBRATION_STEP_PROGRESS pose_002_fist_1 14 35 250
+[01:35:42.326] CALIBRATION_STEP_PROGRESS pose_002_fist_1 15 38 250
+[01:35:42.328] CALIBRATION_STEP_PROGRESS pose_002_fist_1 16 40 250
+[01:35:42.328] CALIBRATION_STEP_PROGRESS pose_002_fist_1 17 43 250
+[01:35:42.328] CALIBRATION_STEP_PROGRESS pose_002_fist_1 18 45 250
+[01:35:42.441] CALIBRATION_STEP_PROGRESS pose_002_fist_1 19 48 250
+[01:35:42.442] CALIBRATION_STEP_PROGRESS pose_002_fist_1 20 50 250
+[01:35:42.444] CALIBRATION_STEP_PROGRESS pose_002_fist_1 21 53 250
+[01:35:42.444] CALIBRATION_STEP_PROGRESS pose_002_fist_1 22 55 250
+[01:35:42.546] CALIBRATION_STEP_PROGRESS pose_002_fist_1 23 58 250
+[01:35:42.548] CALIBRATION_STEP_PROGRESS pose_002_fist_1 24 60 250
+[01:35:42.549] CALIBRATION_STEP_PROGRESS pose_002_fist_1 25 63 250
+[01:35:42.550] CALIBRATION_STEP_PROGRESS pose_002_fist_1 26 65 250
+[01:35:42.660] CALIBRATION_STEP_PROGRESS pose_002_fist_1 27 68 250
+[01:35:42.660] CALIBRATION_STEP_PROGRESS pose_002_fist_1 28 70 250
+[01:35:42.662] CALIBRATION_STEP_PROGRESS pose_002_fist_1 29 73 250
+[01:35:42.662] CALIBRATION_STEP_PROGRESS pose_002_fist_1 30 75 250
+[01:35:42.665] CALIBRATION_STEP_PROGRESS pose_002_fist_1 31 78 250
+[01:35:42.779] CALIBRATION_STEP_PROGRESS pose_002_fist_1 32 80 250
+[01:35:42.779] CALIBRATION_STEP_PROGRESS pose_002_fist_1 33 83 250
+[01:35:42.781] CALIBRATION_STEP_PROGRESS pose_002_fist_1 34 85 250
+[01:35:42.781] CALIBRATION_STEP_PROGRESS pose_002_fist_1 35 88 250
+[01:35:42.781] CALIBRATION_STEP_PROGRESS pose_002_fist_1 36 90 250
+[01:35:42.889] CALIBRATION_STEP_PROGRESS pose_002_fist_1 37 93 250
+[01:35:42.889] CALIBRATION_STEP_PROGRESS pose_002_fist_1 38 95 250
+[01:35:42.889] CALIBRATION_STEP_PROGRESS pose_002_fist_1 39 98 250
+[01:35:42.891] CALIBRATION_STEP_PROGRESS pose_002_fist_1 40 100 250
+[01:35:42.998] CALIBRATION_STEP_PROGRESS pose_002_fist_1 41 103 250
+[01:35:42.998] CALIBRATION_STEP_PROGRESS pose_002_fist_1 42 105 250
+[01:35:43.000] CALIBRATION_STEP_PROGRESS pose_002_fist_1 43 108 250
+[01:35:43.000] CALIBRATION_STEP_PROGRESS pose_002_fist_1 44 110 250
+[01:35:43.108] CALIBRATION_STEP_PROGRESS pose_002_fist_1 45 113 250
+[01:35:43.108] CALIBRATION_STEP_PROGRESS pose_002_fist_1 46 115 250
+[01:35:43.108] CALIBRATION_STEP_PROGRESS pose_002_fist_1 47 118 250
+[01:35:43.108] CALIBRATION_STEP_PROGRESS pose_002_fist_1 48 120 250
+[01:35:43.108] CALIBRATION_STEP_PROGRESS pose_002_fist_1 49 123 250
+[01:35:43.222] CALIBRATION_STEP_PROGRESS pose_002_fist_1 50 125 250
+[01:35:43.223] CALIBRATION_STEP_PROGRESS pose_002_fist_1 51 128 250
+[01:35:43.223] CALIBRATION_STEP_PROGRESS pose_002_fist_1 52 130 250
+[01:35:43.223] CALIBRATION_STEP_PROGRESS pose_002_fist_1 53 133 250
+[01:35:43.223] CALIBRATION_STEP_PROGRESS pose_002_fist_1 54 135 250
+[01:35:43.333] CALIBRATION_STEP_PROGRESS pose_002_fist_1 55 138 250
+[01:35:43.333] CALIBRATION_STEP_PROGRESS pose_002_fist_1 56 140 250
+[01:35:43.335] CALIBRATION_STEP_PROGRESS pose_002_fist_1 57 143 250
+[01:35:43.335] CALIBRATION_STEP_PROGRESS pose_002_fist_1 58 145 250
+[01:35:43.438] CALIBRATION_STEP_PROGRESS pose_002_fist_1 59 148 250
+[01:35:43.438] CALIBRATION_STEP_PROGRESS pose_002_fist_1 60 150 250
+[01:35:43.438] CALIBRATION_STEP_PROGRESS pose_002_fist_1 61 153 250
+[01:35:43.438] CALIBRATION_STEP_PROGRESS pose_002_fist_1 62 155 250
+[01:35:43.553] CALIBRATION_STEP_PROGRESS pose_002_fist_1 63 158 250
+[01:35:43.553] CALIBRATION_STEP_PROGRESS pose_002_fist_1 64 160 250
+[01:35:43.555] CALIBRATION_STEP_PROGRESS pose_002_fist_1 65 163 250
+[01:35:43.555] CALIBRATION_STEP_PROGRESS pose_002_fist_1 66 165 250
+[01:35:43.558] CALIBRATION_STEP_PROGRESS pose_002_fist_1 67 168 250
+[01:35:43.668] CALIBRATION_STEP_PROGRESS pose_002_fist_1 68 170 250
+[01:35:43.669] CALIBRATION_STEP_PROGRESS pose_002_fist_1 69 173 250
+[01:35:43.669] CALIBRATION_STEP_PROGRESS pose_002_fist_1 70 175 250
+[01:35:43.671] CALIBRATION_STEP_PROGRESS pose_002_fist_1 71 178 250
+[01:35:43.780] CALIBRATION_STEP_PROGRESS pose_002_fist_1 72 180 250
+[01:35:43.780] CALIBRATION_STEP_PROGRESS pose_002_fist_1 73 183 250
+[01:35:43.782] CALIBRATION_STEP_PROGRESS pose_002_fist_1 74 185 250
+[01:35:43.784] CALIBRATION_STEP_PROGRESS pose_002_fist_1 75 188 250
+[01:35:43.892] CALIBRATION_STEP_PROGRESS pose_002_fist_1 76 190 250
+[01:35:43.894] CALIBRATION_STEP_PROGRESS pose_002_fist_1 77 193 250
+[01:35:43.894] CALIBRATION_STEP_PROGRESS pose_002_fist_1 78 195 250
+[01:35:43.894] CALIBRATION_STEP_PROGRESS pose_002_fist_1 79 198 250
+[01:35:44.005] CALIBRATION_STEP_PROGRESS pose_002_fist_1 80 200 250
+[01:35:44.006] CALIBRATION_STEP_PROGRESS pose_002_fist_1 81 203 250
+[01:35:44.007] CALIBRATION_STEP_PROGRESS pose_002_fist_1 82 205 250
+[01:35:44.007] CALIBRATION_STEP_PROGRESS pose_002_fist_1 83 208 250
+[01:35:44.007] CALIBRATION_STEP_PROGRESS pose_002_fist_1 84 210 250
+[01:35:44.109] CALIBRATION_STEP_PROGRESS pose_002_fist_1 85 213 250
+[01:35:44.109] CALIBRATION_STEP_PROGRESS pose_002_fist_1 86 215 250
+[01:35:44.111] CALIBRATION_STEP_PROGRESS pose_002_fist_1 87 218 250
+[01:35:44.111] CALIBRATION_STEP_PROGRESS pose_002_fist_1 88 220 250
+[01:35:44.222] CALIBRATION_STEP_PROGRESS pose_002_fist_1 89 223 250
+[01:35:44.222] CALIBRATION_STEP_PROGRESS pose_002_fist_1 90 225 250
+[01:35:44.222] CALIBRATION_STEP_PROGRESS pose_002_fist_1 91 228 250
+[01:35:44.224] CALIBRATION_STEP_PROGRESS pose_002_fist_1 92 230 250
+[01:35:44.224] CALIBRATION_STEP_PROGRESS pose_002_fist_1 93 233 250
+[01:35:44.325] CALIBRATION_STEP_PROGRESS pose_002_fist_1 94 235 250
+[01:35:44.328] CALIBRATION_STEP_PROGRESS pose_002_fist_1 95 238 250
+[01:35:44.328] CALIBRATION_STEP_PROGRESS pose_002_fist_1 96 240 250
+[01:35:44.328] CALIBRATION_STEP_PROGRESS pose_002_fist_1 97 243 250
+[01:35:44.431] CALIBRATION_STEP_PROGRESS pose_002_fist_1 98 245 250
+[01:35:44.431] CALIBRATION_STEP_PROGRESS pose_002_fist_1 99 248 250
+[01:35:44.433] CALIBRATION_STEP_PROGRESS pose_002_fist_1 100 250 250
+[01:35:44.433] CALIBRATION_STEP_REVIEW pose_002_fist_1 The new correction is active in the live viewer. Compare it with the reference picture, then accept/next or redo this pose.
+[01:35:46.108] CALIBRATION_REFERENCE_IMAGE {"path": "C:\\Users\\ceron\\Downloads\\Year 4\\Skripsie\\Main\\Glove\\live_tracking\\.pose_calibration_images\\pose_003_refrence.ppm", "label": "Refrence"}
+[01:35:46.151] CALIBRATION_STEP_READY pose_003_refrence 2.5 Match the pictured pose: Refrence. Hold it comfortably still, then start the capture.
+[01:35:46.154] CALIBRATION_CAN_GO_BACK
+[01:35:54.903] CALIBRATION_STEP_PROGRESS pose_003_refrence 0 1 250
+[01:35:54.905] CALIBRATION_STEP_PROGRESS pose_003_refrence 1 3 250
+[01:35:54.908] CALIBRATION_STEP_PROGRESS pose_003_refrence 2 5 250
+[01:35:54.912] CALIBRATION_STEP_PROGRESS pose_003_refrence 3 8 250
+[01:35:54.914] CALIBRATION_STEP_PROGRESS pose_003_refrence 4 10 250
+[01:35:55.020] CALIBRATION_STEP_PROGRESS pose_003_refrence 5 13 250
+[01:35:55.021] CALIBRATION_STEP_PROGRESS pose_003_refrence 6 15 250
+[01:35:55.021] CALIBRATION_STEP_PROGRESS pose_003_refrence 7 18 250
+[01:35:55.023] CALIBRATION_STEP_PROGRESS pose_003_refrence 8 20 250
+[01:35:55.135] CALIBRATION_STEP_PROGRESS pose_003_refrence 9 23 250
+[01:35:55.136] CALIBRATION_STEP_PROGRESS pose_003_refrence 10 25 250
+[01:35:55.138] CALIBRATION_STEP_PROGRESS pose_003_refrence 11 28 250
+[01:35:55.138] CALIBRATION_STEP_PROGRESS pose_003_refrence 12 30 250
+[01:35:55.241] CALIBRATION_STEP_PROGRESS pose_003_refrence 13 33 250
+[01:35:55.241] CALIBRATION_STEP_PROGRESS pose_003_refrence 14 35 250
+[01:35:55.243] CALIBRATION_STEP_PROGRESS pose_003_refrence 15 38 250
+[01:35:55.244] CALIBRATION_STEP_PROGRESS pose_003_refrence 16 40 250
+[01:35:55.348] CALIBRATION_STEP_PROGRESS pose_003_refrence 17 43 250
+[01:35:55.350] CALIBRATION_STEP_PROGRESS pose_003_refrence 18 45 250
+[01:35:55.350] CALIBRATION_STEP_PROGRESS pose_003_refrence 19 48 250
+[01:35:55.354] CALIBRATION_STEP_PROGRESS pose_003_refrence 20 50 250
+[01:35:55.459] CALIBRATION_STEP_PROGRESS pose_003_refrence 21 53 250
+[01:35:55.459] CALIBRATION_STEP_PROGRESS pose_003_refrence 22 55 250
+[01:35:55.459] CALIBRATION_STEP_PROGRESS pose_003_refrence 23 58 250
+[01:35:55.463] CALIBRATION_STEP_PROGRESS pose_003_refrence 24 60 250
+[01:35:55.570] CALIBRATION_STEP_PROGRESS pose_003_refrence 25 63 250
+[01:35:55.571] CALIBRATION_STEP_PROGRESS pose_003_refrence 26 65 250
+[01:35:55.571] CALIBRATION_STEP_PROGRESS pose_003_refrence 27 68 250
+[01:35:55.573] CALIBRATION_STEP_PROGRESS pose_003_refrence 28 70 250
+[01:35:55.683] CALIBRATION_STEP_PROGRESS pose_003_refrence 29 73 250
+[01:35:55.684] CALIBRATION_STEP_PROGRESS pose_003_refrence 30 75 250
+[01:35:55.685] CALIBRATION_STEP_PROGRESS pose_003_refrence 31 78 250
+[01:35:55.685] CALIBRATION_STEP_PROGRESS pose_003_refrence 32 80 250
+[01:35:55.687] CALIBRATION_STEP_PROGRESS pose_003_refrence 33 83 250
+[01:35:55.790] CALIBRATION_STEP_PROGRESS pose_003_refrence 34 85 250
+[01:35:55.791] CALIBRATION_STEP_PROGRESS pose_003_refrence 35 88 250
+[01:35:55.791] CALIBRATION_STEP_PROGRESS pose_003_refrence 36 90 250
+[01:35:55.793] CALIBRATION_STEP_PROGRESS pose_003_refrence 37 93 250
+[01:35:55.793] CALIBRATION_STEP_PROGRESS pose_003_refrence 38 95 250
+[01:35:55.906] CALIBRATION_STEP_PROGRESS pose_003_refrence 39 98 250
+[01:35:55.907] CALIBRATION_STEP_PROGRESS pose_003_refrence 40 100 250
+[01:35:55.907] CALIBRATION_STEP_PROGRESS pose_003_refrence 41 103 250
+[01:35:55.907] CALIBRATION_STEP_PROGRESS pose_003_refrence 42 105 250
+[01:35:56.023] CALIBRATION_STEP_PROGRESS pose_003_refrence 43 108 250
+[01:35:56.024] CALIBRATION_STEP_PROGRESS pose_003_refrence 44 110 250
+[01:35:56.026] CALIBRATION_STEP_PROGRESS pose_003_refrence 45 113 250
+[01:35:56.026] CALIBRATION_STEP_PROGRESS pose_003_refrence 46 115 250
+[01:35:56.028] CALIBRATION_STEP_PROGRESS pose_003_refrence 47 118 250
+[01:35:56.136] CALIBRATION_STEP_PROGRESS pose_003_refrence 48 120 250
+[01:35:56.137] CALIBRATION_STEP_PROGRESS pose_003_refrence 49 123 250
+[01:35:56.137] CALIBRATION_STEP_PROGRESS pose_003_refrence 50 125 250
+[01:35:56.139] CALIBRATION_STEP_PROGRESS pose_003_refrence 51 128 250
+[01:35:56.247] CALIBRATION_STEP_PROGRESS pose_003_refrence 52 130 250
+[01:35:56.247] CALIBRATION_STEP_PROGRESS pose_003_refrence 53 133 250
+[01:35:56.247] CALIBRATION_STEP_PROGRESS pose_003_refrence 54 135 250
+[01:35:56.249] CALIBRATION_STEP_PROGRESS pose_003_refrence 55 138 250
+[01:35:56.249] CALIBRATION_STEP_PROGRESS pose_003_refrence 56 140 250
+[01:35:56.359] CALIBRATION_STEP_PROGRESS pose_003_refrence 57 143 250
+[01:35:56.360] CALIBRATION_STEP_PROGRESS pose_003_refrence 58 145 250
+[01:35:56.363] CALIBRATION_STEP_PROGRESS pose_003_refrence 59 148 250
+[01:35:56.363] CALIBRATION_STEP_PROGRESS pose_003_refrence 60 150 250
+[01:35:56.475] CALIBRATION_STEP_PROGRESS pose_003_refrence 61 153 250
+[01:35:56.477] CALIBRATION_STEP_PROGRESS pose_003_refrence 62 155 250
+[01:35:56.478] CALIBRATION_STEP_PROGRESS pose_003_refrence 63 158 250
+[01:35:56.478] CALIBRATION_STEP_PROGRESS pose_003_refrence 64 160 250
+[01:35:56.588] CALIBRATION_STEP_PROGRESS pose_003_refrence 65 163 250
+[01:35:56.590] CALIBRATION_STEP_PROGRESS pose_003_refrence 66 165 250
+[01:35:56.591] CALIBRATION_STEP_PROGRESS pose_003_refrence 67 168 250
+[01:35:56.591] CALIBRATION_STEP_PROGRESS pose_003_refrence 68 170 250
+[01:35:56.704] CALIBRATION_STEP_PROGRESS pose_003_refrence 69 173 250
+[01:35:56.706] CALIBRATION_STEP_PROGRESS pose_003_refrence 70 175 250
+[01:35:56.706] CALIBRATION_STEP_PROGRESS pose_003_refrence 71 178 250
+[01:35:56.710] CALIBRATION_STEP_PROGRESS pose_003_refrence 72 180 250
+[01:35:56.710] CALIBRATION_STEP_PROGRESS pose_003_refrence 73 183 250
+[01:35:56.814] CALIBRATION_STEP_PROGRESS pose_003_refrence 74 185 250
+[01:35:56.814] CALIBRATION_STEP_PROGRESS pose_003_refrence 75 188 250
+[01:35:56.816] CALIBRATION_STEP_PROGRESS pose_003_refrence 76 190 250
+[01:35:56.816] CALIBRATION_STEP_PROGRESS pose_003_refrence 77 193 250
+[01:35:56.818] CALIBRATION_STEP_PROGRESS pose_003_refrence 78 195 250
+[01:35:56.929] CALIBRATION_STEP_PROGRESS pose_003_refrence 79 198 250
+[01:35:56.929] CALIBRATION_STEP_PROGRESS pose_003_refrence 80 200 250
+[01:35:56.931] CALIBRATION_STEP_PROGRESS pose_003_refrence 81 203 250
+[01:35:56.933] CALIBRATION_STEP_PROGRESS pose_003_refrence 82 205 250
+[01:35:57.040] CALIBRATION_STEP_PROGRESS pose_003_refrence 83 208 250
+[01:35:57.042] CALIBRATION_STEP_PROGRESS pose_003_refrence 84 210 250
+[01:35:57.042] CALIBRATION_STEP_PROGRESS pose_003_refrence 85 213 250
+[01:35:57.044] CALIBRATION_STEP_PROGRESS pose_003_refrence 86 215 250
+[01:35:57.044] CALIBRATION_STEP_PROGRESS pose_003_refrence 87 218 250
+[01:35:57.155] CALIBRATION_STEP_PROGRESS pose_003_refrence 88 220 250
+[01:35:57.155] CALIBRATION_STEP_PROGRESS pose_003_refrence 89 223 250
+[01:35:57.155] CALIBRATION_STEP_PROGRESS pose_003_refrence 90 225 250
+[01:35:57.158] CALIBRATION_STEP_PROGRESS pose_003_refrence 91 228 250
+[01:35:57.260] CALIBRATION_STEP_PROGRESS pose_003_refrence 92 230 250
+[01:35:57.261] CALIBRATION_STEP_PROGRESS pose_003_refrence 93 233 250
+[01:35:57.263] CALIBRATION_STEP_PROGRESS pose_003_refrence 94 235 250
+[01:35:57.263] CALIBRATION_STEP_PROGRESS pose_003_refrence 95 238 250
+[01:35:57.266] CALIBRATION_STEP_PROGRESS pose_003_refrence 96 240 250
+[01:35:57.369] CALIBRATION_STEP_PROGRESS pose_003_refrence 97 243 250
+[01:35:57.369] CALIBRATION_STEP_PROGRESS pose_003_refrence 98 245 250
+[01:35:57.370] CALIBRATION_STEP_PROGRESS pose_003_refrence 99 248 250
+[01:35:57.370] CALIBRATION_STEP_PROGRESS pose_003_refrence 100 250 250
+[01:35:57.480] CALIBRATION_STEP_REVIEW pose_003_refrence The new correction is active in the live viewer. Compare it with the reference picture, then accept/next or redo this pose.
+[01:36:00.007] CALIBRATION_REFERENCE_IMAGE {"path": "C:\\Users\\ceron\\Downloads\\Year 4\\Skripsie\\Main\\Glove\\live_tracking\\.pose_calibration_images\\pose_004_fist_2.ppm", "label": "Fist_2"}
+[01:36:00.057] CALIBRATION_STEP_READY pose_004_fist_2 2.5 Match the pictured pose: Fist_2. Hold it comfortably still, then start the capture.
+[01:36:00.060] CALIBRATION_CAN_GO_BACK
+[01:36:02.384] CALIBRATION_STEP_SKIPPED pose_004_fist_2
+[01:36:02.386] CALIBRATION_REFERENCE_IMAGE {"path": "C:\\Users\\ceron\\Downloads\\Year 4\\Skripsie\\Main\\Glove\\live_tracking\\.pose_calibration_images\\pose_005_thumb_1.ppm", "label": "Thumb_1"}
+[01:36:02.435] CALIBRATION_STEP_READY pose_005_thumb_1 2.5 Match the pictured pose: Thumb_1. Hold it comfortably still, then start the capture.
+[01:36:02.436] CALIBRATION_CAN_GO_BACK
+[01:36:06.670] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 0 1 250
+[01:36:06.672] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 1 3 250
+[01:36:06.675] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 2 5 250
+[01:36:06.675] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 3 8 250
+[01:36:06.787] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 4 10 250
+[01:36:06.789] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 5 13 250
+[01:36:06.791] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 6 15 250
+[01:36:06.791] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 7 18 250
+[01:36:06.793] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 8 20 250
+[01:36:06.896] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 9 23 250
+[01:36:06.896] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 10 25 250
+[01:36:06.896] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 11 28 250
+[01:36:06.896] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 12 30 250
+[01:36:07.007] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 13 33 250
+[01:36:07.009] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 14 35 250
+[01:36:07.009] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 15 38 250
+[01:36:07.011] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 16 40 250
+[01:36:07.012] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 17 43 250
+[01:36:07.121] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 18 45 250
+[01:36:07.121] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 19 48 250
+[01:36:07.121] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 20 50 250
+[01:36:07.123] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 21 53 250
+[01:36:07.125] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 22 55 250
+[01:36:07.231] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 23 58 250
+[01:36:07.231] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 24 60 250
+[01:36:07.231] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 25 63 250
+[01:36:07.233] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 26 65 250
+[01:36:07.337] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 27 68 250
+[01:36:07.338] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 28 70 250
+[01:36:07.338] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 29 73 250
+[01:36:07.340] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 30 75 250
+[01:36:07.450] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 31 78 250
+[01:36:07.451] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 32 80 250
+[01:36:07.453] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 33 83 250
+[01:36:07.453] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 34 85 250
+[01:36:07.453] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 35 88 250
+[01:36:07.561] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 36 90 250
+[01:36:07.562] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 37 93 250
+[01:36:07.563] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 38 95 250
+[01:36:07.564] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 39 98 250
+[01:36:07.673] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 40 100 250
+[01:36:07.674] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 41 103 250
+[01:36:07.676] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 42 105 250
+[01:36:07.676] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 43 108 250
+[01:36:07.678] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 44 110 250
+[01:36:07.791] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 45 113 250
+[01:36:07.791] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 46 115 250
+[01:36:07.793] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 47 118 250
+[01:36:07.795] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 48 120 250
+[01:36:07.898] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 49 123 250
+[01:36:07.900] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 50 125 250
+[01:36:07.900] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 51 128 250
+[01:36:07.902] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 52 130 250
+[01:36:08.005] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 53 133 250
+[01:36:08.005] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 54 135 250
+[01:36:08.008] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 55 138 250
+[01:36:08.010] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 56 140 250
+[01:36:08.118] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 57 143 250
+[01:36:08.120] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 58 145 250
+[01:36:08.120] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 59 148 250
+[01:36:08.120] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 60 150 250
+[01:36:08.122] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 61 153 250
+[01:36:08.232] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 62 155 250
+[01:36:08.233] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 63 158 250
+[01:36:08.233] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 64 160 250
+[01:36:08.234] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 65 163 250
+[01:36:08.234] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 66 165 250
+[01:36:08.344] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 67 168 250
+[01:36:08.344] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 68 170 250
+[01:36:08.344] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 69 173 250
+[01:36:08.346] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 70 175 250
+[01:36:08.346] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 71 178 250
+[01:36:08.459] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 72 180 250
+[01:36:08.459] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 73 183 250
+[01:36:08.459] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 74 185 250
+[01:36:08.462] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 75 188 250
+[01:36:08.574] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 76 190 250
+[01:36:08.575] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 77 193 250
+[01:36:08.575] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 78 195 250
+[01:36:08.575] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 79 198 250
+[01:36:08.579] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 80 200 250
+[01:36:08.688] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 81 203 250
+[01:36:08.688] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 82 205 250
+[01:36:08.690] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 83 208 250
+[01:36:08.690] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 84 210 250
+[01:36:08.792] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 85 213 250
+[01:36:08.795] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 86 215 250
+[01:36:08.796] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 87 218 250
+[01:36:08.798] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 88 220 250
+[01:36:08.913] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 89 223 250
+[01:36:08.915] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 90 225 250
+[01:36:08.915] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 91 228 250
+[01:36:08.917] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 92 230 250
+[01:36:08.917] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 93 233 250
+[01:36:09.028] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 94 235 250
+[01:36:09.028] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 95 238 250
+[01:36:09.028] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 96 240 250
+[01:36:09.028] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 97 243 250
+[01:36:09.032] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 98 245 250
+[01:36:09.135] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 99 248 250
+[01:36:09.135] CALIBRATION_STEP_PROGRESS pose_005_thumb_1 100 250 250
+[01:36:09.135] CALIBRATION_STEP_REVIEW pose_005_thumb_1 The new correction is active in the live viewer. Compare it with the reference picture, then accept/next or redo this pose.
+[01:36:10.494] CALIBRATION_REFERENCE_IMAGE {"path": "C:\\Users\\ceron\\Downloads\\Year 4\\Skripsie\\Main\\Glove\\live_tracking\\.pose_calibration_images\\pose_006_thumb_2.ppm", "label": "Thumb_2"}
+[01:36:10.543] CALIBRATION_STEP_READY pose_006_thumb_2 2.5 Match the pictured pose: Thumb_2. Hold it comfortably still, then start the capture.
+[01:36:10.547] CALIBRATION_CAN_GO_BACK
+[01:36:13.098] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 0 1 250
+[01:36:13.100] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 1 3 250
+[01:36:13.211] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 2 5 250
+[01:36:13.212] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 3 8 250
+[01:36:13.213] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 4 10 250
+[01:36:13.214] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 5 13 250
+[01:36:13.214] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 6 15 250
+[01:36:13.329] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 7 18 250
+[01:36:13.329] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 8 20 250
+[01:36:13.331] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 9 23 250
+[01:36:13.331] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 10 25 250
+[01:36:13.437] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 11 28 250
+[01:36:13.437] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 12 30 250
+[01:36:13.440] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 13 33 250
+[01:36:13.440] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 14 35 250
+[01:36:13.442] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 15 38 250
+[01:36:13.544] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 16 40 250
+[01:36:13.545] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 17 43 250
+[01:36:13.545] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 18 45 250
+[01:36:13.547] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 19 48 250
+[01:36:13.654] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 20 50 250
+[01:36:13.655] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 21 53 250
+[01:36:13.655] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 22 55 250
+[01:36:13.657] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 23 58 250
+[01:36:13.657] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 24 60 250
+[01:36:13.769] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 25 63 250
+[01:36:13.769] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 26 65 250
+[01:36:13.769] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 27 68 250
+[01:36:13.769] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 28 70 250
+[01:36:13.880] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 29 73 250
+[01:36:13.880] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 30 75 250
+[01:36:13.880] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 31 78 250
+[01:36:13.883] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 32 80 250
+[01:36:13.996] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 33 83 250
+[01:36:13.997] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 34 85 250
+[01:36:13.997] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 35 88 250
+[01:36:13.999] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 36 90 250
+[01:36:13.999] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 37 93 250
+[01:36:14.111] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 38 95 250
+[01:36:14.111] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 39 98 250
+[01:36:14.113] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 40 100 250
+[01:36:14.114] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 41 103 250
+[01:36:14.114] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 42 105 250
+[01:36:14.216] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 43 108 250
+[01:36:14.218] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 44 110 250
+[01:36:14.218] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 45 113 250
+[01:36:14.220] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 46 115 250
+[01:36:14.320] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 47 118 250
+[01:36:14.320] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 48 120 250
+[01:36:14.320] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 49 123 250
+[01:36:14.324] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 50 125 250
+[01:36:14.431] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 51 128 250
+[01:36:14.431] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 52 130 250
+[01:36:14.434] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 53 133 250
+[01:36:14.434] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 54 135 250
+[01:36:14.436] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 55 138 250
+[01:36:14.539] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 56 140 250
+[01:36:14.539] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 57 143 250
+[01:36:14.541] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 58 145 250
+[01:36:14.541] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 59 148 250
+[01:36:14.645] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 60 150 250
+[01:36:14.645] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 61 153 250
+[01:36:14.645] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 62 155 250
+[01:36:14.645] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 63 158 250
+[01:36:14.753] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 64 160 250
+[01:36:14.754] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 65 163 250
+[01:36:14.756] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 66 165 250
+[01:36:14.756] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 67 168 250
+[01:36:14.758] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 68 170 250
+[01:36:14.861] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 69 173 250
+[01:36:14.861] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 70 175 250
+[01:36:14.863] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 71 178 250
+[01:36:14.865] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 72 180 250
+[01:36:14.979] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 73 183 250
+[01:36:14.979] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 74 185 250
+[01:36:14.981] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 75 188 250
+[01:36:14.981] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 76 190 250
+[01:36:15.089] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 77 193 250
+[01:36:15.089] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 78 195 250
+[01:36:15.091] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 79 198 250
+[01:36:15.091] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 80 200 250
+[01:36:15.091] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 81 203 250
+[01:36:15.200] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 82 205 250
+[01:36:15.200] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 83 208 250
+[01:36:15.202] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 84 210 250
+[01:36:15.202] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 85 213 250
+[01:36:15.202] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 86 215 250
+[01:36:15.314] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 87 218 250
+[01:36:15.315] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 88 220 250
+[01:36:15.315] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 89 223 250
+[01:36:15.315] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 90 225 250
+[01:36:15.430] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 91 228 250
+[01:36:15.430] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 92 230 250
+[01:36:15.432] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 93 233 250
+[01:36:15.433] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 94 235 250
+[01:36:15.535] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 95 238 250
+[01:36:15.536] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 96 240 250
+[01:36:15.536] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 97 243 250
+[01:36:15.538] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 98 245 250
+[01:36:15.644] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 99 248 250
+[01:36:15.645] CALIBRATION_STEP_PROGRESS pose_006_thumb_2 100 250 250
+[01:36:15.646] CALIBRATION_STEP_REVIEW pose_006_thumb_2 The new correction is active in the live viewer. Compare it with the reference picture, then accept/next or redo this pose.
+[01:36:17.301] CALIBRATION_REFERENCE_IMAGE {"path": "C:\\Users\\ceron\\Downloads\\Year 4\\Skripsie\\Main\\Glove\\live_tracking\\.pose_calibration_images\\pose_007_thumb_3.ppm", "label": "THumb_3"}
+[01:36:17.346] CALIBRATION_STEP_READY pose_007_thumb_3 2.5 Match the pictured pose: THumb_3. Hold it comfortably still, then start the capture.
+[01:36:17.352] CALIBRATION_CAN_GO_BACK
+[01:36:22.099] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 0 1 250
+[01:36:22.100] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 1 3 250
+[01:36:22.104] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 2 5 250
+[01:36:22.106] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 3 8 250
+[01:36:22.108] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 4 10 250
+[01:36:22.223] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 5 13 250
+[01:36:22.224] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 6 15 250
+[01:36:22.225] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 7 18 250
+[01:36:22.226] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 8 20 250
+[01:36:22.226] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 9 23 250
+[01:36:22.335] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 10 25 250
+[01:36:22.336] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 11 28 250
+[01:36:22.338] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 12 30 250
+[01:36:22.339] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 13 33 250
+[01:36:22.339] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 14 35 250
+[01:36:22.448] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 15 38 250
+[01:36:22.448] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 16 40 250
+[01:36:22.450] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 17 43 250
+[01:36:22.450] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 18 45 250
+[01:36:22.561] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 19 48 250
+[01:36:22.562] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 20 50 250
+[01:36:22.562] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 21 53 250
+[01:36:22.564] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 22 55 250
+[01:36:22.671] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 23 58 250
+[01:36:22.673] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 24 60 250
+[01:36:22.673] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 25 63 250
+[01:36:22.673] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 26 65 250
+[01:36:22.676] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 27 68 250
+[01:36:22.786] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 28 70 250
+[01:36:22.786] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 29 73 250
+[01:36:22.788] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 30 75 250
+[01:36:22.788] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 31 78 250
+[01:36:22.788] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 32 80 250
+[01:36:22.897] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 33 83 250
+[01:36:22.898] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 34 85 250
+[01:36:22.899] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 35 88 250
+[01:36:22.899] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 36 90 250
+[01:36:23.000] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 37 93 250
+[01:36:23.002] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 38 95 250
+[01:36:23.003] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 39 98 250
+[01:36:23.004] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 40 100 250
+[01:36:23.110] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 41 103 250
+[01:36:23.110] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 42 105 250
+[01:36:23.112] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 43 108 250
+[01:36:23.112] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 44 110 250
+[01:36:23.222] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 45 113 250
+[01:36:23.224] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 46 115 250
+[01:36:23.226] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 47 118 250
+[01:36:23.226] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 48 120 250
+[01:36:23.339] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 49 123 250
+[01:36:23.341] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 50 125 250
+[01:36:23.341] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 51 128 250
+[01:36:23.343] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 52 130 250
+[01:36:23.343] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 53 133 250
+[01:36:23.449] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 54 135 250
+[01:36:23.450] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 55 138 250
+[01:36:23.450] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 56 140 250
+[01:36:23.452] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 57 143 250
+[01:36:23.559] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 58 145 250
+[01:36:23.561] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 59 148 250
+[01:36:23.562] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 60 150 250
+[01:36:23.562] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 61 153 250
+[01:36:23.562] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 62 155 250
+[01:36:23.676] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 63 158 250
+[01:36:23.677] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 64 160 250
+[01:36:23.679] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 65 163 250
+[01:36:23.679] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 66 165 250
+[01:36:23.679] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 67 168 250
+[01:36:23.794] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 68 170 250
+[01:36:23.795] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 69 173 250
+[01:36:23.796] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 70 175 250
+[01:36:23.796] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 71 178 250
+[01:36:23.796] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 72 180 250
+[01:36:23.903] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 73 183 250
+[01:36:23.905] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 74 185 250
+[01:36:23.905] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 75 188 250
+[01:36:23.907] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 76 190 250
+[01:36:24.019] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 77 193 250
+[01:36:24.019] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 78 195 250
+[01:36:24.019] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 79 198 250
+[01:36:24.019] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 80 200 250
+[01:36:24.024] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 81 203 250
+[01:36:24.130] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 82 205 250
+[01:36:24.131] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 83 208 250
+[01:36:24.131] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 84 210 250
+[01:36:24.131] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 85 213 250
+[01:36:24.233] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 86 215 250
+[01:36:24.235] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 87 218 250
+[01:36:24.235] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 88 220 250
+[01:36:24.237] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 89 223 250
+[01:36:24.348] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 90 225 250
+[01:36:24.350] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 91 228 250
+[01:36:24.350] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 92 230 250
+[01:36:24.354] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 93 233 250
+[01:36:24.355] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 94 235 250
+[01:36:24.461] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 95 238 250
+[01:36:24.463] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 96 240 250
+[01:36:24.464] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 97 243 250
+[01:36:24.464] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 98 245 250
+[01:36:24.572] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 99 248 250
+[01:36:24.573] CALIBRATION_STEP_PROGRESS pose_007_thumb_3 100 250 250
+[01:36:24.574] CALIBRATION_STEP_REVIEW pose_007_thumb_3 The new correction is active in the live viewer. Compare it with the reference picture, then accept/next or redo this pose.
+[01:36:26.141] CALIBRATION_REFERENCE_IMAGE {"path": "C:\\Users\\ceron\\Downloads\\Year 4\\Skripsie\\Main\\Glove\\live_tracking\\.pose_calibration_images\\pose_008_thumb_4.ppm", "label": "Thumb_4"}
+[01:36:26.185] CALIBRATION_STEP_READY pose_008_thumb_4 2.5 Match the pictured pose: Thumb_4. Hold it comfortably still, then start the capture.
+[01:36:26.189] CALIBRATION_CAN_GO_BACK
+[01:36:27.675] CALIBRATION_STEP_SKIPPED pose_008_thumb_4
+[01:36:27.677] CALIBRATION_REFERENCE_IMAGE {"path": "C:\\Users\\ceron\\Downloads\\Year 4\\Skripsie\\Main\\Glove\\live_tracking\\.pose_calibration_images\\pose_009_refrence.ppm", "label": "Refrence"}
+[01:36:27.718] CALIBRATION_STEP_READY pose_009_refrence 2.5 Match the pictured pose: Refrence. Hold it comfortably still, then start the capture.
+[01:36:27.719] CALIBRATION_CAN_GO_BACK
+[01:36:33.577] CALIBRATION_STEP_PROGRESS pose_009_refrence 0 1 250
+[01:36:33.579] CALIBRATION_STEP_PROGRESS pose_009_refrence 1 3 250
+[01:36:33.579] CALIBRATION_STEP_PROGRESS pose_009_refrence 2 5 250
+[01:36:33.684] CALIBRATION_STEP_PROGRESS pose_009_refrence 3 8 250
+[01:36:33.686] CALIBRATION_STEP_PROGRESS pose_009_refrence 4 10 250
+[01:36:33.686] CALIBRATION_STEP_PROGRESS pose_009_refrence 5 13 250
+[01:36:33.686] CALIBRATION_STEP_PROGRESS pose_009_refrence 6 15 250
+[01:36:33.689] CALIBRATION_STEP_PROGRESS pose_009_refrence 7 18 250
+[01:36:33.793] CALIBRATION_STEP_PROGRESS pose_009_refrence 8 20 250
+[01:36:33.794] CALIBRATION_STEP_PROGRESS pose_009_refrence 9 23 250
+[01:36:33.794] CALIBRATION_STEP_PROGRESS pose_009_refrence 10 25 250
+[01:36:33.797] CALIBRATION_STEP_PROGRESS pose_009_refrence 11 28 250
+[01:36:33.798] CALIBRATION_STEP_PROGRESS pose_009_refrence 12 30 250
+[01:36:33.900] CALIBRATION_STEP_PROGRESS pose_009_refrence 13 33 250
+[01:36:33.900] CALIBRATION_STEP_PROGRESS pose_009_refrence 14 35 250
+[01:36:33.900] CALIBRATION_STEP_PROGRESS pose_009_refrence 15 38 250
+[01:36:33.900] CALIBRATION_STEP_PROGRESS pose_009_refrence 16 40 250
+[01:36:34.015] CALIBRATION_STEP_PROGRESS pose_009_refrence 17 43 250
+[01:36:34.015] CALIBRATION_STEP_PROGRESS pose_009_refrence 18 45 250
+[01:36:34.017] CALIBRATION_STEP_PROGRESS pose_009_refrence 19 48 250
+[01:36:34.017] CALIBRATION_STEP_PROGRESS pose_009_refrence 20 50 250
+[01:36:34.128] CALIBRATION_STEP_PROGRESS pose_009_refrence 21 53 250
+[01:36:34.128] CALIBRATION_STEP_PROGRESS pose_009_refrence 22 55 250
+[01:36:34.130] CALIBRATION_STEP_PROGRESS pose_009_refrence 23 58 250
+[01:36:34.132] CALIBRATION_STEP_PROGRESS pose_009_refrence 24 60 250
+[01:36:34.133] CALIBRATION_STEP_PROGRESS pose_009_refrence 25 63 250
+[01:36:34.235] CALIBRATION_STEP_PROGRESS pose_009_refrence 26 65 250
+[01:36:34.236] CALIBRATION_STEP_PROGRESS pose_009_refrence 27 68 250
+[01:36:34.236] CALIBRATION_STEP_PROGRESS pose_009_refrence 28 70 250
+[01:36:34.238] CALIBRATION_STEP_PROGRESS pose_009_refrence 29 73 250
+[01:36:34.347] CALIBRATION_STEP_PROGRESS pose_009_refrence 30 75 250
+[01:36:34.347] CALIBRATION_STEP_PROGRESS pose_009_refrence 31 78 250
+[01:36:34.347] CALIBRATION_STEP_PROGRESS pose_009_refrence 32 80 250
+[01:36:34.350] CALIBRATION_STEP_PROGRESS pose_009_refrence 33 83 250
+[01:36:34.350] CALIBRATION_STEP_PROGRESS pose_009_refrence 34 85 250
+[01:36:34.456] CALIBRATION_STEP_PROGRESS pose_009_refrence 35 88 250
+[01:36:34.457] CALIBRATION_STEP_PROGRESS pose_009_refrence 36 90 250
+[01:36:34.457] CALIBRATION_STEP_PROGRESS pose_009_refrence 37 93 250
+[01:36:34.457] CALIBRATION_STEP_PROGRESS pose_009_refrence 38 95 250
+[01:36:34.570] CALIBRATION_STEP_PROGRESS pose_009_refrence 39 98 250
+[01:36:34.570] CALIBRATION_STEP_PROGRESS pose_009_refrence 40 100 250
+[01:36:34.570] CALIBRATION_STEP_PROGRESS pose_009_refrence 41 103 250
+[01:36:34.570] CALIBRATION_STEP_PROGRESS pose_009_refrence 42 105 250
+[01:36:34.678] CALIBRATION_STEP_PROGRESS pose_009_refrence 43 108 250
+[01:36:34.678] CALIBRATION_STEP_PROGRESS pose_009_refrence 44 110 250
+[01:36:34.680] CALIBRATION_STEP_PROGRESS pose_009_refrence 45 113 250
+[01:36:34.681] CALIBRATION_STEP_PROGRESS pose_009_refrence 46 115 250
+[01:36:34.681] CALIBRATION_STEP_PROGRESS pose_009_refrence 47 118 250
+[01:36:34.782] CALIBRATION_STEP_PROGRESS pose_009_refrence 48 120 250
+[01:36:34.784] CALIBRATION_STEP_PROGRESS pose_009_refrence 49 123 250
+[01:36:34.785] CALIBRATION_STEP_PROGRESS pose_009_refrence 50 125 250
+[01:36:34.890] CALIBRATION_STEP_PROGRESS pose_009_refrence 51 128 250
+[01:36:34.893] CALIBRATION_STEP_PROGRESS pose_009_refrence 52 130 250
+[01:36:34.893] CALIBRATION_STEP_PROGRESS pose_009_refrence 53 133 250
+[01:36:34.893] CALIBRATION_STEP_PROGRESS pose_009_refrence 54 135 250
+[01:36:34.895] CALIBRATION_STEP_PROGRESS pose_009_refrence 55 138 250
+[01:36:34.895] CALIBRATION_STEP_PROGRESS pose_009_refrence 56 140 250
+[01:36:34.999] CALIBRATION_STEP_PROGRESS pose_009_refrence 57 143 250
+[01:36:35.000] CALIBRATION_STEP_PROGRESS pose_009_refrence 58 145 250
+[01:36:35.000] CALIBRATION_STEP_PROGRESS pose_009_refrence 59 148 250
+[01:36:35.000] CALIBRATION_STEP_PROGRESS pose_009_refrence 60 150 250
+[01:36:35.103] CALIBRATION_STEP_PROGRESS pose_009_refrence 61 153 250
+[01:36:35.103] CALIBRATION_STEP_PROGRESS pose_009_refrence 62 155 250
+[01:36:35.105] CALIBRATION_STEP_PROGRESS pose_009_refrence 63 158 250
+[01:36:35.106] CALIBRATION_STEP_PROGRESS pose_009_refrence 64 160 250
+[01:36:35.216] CALIBRATION_STEP_PROGRESS pose_009_refrence 65 163 250
+[01:36:35.216] CALIBRATION_STEP_PROGRESS pose_009_refrence 66 165 250
+[01:36:35.216] CALIBRATION_STEP_PROGRESS pose_009_refrence 67 168 250
+[01:36:35.218] CALIBRATION_STEP_PROGRESS pose_009_refrence 68 170 250
+[01:36:35.324] CALIBRATION_STEP_PROGRESS pose_009_refrence 69 173 250
+[01:36:35.325] CALIBRATION_STEP_PROGRESS pose_009_refrence 70 175 250
+[01:36:35.325] CALIBRATION_STEP_PROGRESS pose_009_refrence 71 178 250
+[01:36:35.328] CALIBRATION_STEP_PROGRESS pose_009_refrence 72 180 250
+[01:36:35.328] CALIBRATION_STEP_PROGRESS pose_009_refrence 73 183 250
+[01:36:35.437] CALIBRATION_STEP_PROGRESS pose_009_refrence 74 185 250
+[01:36:35.439] CALIBRATION_STEP_PROGRESS pose_009_refrence 75 188 250
+[01:36:35.439] CALIBRATION_STEP_PROGRESS pose_009_refrence 76 190 250
+[01:36:35.441] CALIBRATION_STEP_PROGRESS pose_009_refrence 77 193 250
+[01:36:35.545] CALIBRATION_STEP_PROGRESS pose_009_refrence 78 195 250
+[01:36:35.547] CALIBRATION_STEP_PROGRESS pose_009_refrence 79 198 250
+[01:36:35.547] CALIBRATION_STEP_PROGRESS pose_009_refrence 80 200 250
+[01:36:35.549] CALIBRATION_STEP_PROGRESS pose_009_refrence 81 203 250
+[01:36:35.550] CALIBRATION_STEP_PROGRESS pose_009_refrence 82 205 250
+[01:36:35.658] CALIBRATION_STEP_PROGRESS pose_009_refrence 83 208 250
+[01:36:35.660] CALIBRATION_STEP_PROGRESS pose_009_refrence 84 210 250
+[01:36:35.661] CALIBRATION_STEP_PROGRESS pose_009_refrence 85 213 250
+[01:36:35.661] CALIBRATION_STEP_PROGRESS pose_009_refrence 86 215 250
+[01:36:35.767] CALIBRATION_STEP_PROGRESS pose_009_refrence 87 218 250
+[01:36:35.767] CALIBRATION_STEP_PROGRESS pose_009_refrence 88 220 250
+[01:36:35.769] CALIBRATION_STEP_PROGRESS pose_009_refrence 89 223 250
+[01:36:35.769] CALIBRATION_STEP_PROGRESS pose_009_refrence 90 225 250
+[01:36:35.880] CALIBRATION_STEP_PROGRESS pose_009_refrence 91 228 250
+[01:36:35.881] CALIBRATION_STEP_PROGRESS pose_009_refrence 92 230 250
+[01:36:35.881] CALIBRATION_STEP_PROGRESS pose_009_refrence 93 233 250
+[01:36:35.883] CALIBRATION_STEP_PROGRESS pose_009_refrence 94 235 250
+[01:36:35.988] CALIBRATION_STEP_PROGRESS pose_009_refrence 95 238 250
+[01:36:35.989] CALIBRATION_STEP_PROGRESS pose_009_refrence 96 240 250
+[01:36:35.989] CALIBRATION_STEP_PROGRESS pose_009_refrence 97 243 250
+[01:36:35.991] CALIBRATION_STEP_PROGRESS pose_009_refrence 98 245 250
+[01:36:36.100] CALIBRATION_STEP_PROGRESS pose_009_refrence 99 248 250
+[01:36:36.102] CALIBRATION_STEP_PROGRESS pose_009_refrence 100 250 250
+[01:36:36.102] CALIBRATION_STEP_REVIEW pose_009_refrence The new correction is active in the live viewer. Compare it with the reference picture, then accept/next or redo this pose.
+[01:36:37.280] CALIBRATION_REFERENCE_IMAGE {"path": "C:\\Users\\ceron\\Downloads\\Year 4\\Skripsie\\Main\\Glove\\live_tracking\\.pose_calibration_images\\pose_010_flex_1.ppm", "label": "flex_1"}
+[01:36:37.335] CALIBRATION_STEP_READY pose_010_flex_1 2.5 Match the pictured pose: flex_1. Hold it comfortably still, then start the capture.
+[01:36:37.341] CALIBRATION_CAN_GO_BACK
+[01:36:39.050] CALIBRATION_STEP_SKIPPED pose_010_flex_1
+[01:36:39.052] CALIBRATION_REFERENCE_IMAGE {"path": "C:\\Users\\ceron\\Downloads\\Year 4\\Skripsie\\Main\\Glove\\live_tracking\\.pose_calibration_images\\pose_011_spread.ppm", "label": "Spread"}
+[01:36:39.097] CALIBRATION_STEP_READY pose_011_spread 2.5 Match the pictured pose: Spread. Hold it comfortably still, then start the capture.
+[01:36:39.102] CALIBRATION_CAN_GO_BACK
+[01:36:46.088] CALIBRATION_STEP_PROGRESS pose_011_spread 0 1 250
+[01:36:46.090] CALIBRATION_STEP_PROGRESS pose_011_spread 1 3 250
+[01:36:46.093] CALIBRATION_STEP_PROGRESS pose_011_spread 2 5 250
+[01:36:46.196] CALIBRATION_STEP_PROGRESS pose_011_spread 3 8 250
+[01:36:46.196] CALIBRATION_STEP_PROGRESS pose_011_spread 4 10 250
+[01:36:46.198] CALIBRATION_STEP_PROGRESS pose_011_spread 5 13 250
+[01:36:46.198] CALIBRATION_STEP_PROGRESS pose_011_spread 6 15 250
+[01:36:46.300] CALIBRATION_STEP_PROGRESS pose_011_spread 7 18 250
+[01:36:46.300] CALIBRATION_STEP_PROGRESS pose_011_spread 8 20 250
+[01:36:46.303] CALIBRATION_STEP_PROGRESS pose_011_spread 9 23 250
+[01:36:46.303] CALIBRATION_STEP_PROGRESS pose_011_spread 10 25 250
+[01:36:46.405] CALIBRATION_STEP_PROGRESS pose_011_spread 11 28 250
+[01:36:46.406] CALIBRATION_STEP_PROGRESS pose_011_spread 12 30 250
+[01:36:46.406] CALIBRATION_STEP_PROGRESS pose_011_spread 13 33 250
+[01:36:46.408] CALIBRATION_STEP_PROGRESS pose_011_spread 14 35 250
+[01:36:46.408] CALIBRATION_STEP_PROGRESS pose_011_spread 15 38 250
+[01:36:46.523] CALIBRATION_STEP_PROGRESS pose_011_spread 16 40 250
+[01:36:46.524] CALIBRATION_STEP_PROGRESS pose_011_spread 17 43 250
+[01:36:46.526] CALIBRATION_STEP_PROGRESS pose_011_spread 18 45 250
+[01:36:46.526] CALIBRATION_STEP_PROGRESS pose_011_spread 19 48 250
+[01:36:46.527] CALIBRATION_STEP_PROGRESS pose_011_spread 20 50 250
+[01:36:46.631] CALIBRATION_STEP_PROGRESS pose_011_spread 21 53 250
+[01:36:46.631] CALIBRATION_STEP_PROGRESS pose_011_spread 22 55 250
+[01:36:46.633] CALIBRATION_STEP_PROGRESS pose_011_spread 23 58 250
+[01:36:46.633] CALIBRATION_STEP_PROGRESS pose_011_spread 24 60 250
+[01:36:46.747] CALIBRATION_STEP_PROGRESS pose_011_spread 25 63 250
+[01:36:46.747] CALIBRATION_STEP_PROGRESS pose_011_spread 26 65 250
+[01:36:46.747] CALIBRATION_STEP_PROGRESS pose_011_spread 27 68 250
+[01:36:46.747] CALIBRATION_STEP_PROGRESS pose_011_spread 28 70 250
+[01:36:46.850] CALIBRATION_STEP_PROGRESS pose_011_spread 29 73 250
+[01:36:46.853] CALIBRATION_STEP_PROGRESS pose_011_spread 30 75 250
+[01:36:46.853] CALIBRATION_STEP_PROGRESS pose_011_spread 31 78 250
+[01:36:46.853] CALIBRATION_STEP_PROGRESS pose_011_spread 32 80 250
+[01:36:46.853] CALIBRATION_STEP_PROGRESS pose_011_spread 33 83 250
+[01:36:46.970] CALIBRATION_STEP_PROGRESS pose_011_spread 34 85 250
+[01:36:46.970] CALIBRATION_STEP_PROGRESS pose_011_spread 35 88 250
+[01:36:46.972] CALIBRATION_STEP_PROGRESS pose_011_spread 36 90 250
+[01:36:46.972] CALIBRATION_STEP_PROGRESS pose_011_spread 37 93 250
+[01:36:47.078] CALIBRATION_STEP_PROGRESS pose_011_spread 38 95 250
+[01:36:47.078] CALIBRATION_STEP_PROGRESS pose_011_spread 39 98 250
+[01:36:47.080] CALIBRATION_STEP_PROGRESS pose_011_spread 40 100 250
+[01:36:47.081] CALIBRATION_STEP_PROGRESS pose_011_spread 41 103 250
+[01:36:47.081] CALIBRATION_STEP_PROGRESS pose_011_spread 42 105 250
+[01:36:47.188] CALIBRATION_STEP_PROGRESS pose_011_spread 43 108 250
+[01:36:47.190] CALIBRATION_STEP_PROGRESS pose_011_spread 44 110 250
+[01:36:47.190] CALIBRATION_STEP_PROGRESS pose_011_spread 45 113 250
+[01:36:47.192] CALIBRATION_STEP_PROGRESS pose_011_spread 46 115 250
+[01:36:47.293] CALIBRATION_STEP_PROGRESS pose_011_spread 47 118 250
+[01:36:47.295] CALIBRATION_STEP_PROGRESS pose_011_spread 48 120 250
+[01:36:47.296] CALIBRATION_STEP_PROGRESS pose_011_spread 49 123 250
+[01:36:47.296] CALIBRATION_STEP_PROGRESS pose_011_spread 50 125 250
+[01:36:47.398] CALIBRATION_STEP_PROGRESS pose_011_spread 51 128 250
+[01:36:47.401] CALIBRATION_STEP_PROGRESS pose_011_spread 52 130 250
+[01:36:47.401] CALIBRATION_STEP_PROGRESS pose_011_spread 53 133 250
+[01:36:47.403] CALIBRATION_STEP_PROGRESS pose_011_spread 54 135 250
+[01:36:47.505] CALIBRATION_STEP_PROGRESS pose_011_spread 55 138 250
+[01:36:47.505] CALIBRATION_STEP_PROGRESS pose_011_spread 56 140 250
+[01:36:47.508] CALIBRATION_STEP_PROGRESS pose_011_spread 57 143 250
+[01:36:47.508] CALIBRATION_STEP_PROGRESS pose_011_spread 58 145 250
+[01:36:47.620] CALIBRATION_STEP_PROGRESS pose_011_spread 59 148 250
+[01:36:47.620] CALIBRATION_STEP_PROGRESS pose_011_spread 60 150 250
+[01:36:47.622] CALIBRATION_STEP_PROGRESS pose_011_spread 61 153 250
+[01:36:47.622] CALIBRATION_STEP_PROGRESS pose_011_spread 62 155 250
+[01:36:47.623] CALIBRATION_STEP_PROGRESS pose_011_spread 63 158 250
+[01:36:47.724] CALIBRATION_STEP_PROGRESS pose_011_spread 64 160 250
+[01:36:47.726] CALIBRATION_STEP_PROGRESS pose_011_spread 65 163 250
+[01:36:47.726] CALIBRATION_STEP_PROGRESS pose_011_spread 66 165 250
+[01:36:47.728] CALIBRATION_STEP_PROGRESS pose_011_spread 67 168 250
+[01:36:47.838] CALIBRATION_STEP_PROGRESS pose_011_spread 68 170 250
+[01:36:47.838] CALIBRATION_STEP_PROGRESS pose_011_spread 69 173 250
+[01:36:47.838] CALIBRATION_STEP_PROGRESS pose_011_spread 70 175 250
+[01:36:47.838] CALIBRATION_STEP_PROGRESS pose_011_spread 71 178 250
+[01:36:47.953] CALIBRATION_STEP_PROGRESS pose_011_spread 72 180 250
+[01:36:47.953] CALIBRATION_STEP_PROGRESS pose_011_spread 73 183 250
+[01:36:47.956] CALIBRATION_STEP_PROGRESS pose_011_spread 74 185 250
+[01:36:47.956] CALIBRATION_STEP_PROGRESS pose_011_spread 75 188 250
+[01:36:47.956] CALIBRATION_STEP_PROGRESS pose_011_spread 76 190 250
+[01:36:48.062] CALIBRATION_STEP_PROGRESS pose_011_spread 77 193 250
+[01:36:48.062] CALIBRATION_STEP_PROGRESS pose_011_spread 78 195 250
+[01:36:48.064] CALIBRATION_STEP_PROGRESS pose_011_spread 79 198 250
+[01:36:48.064] CALIBRATION_STEP_PROGRESS pose_011_spread 80 200 250
+[01:36:48.066] CALIBRATION_STEP_PROGRESS pose_011_spread 81 203 250
+[01:36:48.176] CALIBRATION_STEP_PROGRESS pose_011_spread 82 205 250
+[01:36:48.177] CALIBRATION_STEP_PROGRESS pose_011_spread 83 208 250
+[01:36:48.177] CALIBRATION_STEP_PROGRESS pose_011_spread 84 210 250
+[01:36:48.179] CALIBRATION_STEP_PROGRESS pose_011_spread 85 213 250
+[01:36:48.287] CALIBRATION_STEP_PROGRESS pose_011_spread 86 215 250
+[01:36:48.288] CALIBRATION_STEP_PROGRESS pose_011_spread 87 218 250
+[01:36:48.289] CALIBRATION_STEP_PROGRESS pose_011_spread 88 220 250
+[01:36:48.290] CALIBRATION_STEP_PROGRESS pose_011_spread 89 223 250
+[01:36:48.291] CALIBRATION_STEP_PROGRESS pose_011_spread 90 225 250
+[01:36:48.399] CALIBRATION_STEP_PROGRESS pose_011_spread 91 228 250
+[01:36:48.400] CALIBRATION_STEP_PROGRESS pose_011_spread 92 230 250
+[01:36:48.402] CALIBRATION_STEP_PROGRESS pose_011_spread 93 233 250
+[01:36:48.402] CALIBRATION_STEP_PROGRESS pose_011_spread 94 235 250
+[01:36:48.510] CALIBRATION_STEP_PROGRESS pose_011_spread 95 238 250
+[01:36:48.512] CALIBRATION_STEP_PROGRESS pose_011_spread 96 240 250
+[01:36:48.512] CALIBRATION_STEP_PROGRESS pose_011_spread 97 243 250
+[01:36:48.514] CALIBRATION_STEP_PROGRESS pose_011_spread 98 245 250
+[01:36:48.628] CALIBRATION_STEP_PROGRESS pose_011_spread 99 248 250
+[01:36:48.630] CALIBRATION_STEP_PROGRESS pose_011_spread 100 250 250
+[01:36:48.630] CALIBRATION_STEP_REVIEW pose_011_spread The new correction is active in the live viewer. Compare it with the reference picture, then accept/next or redo this pose.
+[01:36:50.318] CALIBRATION_REFERENCE_IMAGE {"path": "C:\\Users\\ceron\\Downloads\\Year 4\\Skripsie\\Main\\Glove\\live_tracking\\.pose_calibration_images\\pose_012_refrence.ppm", "label": "Refrence"}
+[01:36:50.367] CALIBRATION_STEP_READY pose_012_refrence 2.5 Match the pictured pose: Refrence. Hold it comfortably still, then start the capture.
+[01:36:50.371] CALIBRATION_CAN_GO_BACK
+[01:36:54.436] CALIBRATION_STEP_PROGRESS pose_012_refrence 0 1 250
+[01:36:54.439] CALIBRATION_STEP_PROGRESS pose_012_refrence 1 3 250
+[01:36:54.441] CALIBRATION_STEP_PROGRESS pose_012_refrence 2 5 250
+[01:36:54.441] CALIBRATION_STEP_PROGRESS pose_012_refrence 3 8 250
+[01:36:54.558] CALIBRATION_STEP_PROGRESS pose_012_refrence 4 10 250
+[01:36:54.559] CALIBRATION_STEP_PROGRESS pose_012_refrence 5 13 250
+[01:36:54.561] CALIBRATION_STEP_PROGRESS pose_012_refrence 6 15 250
+[01:36:54.561] CALIBRATION_STEP_PROGRESS pose_012_refrence 7 18 250
+[01:36:54.561] CALIBRATION_STEP_PROGRESS pose_012_refrence 8 20 250
+[01:36:54.668] CALIBRATION_STEP_PROGRESS pose_012_refrence 9 23 250
+[01:36:54.669] CALIBRATION_STEP_PROGRESS pose_012_refrence 10 25 250
+[01:36:54.670] CALIBRATION_STEP_PROGRESS pose_012_refrence 11 28 250
+[01:36:54.670] CALIBRATION_STEP_PROGRESS pose_012_refrence 12 30 250
+[01:36:54.777] CALIBRATION_STEP_PROGRESS pose_012_refrence 13 33 250
+[01:36:54.779] CALIBRATION_STEP_PROGRESS pose_012_refrence 14 35 250
+[01:36:54.779] CALIBRATION_STEP_PROGRESS pose_012_refrence 15 38 250
+[01:36:54.781] CALIBRATION_STEP_PROGRESS pose_012_refrence 16 40 250
+[01:36:54.884] CALIBRATION_STEP_PROGRESS pose_012_refrence 17 43 250
+[01:36:54.887] CALIBRATION_STEP_PROGRESS pose_012_refrence 18 45 250
+[01:36:54.887] CALIBRATION_STEP_PROGRESS pose_012_refrence 19 48 250
+[01:36:54.889] CALIBRATION_STEP_PROGRESS pose_012_refrence 20 50 250
+[01:36:55.006] CALIBRATION_STEP_PROGRESS pose_012_refrence 21 53 250
+[01:36:55.009] CALIBRATION_STEP_PROGRESS pose_012_refrence 22 55 250
+[01:36:55.009] CALIBRATION_STEP_PROGRESS pose_012_refrence 23 58 250
+[01:36:55.009] CALIBRATION_STEP_PROGRESS pose_012_refrence 24 60 250
+[01:36:55.116] CALIBRATION_STEP_PROGRESS pose_012_refrence 25 63 250
+[01:36:55.117] CALIBRATION_STEP_PROGRESS pose_012_refrence 26 65 250
+[01:36:55.117] CALIBRATION_STEP_PROGRESS pose_012_refrence 27 68 250
+[01:36:55.118] CALIBRATION_STEP_PROGRESS pose_012_refrence 28 70 250
+[01:36:55.118] CALIBRATION_STEP_PROGRESS pose_012_refrence 29 73 250
+[01:36:55.227] CALIBRATION_STEP_PROGRESS pose_012_refrence 30 75 250
+[01:36:55.227] CALIBRATION_STEP_PROGRESS pose_012_refrence 31 78 250
+[01:36:55.229] CALIBRATION_STEP_PROGRESS pose_012_refrence 32 80 250
+[01:36:55.230] CALIBRATION_STEP_PROGRESS pose_012_refrence 33 83 250
+[01:36:55.336] CALIBRATION_STEP_PROGRESS pose_012_refrence 34 85 250
+[01:36:55.337] CALIBRATION_STEP_PROGRESS pose_012_refrence 35 88 250
+[01:36:55.337] CALIBRATION_STEP_PROGRESS pose_012_refrence 36 90 250
+[01:36:55.337] CALIBRATION_STEP_PROGRESS pose_012_refrence 37 93 250
+[01:36:55.339] CALIBRATION_STEP_PROGRESS pose_012_refrence 38 95 250
+[01:36:55.449] CALIBRATION_STEP_PROGRESS pose_012_refrence 39 98 250
+[01:36:55.451] CALIBRATION_STEP_PROGRESS pose_012_refrence 40 100 250
+[01:36:55.451] CALIBRATION_STEP_PROGRESS pose_012_refrence 41 103 250
+[01:36:55.451] CALIBRATION_STEP_PROGRESS pose_012_refrence 42 105 250
+[01:36:55.554] CALIBRATION_STEP_PROGRESS pose_012_refrence 43 108 250
+[01:36:55.555] CALIBRATION_STEP_PROGRESS pose_012_refrence 44 110 250
+[01:36:55.555] CALIBRATION_STEP_PROGRESS pose_012_refrence 45 113 250
+[01:36:55.557] CALIBRATION_STEP_PROGRESS pose_012_refrence 46 115 250
+[01:36:55.557] CALIBRATION_STEP_PROGRESS pose_012_refrence 47 118 250
+[01:36:55.666] CALIBRATION_STEP_PROGRESS pose_012_refrence 48 120 250
+[01:36:55.666] CALIBRATION_STEP_PROGRESS pose_012_refrence 49 123 250
+[01:36:55.666] CALIBRATION_STEP_PROGRESS pose_012_refrence 50 125 250
+[01:36:55.666] CALIBRATION_STEP_PROGRESS pose_012_refrence 51 128 250
+[01:36:55.771] CALIBRATION_STEP_PROGRESS pose_012_refrence 52 130 250
+[01:36:55.772] CALIBRATION_STEP_PROGRESS pose_012_refrence 53 133 250
+[01:36:55.774] CALIBRATION_STEP_PROGRESS pose_012_refrence 54 135 250
+[01:36:55.776] CALIBRATION_STEP_PROGRESS pose_012_refrence 55 138 250
+[01:36:55.888] CALIBRATION_STEP_PROGRESS pose_012_refrence 56 140 250
+[01:36:55.889] CALIBRATION_STEP_PROGRESS pose_012_refrence 57 143 250
+[01:36:55.890] CALIBRATION_STEP_PROGRESS pose_012_refrence 58 145 250
+[01:36:55.890] CALIBRATION_STEP_PROGRESS pose_012_refrence 59 148 250
+[01:36:55.996] CALIBRATION_STEP_PROGRESS pose_012_refrence 60 150 250
+[01:36:55.996] CALIBRATION_STEP_PROGRESS pose_012_refrence 61 153 250
+[01:36:55.998] CALIBRATION_STEP_PROGRESS pose_012_refrence 62 155 250
+[01:36:56.000] CALIBRATION_STEP_PROGRESS pose_012_refrence 63 158 250
+[01:36:56.106] CALIBRATION_STEP_PROGRESS pose_012_refrence 64 160 250
+[01:36:56.107] CALIBRATION_STEP_PROGRESS pose_012_refrence 65 163 250
+[01:36:56.107] CALIBRATION_STEP_PROGRESS pose_012_refrence 66 165 250
+[01:36:56.111] CALIBRATION_STEP_PROGRESS pose_012_refrence 67 168 250
+[01:36:56.111] CALIBRATION_STEP_PROGRESS pose_012_refrence 68 170 250
+[01:36:56.223] CALIBRATION_STEP_PROGRESS pose_012_refrence 69 173 250
+[01:36:56.223] CALIBRATION_STEP_PROGRESS pose_012_refrence 70 175 250
+[01:36:56.225] CALIBRATION_STEP_PROGRESS pose_012_refrence 71 178 250
+[01:36:56.328] CALIBRATION_STEP_PROGRESS pose_012_refrence 72 180 250
+[01:36:56.329] CALIBRATION_STEP_PROGRESS pose_012_refrence 73 183 250
+[01:36:56.331] CALIBRATION_STEP_PROGRESS pose_012_refrence 74 185 250
+[01:36:56.331] CALIBRATION_STEP_PROGRESS pose_012_refrence 75 188 250
+[01:36:56.445] CALIBRATION_STEP_PROGRESS pose_012_refrence 76 190 250
+[01:36:56.445] CALIBRATION_STEP_PROGRESS pose_012_refrence 77 193 250
+[01:36:56.447] CALIBRATION_STEP_PROGRESS pose_012_refrence 78 195 250
+[01:36:56.448] CALIBRATION_STEP_PROGRESS pose_012_refrence 79 198 250
+[01:36:56.450] CALIBRATION_STEP_PROGRESS pose_012_refrence 80 200 250
+[01:36:56.556] CALIBRATION_STEP_PROGRESS pose_012_refrence 81 203 250
+[01:36:56.557] CALIBRATION_STEP_PROGRESS pose_012_refrence 82 205 250
+[01:36:56.557] CALIBRATION_STEP_PROGRESS pose_012_refrence 83 208 250
+[01:36:56.557] CALIBRATION_STEP_PROGRESS pose_012_refrence 84 210 250
+[01:36:56.663] CALIBRATION_STEP_PROGRESS pose_012_refrence 85 213 250
+[01:36:56.664] CALIBRATION_STEP_PROGRESS pose_012_refrence 86 215 250
+[01:36:56.665] CALIBRATION_STEP_PROGRESS pose_012_refrence 87 218 250
+[01:36:56.665] CALIBRATION_STEP_PROGRESS pose_012_refrence 88 220 250
+[01:36:56.667] CALIBRATION_STEP_PROGRESS pose_012_refrence 89 223 250
+[01:36:56.773] CALIBRATION_STEP_PROGRESS pose_012_refrence 90 225 250
+[01:36:56.773] CALIBRATION_STEP_PROGRESS pose_012_refrence 91 228 250
+[01:36:56.775] CALIBRATION_STEP_PROGRESS pose_012_refrence 92 230 250
+[01:36:56.776] CALIBRATION_STEP_PROGRESS pose_012_refrence 93 233 250
+[01:36:56.882] CALIBRATION_STEP_PROGRESS pose_012_refrence 94 235 250
+[01:36:56.882] CALIBRATION_STEP_PROGRESS pose_012_refrence 95 238 250
+[01:36:56.884] CALIBRATION_STEP_PROGRESS pose_012_refrence 96 240 250
+[01:36:56.884] CALIBRATION_STEP_PROGRESS pose_012_refrence 97 243 250
+[01:36:56.989] CALIBRATION_STEP_PROGRESS pose_012_refrence 98 245 250
+[01:36:56.991] CALIBRATION_STEP_PROGRESS pose_012_refrence 99 248 250
+[01:36:56.992] CALIBRATION_STEP_PROGRESS pose_012_refrence 100 250 250
+[01:36:57.096] CALIBRATION_STEP_REVIEW pose_012_refrence The new correction is active in the live viewer. Compare it with the reference picture, then accept/next or redo this pose.
+[01:36:58.346] CALIBRATION_MAPPING_WARNING Sensor-to-segment fit exceeds 12 degrees for: imu_thumb_cmc, imu_thumb_prox, imu_thumb_dist, imu_index_dist, imu_middle_dist, imu_ring_mid, imu_ring_dist, imu_pinky_mid, imu_pinky_dist
+[01:36:58.348] CALIBRATION_MAPPING_WARNING Palm/Wrist WARN — roll 1.4° LOW, pitch 1.6° LOW, yaw 0.1° LOW; fit RMS wrist 3.4°, palm 4.9°, joints 2.2°.
+[01:36:58.351] CALIBRATION_STAGE1_FINAL_REVIEW 9 strict qpos poses fitted. Inspect the live viewer, then save.
+[01:37:28.447] CALIBRATION_ERROR NameError: name 'relative_from_site_quaternions' is not defined
+[01:37:28.450] Traceback (most recent call last):
+[01:37:28.452]   File "C:\Users\ceron\Downloads\Year 4\Skripsie\Main\Glove\live_tracking\calibration\Pose_Snapshot_Calibration.py", line 411, in <module>
+[01:37:28.455]     try: run(arguments.snapshots.resolve(), arguments.duration, arguments.gain, arguments.use_gyro_bias)
+[01:37:28.457]          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[01:37:28.460]   File "C:\Users\ceron\Downloads\Year 4\Skripsie\Main\Glove\live_tracking\calibration\Pose_Snapshot_Calibration.py", line 397, in run
+[01:37:28.462]     save_result(calibration, targets, measured_by_code, mapping, snapshot_file)
+[01:37:28.462]   File "C:\Users\ceron\Downloads\Year 4\Skripsie\Main\Glove\live_tracking\calibration\Pose_Snapshot_Calibration.py", line 337, in save_result
+[01:37:28.464]     paired.append({"code": target["code"], "label": target["label"], "target_qpos": target["qpos"].tolist(), "target_wrist_world_qpos": target["wrist_world_qpos"].tolist(), "target_wrist_world_quat": target["wrist_world_quat"].tolist(), "target_world_quat": target["world_quat"].tolist(), "target_relative_quat": None if target["relative_quat"] is None else target["relative_quat"].tolist(), "measured_qpos": measured_qpos, "live_filter_quat": None if measurement is None else measurement["live_filter_quat"].tolist(), "aligned_site_quat": None if aligned is None else aligned.tolist(), "measured_relative_quat": None if aligned is None else relative_from_site_quaternions(aligned).tolist(), "hold_dispersion_deg": None if measurement is None else measurement["hold_dispersion_deg"].tolist(), "mean_accel_m_s2": None if measurement is None else measurement["mean_accel_m_s2"].tolist(), "mean_gyro_rad_s": None if measurement is None else measurement["mean_gyro_rad_s"].tolist()})
+[01:37:28.469]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[01:37:28.472] NameError: name 'relative_from_site_quaternions' is not defined. Did you mean: 'qpos_from_site_quaternions'?
+[01:37:32.881] CALIBRATION_SELECTED_FOR_TRACKING C:\Users\ceron\Downloads\Year 4\Skripsie\Main\Glove\calibrations\Calibration_2026-10-19_01-01-48.json
+[01:37:33.027] FULL_RECORDING_STARTED C:\Users\ceron\Downloads\Year 4\Skripsie\Main\Glove\recordings\dashboard_full\Session_20261019_013732; area=1920x1008+0+23
+[01:37:33.583] Started camera display on cameras [0, 3].
+[01:37:34.274] Started calibrated Madgwick tracking and live HDF5 recording.
+[01:37:37.245] CALIBRATION_LOADED C:\Users\ceron\Downloads\Year 4\Skripsie\Main\Glove\live_tracking\live_imu_calibration.json Gyro bias correction enabled. Mode calibrated.
+[01:37:37.248] Live Madgwick tracking started with gain 0.1. Wrist-to-world tracking is active. Recording to C:\Users\ceron\Downloads\Year 4\Skripsie\Main\Glove\recordings\dashboard_full\Session_20261019_013732\Live_IMU_20261019_013737.h5
+[01:37:38.100] MUJOCO_HWND 855290
+[01:37:38.467] Serial waiting for MainBoard serial | last frame none | queued 0 | overruns 0 | gaps 0 | invalid 0
+[01:37:39.130] INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+[01:37:39.132] WARNING: Logging before InitGoogle() is written to STDERR
+[01:37:39.135] W0000 00:00:1792366659.098663   32064 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[01:37:39.137] Serial waiting for MainBoard serial | last frame none | queued 0 | overruns 0 | gaps 0 | invalid 0
+[01:37:39.141] W0000 00:00:1792366659.123094   29892 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[01:37:39.257] W0000 00:00:1792366659.171490   31328 landmark_projection_calculator.cc:81] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+[01:37:39.261] MEDIAPIPE_HWND 1 1182814
+[01:37:39.729] MainBoard serial connected on COM14 at 921600 baud
+[01:37:40.163] INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+[01:37:40.166] WARNING: Logging before InitGoogle() is written to STDERR
+[01:37:40.168] W0000 00:00:1792366660.164454   20544 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[01:37:40.273] W0000 00:00:1792366660.190738   32156 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[01:37:40.276] W0000 00:00:1792366660.239640   32156 landmark_projection_calculator.cc:81] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+[01:37:40.278] MEDIAPIPE_HWND 0 527796
+[01:37:41.003] Serial connected on COM14 | last frame 256069 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:37:41.005] IMU_HEALTH imu_wrist GOOD 0 0 0 00 00 00 00
+[01:37:41.005] IMU_HEALTH imu_palm GOOD 0 0 0 00 00 00 00
+[01:37:41.007] IMU_HEALTH imu_thumb_cmc GOOD 0 0 0 00 00 00 00
+[01:37:41.007] IMU_HEALTH imu_thumb_prox GOOD 0 0 0 00 00 00 00
+[01:37:41.007] IMU_HEALTH imu_thumb_dist GOOD 0 0 0 00 00 00 00
+[01:37:41.008] IMU_HEALTH imu_index_prox GOOD 0 0 0 00 00 00 00
+[01:37:41.008] IMU_HEALTH imu_index_mid GOOD 0 0 0 00 00 00 00
+[01:37:41.008] IMU_HEALTH imu_index_dist GOOD 0 0 0 00 00 00 00
+[01:37:41.009] IMU_HEALTH imu_middle_prox GOOD 0 0 0 00 00 00 00
+[01:37:41.009] IMU_HEALTH imu_middle_mid GOOD 0 0 0 00 00 00 00
+[01:37:41.010] IMU_HEALTH imu_middle_dist GOOD 0 0 0 00 00 00 00
+[01:37:41.010] IMU_HEALTH imu_ring_prox GOOD 0 0 0 00 00 00 00
+[01:37:41.010] IMU_HEALTH imu_ring_mid GOOD 0 0 0 00 00 00 00
+[01:37:41.010] IMU_HEALTH imu_ring_dist GOOD 0 0 0 00 00 00 00
+[01:37:41.011] IMU_HEALTH imu_pinky_prox GOOD 0 0 0 00 00 00 00
+[01:37:41.011] IMU_HEALTH imu_pinky_mid GOOD 0 0 0 00 00 00 00
+[01:37:41.011] IMU_HEALTH imu_pinky_dist GOOD 0 0 0 00 00 00 00
+[01:37:41.987] Serial connected on COM14 | last frame 256170 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:37:42.971] Serial connected on COM14 | last frame 256271 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:37:43.956] Serial connected on COM14 | last frame 256373 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:37:45.056] Serial connected on COM14 | last frame 256475 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:37:46.044] Serial connected on COM14 | last frame 256575 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:37:47.027] Serial connected on COM14 | last frame 256676 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:37:48.013] Serial connected on COM14 | last frame 256778 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:37:49.212] Serial connected on COM14 | last frame 256889 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:37:50.198] Serial connected on COM14 | last frame 256990 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:37:51.183] Serial connected on COM14 | last frame 257090 | queued 0 | overruns 0 | gaps 0 | invalid 0
+[01:37:52.168] Serial connected on COM14 | last frame 257190 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:37:53.153] Serial connected on COM14 | last frame 257291 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:37:54.233] Serial connected on COM14 | last frame 257393 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:37:55.214] Serial connected on COM14 | last frame 257492 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:37:56.193] Serial connected on COM14 | last frame 257592 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:37:57.287] Serial connected on COM14 | last frame 257698 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:37:58.272] Serial connected on COM14 | last frame 257802 | queued 0 | overruns 0 | gaps 0 | invalid 0
+[01:37:59.254] Serial connected on COM14 | last frame 257903 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:38:00.344] Serial connected on COM14 | last frame 258004 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:38:01.326] Serial connected on COM14 | last frame 258109 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:38:02.746] Serial connected on COM14 | last frame 258243 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:38:03.728] Serial connected on COM14 | last frame 258342 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:38:04.710] Serial connected on COM14 | last frame 258442 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:38:05.700] Serial connected on COM14 | last frame 258542 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:38:06.688] Serial connected on COM14 | last frame 258643 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:38:07.781] Serial connected on COM14 | last frame 258750 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:38:08.868] Serial connected on COM14 | last frame 258860 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:38:09.849] Serial connected on COM14 | last frame 258962 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:38:10.941] Serial connected on COM14 | last frame 259063 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:38:11.925] Serial connected on COM14 | last frame 259164 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:38:13.018] Serial connected on COM14 | last frame 259270 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:38:14.007] Serial connected on COM14 | last frame 259370 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:38:14.991] Serial connected on COM14 | last frame 259470 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:38:15.972] Serial connected on COM14 | last frame 259571 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:38:17.057] Serial connected on COM14 | last frame 259677 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:38:18.181] Serial connected on COM14 | last frame 259782 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:38:18.226] Stopped camera display.
+[01:38:19.585] FULL_RECORDING_STOPPED C:\Users\ceron\Downloads\Year 4\Skripsie\Main\Glove\recordings\dashboard_full\Session_20261019_013732
+[01:38:19.585] Stopped.
+[01:38:20.483] Stopped.

@@ -1,0 +1,17 @@
+[01:18:15.721] DASHBOARD_LOG_FILE C:\Users\ceron\Downloads\Year 4\Skripsie\Main\Glove\dashboard_logs\Dashboard_20261019_011815.log
+[01:18:17.700] STARTUP_IMU_CHECK PASS 17/17 IMUs configured and streaming.
+[01:18:29.657] CALIBRATION_PLAN [{"code": "stationary", "name": "Stationary bias and gravity hold"}, {"code": "pose_001_refrence", "name": "Refrence"}, {"code": "pose_002_fist_1", "name": "Fist_1"}, {"code": "pose_003_refrence", "name": "Refrence"}, {"code": "pose_004_fist_2", "name": "Fist_2"}, {"code": "pose_005_thumb_1", "name": "Thumb_1"}, {"code": "pose_006_thumb_2", "name": "Thumb_2"}, {"code": "pose_007_thumb_3", "name": "THumb_3"}, {"code": "pose_008_thumb_4", "name": "Thumb_4"}, {"code": "pose_009_refrence", "name": "Refrence"}, {"code": "pose_010_flex_1", "name": "flex_1"}, {"code": "pose_011_spread", "name": "Spread"}, {"code": "pose_012_refrence", "name": "Refrence"}]
+[01:18:29.659] CALIBRATION_REDO_OPTIONS {"Stationary bias/gravity hold": "stationary", "1. Refrence": "pose_001_refrence", "2. Fist_1": "pose_002_fist_1", "3. Refrence": "pose_003_refrence", "4. Fist_2": "pose_004_fist_2", "5. Thumb_1": "pose_005_thumb_1", "6. Thumb_2": "pose_006_thumb_2", "7. THumb_3": "pose_007_thumb_3", "8. Thumb_4": "pose_008_thumb_4", "9. Refrence": "pose_009_refrence", "10. flex_1": "pose_010_flex_1", "11. Spread": "pose_011_spread", "12. Refrence": "pose_012_refrence"}
+[01:18:29.662] CALIBRATION_STAGE1_BEGIN Strict reference and first-pose qpos calibration.
+[01:18:30.505] MUJOCO_HWND 527554
+[01:18:30.511] CALIBRATION_PREVIEW_RECORDING C:\Users\ceron\Downloads\Year 4\Skripsie\Main\Glove\recordings\Live_IMU_20261019_011830.h5
+[01:18:32.533] CALIBRATION_ERROR NameError: name 'emit_reference' is not defined
+[01:18:32.534] Traceback (most recent call last):
+[01:18:32.539]   File "C:\Users\ceron\Downloads\Year 4\Skripsie\Main\Glove\live_tracking\calibration\Pose_Snapshot_Calibration.py", line 387, in <module>
+[01:18:32.541]     try: run(arguments.snapshots.resolve(), arguments.duration, arguments.gain, arguments.use_gyro_bias)
+[01:18:32.541]          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[01:18:32.543]   File "C:\Users\ceron\Downloads\Year 4\Skripsie\Main\Glove\live_tracking\calibration\Pose_Snapshot_Calibration.py", line 343, in run
+[01:18:32.544]     emit_reference(reference_target(targets))
+[01:18:32.544]     ^^^^^^^^^^^^^^
+[01:18:32.546] NameError: name 'emit_reference' is not defined
+[01:18:46.750] Stopped.
