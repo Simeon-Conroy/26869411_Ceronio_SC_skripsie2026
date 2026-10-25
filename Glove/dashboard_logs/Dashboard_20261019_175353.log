@@ -1,0 +1,17 @@
+[17:53:53.877] DASHBOARD_LOG_FILE C:\Users\ceron\Downloads\Year 4\Skripsie\Main\Glove\dashboard_logs\Dashboard_20261019_175353.log
+[17:54:01.067] Started camera display on cameras [0, 3].
+[17:54:05.662] INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+[17:54:05.662] WARNING: Logging before InitGoogle() is written to STDERR
+[17:54:05.662] W0000 00:00:1792425245.638070   38560 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[17:54:05.662] W0000 00:00:1792425245.654651   31964 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[17:54:05.771] W0000 00:00:1792425245.721280   38560 landmark_projection_calculator.cc:81] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+[17:54:05.773] MEDIAPIPE_HWND 1 5246060
+[17:54:06.176] STARTUP_IMU_CHECK NO_DATA No MainBoard COM port with IMU1 packets found. Set MAINBOARD_SERIAL_PORT=COMx if needed.
+[17:54:07.461] INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+[17:54:07.464] WARNING: Logging before InitGoogle() is written to STDERR
+[17:54:07.464] W0000 00:00:1792425246.329384   36204 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[17:54:07.467] W0000 00:00:1792425246.350368   15704 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[17:54:07.467] W0000 00:00:1792425246.398633   36152 landmark_projection_calculator.cc:81] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+[17:54:07.469] MEDIAPIPE_HWND 0 1445594
+[18:06:01.398] Stopped camera display.
+[18:06:01.405] Stopped.

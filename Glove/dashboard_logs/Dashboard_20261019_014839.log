@@ -1,0 +1,91 @@
+[01:48:39.999] DASHBOARD_LOG_FILE C:\Users\ceron\Downloads\Year 4\Skripsie\Main\Glove\dashboard_logs\Dashboard_20261019_014839.log
+[01:48:41.991] STARTUP_IMU_CHECK PASS 17/17 IMUs configured and streaming.
+[01:48:49.150] CALIBRATION_SELECTED_FOR_TRACKING C:\Users\ceron\Downloads\Year 4\Skripsie\Main\Glove\calibrations\Calibration_2026-10-19_01-43-16.json
+[01:48:49.328] FULL_RECORDING_STARTED C:\Users\ceron\Downloads\Year 4\Skripsie\Main\Glove\recordings\dashboard_full\Session_20261019_014849; area=1920x1008+0+23
+[01:48:49.871] Started camera display on cameras [0, 3].
+[01:48:50.573] Started calibrated Madgwick tracking and live HDF5 recording.
+[01:48:53.585] CALIBRATION_LOADED C:\Users\ceron\Downloads\Year 4\Skripsie\Main\Glove\live_tracking\live_imu_calibration.json Gyro bias correction enabled. Mode calibrated.
+[01:48:53.587] Live Madgwick tracking started with gain 0.1. Wrist-to-world tracking is active. Recording to C:\Users\ceron\Downloads\Year 4\Skripsie\Main\Glove\recordings\dashboard_full\Session_20261019_014849\Live_IMU_20261019_014853.h5
+[01:48:54.553] MUJOCO_HWND 8522616
+[01:48:54.856] Serial waiting for MainBoard serial | last frame none | queued 0 | overruns 0 | gaps 0 | invalid 0
+[01:48:55.415] INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+[01:48:55.522] WARNING: Logging before InitGoogle() is written to STDERR
+[01:48:55.524] W0000 00:00:1792367335.425546   17096 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[01:48:55.535] W0000 00:00:1792367335.446655   20100 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[01:48:55.538] W0000 00:00:1792367335.499942    2428 landmark_projection_calculator.cc:81] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+[01:48:55.542] MEDIAPIPE_HWND 1 1379708
+[01:48:55.768] Serial waiting for MainBoard serial | last frame none | queued 0 | overruns 0 | gaps 0 | invalid 0
+[01:48:55.888] MainBoard serial connected on COM14 at 921600 baud
+[01:48:56.417] INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+[01:48:56.419] WARNING: Logging before InitGoogle() is written to STDERR
+[01:48:56.425] W0000 00:00:1792367336.354997   21404 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[01:48:56.428] W0000 00:00:1792367336.379509   16344 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[01:48:56.542] W0000 00:00:1792367336.430884   27588 landmark_projection_calculator.cc:81] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+[01:48:56.545] MEDIAPIPE_HWND 0 1379384
+[01:48:57.166] Serial connected on COM14 | last frame 323641 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:48:57.175] IMU_HEALTH imu_wrist GOOD 0 0 0 00 00 00 00
+[01:48:57.175] IMU_HEALTH imu_palm GOOD 0 0 0 00 00 00 00
+[01:48:57.176] IMU_HEALTH imu_thumb_cmc GOOD 0 0 0 00 00 00 00
+[01:48:57.176] IMU_HEALTH imu_thumb_prox GOOD 0 0 0 00 00 00 00
+[01:48:57.176] IMU_HEALTH imu_thumb_dist GOOD 0 0 0 00 00 00 00
+[01:48:57.177] IMU_HEALTH imu_index_prox GOOD 0 0 0 00 00 00 00
+[01:48:57.177] IMU_HEALTH imu_index_mid GOOD 0 0 0 00 00 00 00
+[01:48:57.177] IMU_HEALTH imu_index_dist GOOD 0 0 0 00 00 00 00
+[01:48:57.177] IMU_HEALTH imu_middle_prox GOOD 0 0 0 00 00 00 00
+[01:48:57.178] IMU_HEALTH imu_middle_mid GOOD 0 0 0 00 00 00 00
+[01:48:57.180] IMU_HEALTH imu_middle_dist GOOD 0 0 0 00 00 00 00
+[01:48:57.180] IMU_HEALTH imu_ring_prox GOOD 0 0 0 00 00 00 00
+[01:48:57.181] IMU_HEALTH imu_ring_mid GOOD 0 0 0 00 00 00 00
+[01:48:57.181] IMU_HEALTH imu_ring_dist GOOD 0 0 0 00 00 00 00
+[01:48:57.182] IMU_HEALTH imu_pinky_prox GOOD 0 0 0 00 00 00 00
+[01:48:57.182] IMU_HEALTH imu_pinky_mid GOOD 0 0 0 00 00 00 00
+[01:48:57.182] IMU_HEALTH imu_pinky_dist GOOD 0 0 0 00 00 00 00
+[01:48:57.727] Serial connected on COM14 | last frame 323743 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:48:58.711] Serial connected on COM14 | last frame 323847 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:48:59.796] Serial connected on COM14 | last frame 323955 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:00.893] Serial connected on COM14 | last frame 324055 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:01.874] Serial connected on COM14 | last frame 324154 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:02.844] Serial connected on COM14 | last frame 324257 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:03.931] Serial connected on COM14 | last frame 324365 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:04.916] Serial connected on COM14 | last frame 324465 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:06.007] Serial connected on COM14 | last frame 324567 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:06.986] Serial connected on COM14 | last frame 324669 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:07.973] Serial connected on COM14 | last frame 324769 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:08.956] Serial connected on COM14 | last frame 324869 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:10.053] Serial connected on COM14 | last frame 324971 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:11.037] Serial connected on COM14 | last frame 325073 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:12.023] Serial connected on COM14 | last frame 325173 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:13.004] Serial connected on COM14 | last frame 325274 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:13.989] Serial connected on COM14 | last frame 325373 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:15.079] Serial connected on COM14 | last frame 325475 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:16.062] Serial connected on COM14 | last frame 325577 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:17.042] Serial connected on COM14 | last frame 325679 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:18.138] Serial connected on COM14 | last frame 325784 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:19.121] Serial connected on COM14 | last frame 325885 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:20.108] Serial connected on COM14 | last frame 325987 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:21.198] Serial connected on COM14 | last frame 326090 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:22.189] Serial connected on COM14 | last frame 326191 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:23.283] Serial connected on COM14 | last frame 326294 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:24.264] Serial connected on COM14 | last frame 326393 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:25.432] Serial connected on COM14 | last frame 326517 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:26.497] Serial connected on COM14 | last frame 326620 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:27.464] Serial connected on COM14 | last frame 326721 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:28.560] Serial connected on COM14 | last frame 326826 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:29.544] Serial connected on COM14 | last frame 326926 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:30.529] Serial connected on COM14 | last frame 327026 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:31.621] Serial connected on COM14 | last frame 327130 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:32.607] Serial connected on COM14 | last frame 327229 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:33.587] Serial connected on COM14 | last frame 327333 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:34.681] Serial connected on COM14 | last frame 327435 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:35.667] Serial connected on COM14 | last frame 327538 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:36.643] Serial connected on COM14 | last frame 327638 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:37.632] Serial connected on COM14 | last frame 327739 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:38.726] Serial connected on COM14 | last frame 327839 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:39.711] Serial connected on COM14 | last frame 327940 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:40.692] Serial connected on COM14 | last frame 328045 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:41.792] Serial connected on COM14 | last frame 328148 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:42.768] Serial connected on COM14 | last frame 328249 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:43.752] Serial connected on COM14 | last frame 328351 | queued 1 | overruns 0 | gaps 0 | invalid 0
+[01:49:44.586] FULL_RECORDING_STOPPED C:\Users\ceron\Downloads\Year 4\Skripsie\Main\Glove\recordings\dashboard_full\Session_20261019_014849
+[01:49:44.627] Stopped camera display.
+[01:49:45.385] Stopped.
