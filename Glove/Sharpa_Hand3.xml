@@ -1,0 +1,522 @@
+<!--
+  Based on wave_01/right_sharpa_wave/right_sharpa_wave_with_wrist.xml.
+  Licensed under the Apache License, Version 2.0.
+  Modified by Ceronio in 2026.
+-->
+<mujoco model="Skripsie_Hand">
+  <compiler angle="radian" meshdir="assets/right/"/>
+  <option impratio="10" integrator="implicitfast" cone="elliptic"/>
+  <option gravity="0 0 -9.81"/>
+  <visual>
+    <headlight diffuse="0.72 0.78 0.82" ambient="0.22 0.28 0.34" specular="0.25 0.25 0.25"/>
+    <rgba haze="0.035 0.075 0.105 1"/>
+    <global azimuth="135" elevation="-24"/>
+  </visual>
+
+  <default>
+    <default class="sharpa">
+      <general biastype="affine" biasprm="0 -1"/>
+      <default class="visual">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" density="0" material="silver"/>
+        <default class="elastomer_visual">
+          <geom material="green"/>
+        </default>
+       
+      </default>
+      <default class="collision">
+        <geom type="mesh" group="3" solref="0.01" rgba="0.000 1.000 1.000 0.70"/>
+        <default class="elastomer_collision">
+          <geom solref="0.06 0.9"/>
+        </default>
+      </default>
+      
+      <default class="CMC_joint">
+        <joint actuatorfrcrange="-3.3 3.3" armature="0.0032" damping="4.2e-05" frictionloss="0.132"/>
+      </default>
+      <default class="PCMC_joint">
+        <joint actuatorfrcrange="-0.5285 0.5285" armature="0.00012" damping="4.2e-05" frictionloss="0.012"/>
+      </default>
+      <default class="MCP_joint">
+        <joint actuatorfrcrange="-1.864 1.864" armature="0.00265" damping="2.38e-05" frictionloss="0.07456"/>
+      </default>
+      <default class="PIP_joint">
+        <joint actuatorfrcrange="-0.638 0.638" armature="0.0006" damping="4.06e-06" frictionloss="0.01276"/>
+      </default>
+      <default class="DIP_joint">
+        <joint actuatorfrcrange="-0.189369 0.189369" armature="0.00042" damping="1.21e-06" frictionloss="0.00378738"/>
+      </default>
+      <default class = "IMU_Visual">
+        <geom group="5" contype="0" conaffinity="0" rgba="0.000 1.000 0.000 1.00"/> 
+      </default>
+
+      <default class="rot_joint">
+        <joint actuatorfrcrange="-3.3 3.3" armature="0.0032" damping="4.2e-05" frictionloss="0.132"/>
+      </default>
+
+    </default>
+  </default>
+
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1="0.055 0.14 0.20" rgb2="0.008 0.025 0.045" width="512" height="3072"/>
+    <texture name="glove_ground_texture" type="2d" builtin="checker" mark="edge" rgb1="0.08 0.18 0.24" rgb2="0.025 0.07 0.10" markrgb="0.22 0.76 0.70" width="512" height="512"/>
+    <material name="glove_ground" texture="glove_ground_texture" texuniform="true" texrepeat="10 10" reflectance="0.12"/>
+    <material name="silver" rgba="0.79 0.82 0.93 1"/>
+    <material name="green" rgba="0.2 1 0.2 1"/>
+
+    <mesh name="wrist_collision" file="wrist_collision.STL" />
+    <mesh name="wrist" file="wrist_B.STL"/>
+
+    <mesh name="hand_C_MC_visual" content_type="model/stl" file="right_hand_C_MC_visual.STL" />
+    <mesh name="hand_C_MC" content_type="model/stl" file="right_hand_C_MC.STL"/>
+    <mesh name="thumb_CMC_VL" content_type="model/stl" file="right_thumb_CMC_VL.STL"/>
+    <mesh name="thumb_MC_visual" content_type="model/stl" file="right_thumb_MC_visual.STL"/>
+    <mesh name="thumb_MC" content_type="model/stl" file="right_thumb_MC.STL"/>
+    <mesh name="thumb_MCP_VL_visual" content_type="model/stl" file="right_thumb_MCP_VL_visual.STL"/>
+    <mesh name="thumb_PP_visual" content_type="model/stl" file="right_thumb_PP_visual.STL"/>
+    <mesh name="thumb_PP" content_type="model/stl" file="right_thumb_PP.STL"/>
+    <mesh name="DP_Visual_HB1_TH" content_type="model/stl" file="DP_Visual_HB1_TH.STL"/>
+    <mesh name="DP_HB1_TH" content_type="model/stl" file="DP_HB1_TH.STL"/>
+    <mesh name="elastomer_HB1_TH" content_type="model/stl" file="elastomer_HB1_TH.STL"/>
+    <mesh name="MCP_VL_visual" content_type="model/stl" file="right_MCP_VL_visual.STL"/>
+    <mesh name="MCP_VL" content_type="model/stl" file="MCP_VL.STL"/>
+    <mesh name="PP_visual" content_type="model/stl" file="right_PP_visual.STL"/>
+    <mesh name="PP" content_type="model/stl" file="right_PP.STL"/>
+    <mesh name="MP_visual" content_type="model/stl" file="right_MP_visual.STL"/>
+    <mesh name="MP" content_type="model/stl" file="right_MP.STL"/>
+    <mesh name="DP_visual_HB1_4F" content_type="model/stl" file="DP_visual_HB1_4F.STL"/>
+    <mesh name="DP_HB1_4F" content_type="model/stl" file="DP_HB1_4F.STL"/>
+    <mesh name="elastomer_HB1_4F" content_type="model/stl" file="elastomer_HB1_4F.STL"/>
+    <mesh name="pinky_MC_visual" content_type="model/stl" file="right_pinky_MC_visual.STL"/>
+    <mesh name="pinky_MC" content_type="model/stl" file="right_pinky_MC.STL"/>
+
+    <mesh name="palm000" content_type="model/obj" file="palm/palm000.obj"/>
+    <mesh name="palm001" content_type="model/obj" file="palm/palm001.obj"/>
+    <mesh name="palm002" content_type="model/obj" file="palm/palm002.obj"/>
+    <mesh name="palm003" content_type="model/obj" file="palm/palm003.obj"/>
+    <mesh name="palm004" content_type="model/obj" file="palm/palm004.obj"/>
+    <mesh name="palm005" content_type="model/obj" file="palm/palm005.obj"/>
+    <mesh name="palm006" content_type="model/obj" file="palm/palm006.obj"/>
+    <mesh name="palm007" content_type="model/obj" file="palm/palm007.obj"/>
+    <mesh name="palm008" content_type="model/obj" file="palm/palm008.obj"/>
+    <mesh name="palm009" content_type="model/obj" file="palm/palm009.obj"/>
+    <mesh name="palm010" content_type="model/obj" file="palm/palm010.obj"/>
+    <mesh name="palm011" content_type="model/obj" file="palm/palm011.obj"/>
+    <mesh name="palm012" content_type="model/obj" file="palm/palm012.obj"/>
+    <mesh name="palm013" content_type="model/obj" file="palm/palm013.obj"/>
+    <mesh name="palm014" content_type="model/obj" file="palm/palm014.obj"/>
+    <mesh name="palm015" content_type="model/obj" file="palm/palm015.obj"/>
+    <mesh name="palm016" content_type="model/obj" file="palm/palm016.obj"/>
+    <mesh name="palm017" content_type="model/obj" file="palm/palm017.obj"/>
+    <mesh name="palm018" content_type="model/obj" file="palm/palm018.obj"/>
+    <mesh name="palm019" content_type="model/obj" file="palm/palm019.obj"/>
+    <mesh name="palm020" content_type="model/obj" file="palm/palm020.obj"/>
+    <mesh name="palm021" content_type="model/obj" file="palm/palm021.obj"/>
+    <mesh name="palm022" content_type="model/obj" file="palm/palm022.obj"/>
+    <mesh name="palm023" content_type="model/obj" file="palm/palm023.obj"/>
+    <mesh name="palm024" content_type="model/obj" file="palm/palm024.obj"/>
+    <mesh name="palm025" content_type="model/obj" file="palm/palm025.obj"/>
+    <mesh name="palm026" content_type="model/obj" file="palm/palm026.obj"/>
+    <mesh name="palm027" content_type="model/obj" file="palm/palm027.obj"/>
+    <mesh name="palm028" content_type="model/obj" file="palm/palm028.obj"/>
+    <mesh name="palm029" content_type="model/obj" file="palm/palm029.obj"/>
+    <mesh name="palm030" content_type="model/obj" file="palm/palm030.obj"/>
+    <mesh name="palm031" content_type="model/obj" file="palm/palm031.obj"/>
+
+    <mesh name="palm_IMU" content_type="model/stl"     file="Adapter.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="TIP_IMU"  content_type="model/stl"     file="TIP.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="MID_IMU"  content_type="model/stl"     file="MID.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="Knuckle_IMU" content_type="model/stl"  file="knuc.stl" scale="0.001 0.001 0.001"/>
+  </asset>
+                
+  <worldbody>
+    <light pos="0.15 -0.15 0.65" dir="-0.15 0.15 -1" directional="true" diffuse="0.75 0.80 0.84" specular="0.25 0.25 0.25"/>
+    <geom name="glove_floor" type="plane" pos="0 0 -0.13" size="1.2 1.2 0.02" material="glove_ground" contype="0" conaffinity="0"/>
+    <camera name="render_camera" mode="fixed" pos="0.346 0.299 0.192" xyaxes="-0.643 0.765 -0.000 -0.175 -0.147 0.973"/>
+    <body name="wrist_world_roll_frame" pos="0 0 0" childclass="sharpa">
+      <inertial pos="0 0 0" mass="1e-06" diaginertia="2e-12 2e-12 2e-12"/>
+      <joint name="wrist_world_roll" axis="1 0 0" range="-3.14159 3.14159" class="rot_joint"/>
+      <body name="wrist_world_pitch_frame">
+        <inertial pos="0 0 0" mass="1e-06" diaginertia="2e-12 2e-12 2e-12"/>
+        <joint name="wrist_world_pitch" axis="0 1 0" range="-1.5708 1.5708" class="rot_joint"/>
+        <body name="wrist_world_yaw_frame">
+          <inertial pos="0 0 0" mass="1e-06" diaginertia="2e-12 2e-12 2e-12"/>
+          <joint name="wrist_world_yaw" axis="0 0 1" range="-3.14159 3.14159" class="rot_joint"/>
+          <body name="wrist" pos="0 0 0" childclass="sharpa">      <!-- quat="0.5 0.5 -0.5 0.5"  quat="1 0 0 0"-->
+      <geom type="mesh" contype="0" conaffinity="0" group="2" density="0" rgba="0.79216 0.81961 0.93333 1" mesh="wrist" name="wrist_visual" pos="0 0 -0.03" class="visual" />
+      
+      <site name="imu_wrist" type="box" size="0.003 0.0003 0.003" pos="-0.025 0 -0.025" quat="0.5 0.5 -0.5 0.5"   rgba="1 0 0 1"/>
+      <body name="wrist_imu" pos="-0.025 0 0.05" quat="1 0 0 0" childclass="IMU_Visual">
+        <geom type="mesh" mesh="palm_IMU" pos="0 -0.085 0.0575" quat="0 0.707107 0 -0.707107"/> </body>
+      
+      <body name="wrist_1">
+        <inertial pos="0 0 0" mass="1e-06" diaginertia="2e-12 2e-12 2e-12" />
+        <joint name="roll_joint" pos="0 0 0" axis="1 0 0" range="-1.0 1.0" class="rot_joint" />
+      
+        <body name="wrist_2">
+          <inertial pos="0 0 0" mass="1e-06" diaginertia="2e-12 2e-12 2e-12" />
+          <joint name="pitch_joint" pos="0 0 0" axis="0 1 0" range="-1.0 1.0" class="rot_joint" />
+
+          <body name="wrist_3">
+            <inertial pos="-0.00216 0.00536 0.04011" quat="0.713832 -0.0659364 0.0757239 0.693082" mass="0.6506" diaginertia="2.6e-07 2.12661e-07 1.34339e-07" />
+            <joint name="yaw_joint" pos="0 0 0" axis="0 0 1" range="-1.0 1.0" class="rot_joint" />
+            
+
+            <body name="hand_C_MC">
+              <geom type="mesh" contype="0" conaffinity="0" group="2" density="0" rgba="0.79216 0.81961 0.93333 1" mesh="hand_C_MC_visual" name="hand_C_MC_visual"   pos="0 0 0.0" class="visual"/>
+              <geom type="mesh" contype="1" conaffinity="1" group="3" rgba="0.79216 0.81961 0.93333 1" mesh="hand_C_MC" name="hand_C_MC" pos="0 0 0" />
+            
+              <!-- <geom name="hand_C_MC_visual" class="visual" mass="0.72045" mesh="hand_C_MC_visual"/>  -->
+              <!-- Palm collision -->  
+              <geom name="palm000_collision" class="collision" mesh="palm000"/>
+              <geom name="palm001_collision" class="collision" mesh="palm001"/>
+              <geom name="palm002_collision" class="collision" mesh="palm002"/>
+              <geom name="palm003_collision" class="collision" mesh="palm003"/>
+              <geom name="palm004_collision" class="collision" mesh="palm004"/>
+              <geom name="palm005_collision" class="collision" mesh="palm005"/>
+              <geom name="palm006_collision" class="collision" mesh="palm006"/>
+              <geom name="palm007_collision" class="collision" mesh="palm007"/>
+              <geom name="palm008_collision" class="collision" mesh="palm008"/>
+              <geom name="palm009_collision" class="collision" mesh="palm009"/>
+              <geom name="palm010_collision" class="collision" mesh="palm010"/>
+              <geom name="palm011_collision" class="collision" mesh="palm011"/>
+              <geom name="palm012_collision" class="collision" mesh="palm012"/>
+              <geom name="palm013_collision" class="collision" mesh="palm013"/>
+              <geom name="palm014_collision" class="collision" mesh="palm014"/>
+              <geom name="palm015_collision" class="collision" mesh="palm015"/>
+              <geom name="palm016_collision" class="collision" mesh="palm016"/>
+              <geom name="palm017_collision" class="collision" mesh="palm017"/>
+              <geom name="palm018_collision" class="collision" mesh="palm018"/>
+              <geom name="palm019_collision" class="collision" mesh="palm019"/>
+              <geom name="palm020_collision" class="collision" mesh="palm020"/>
+              <geom name="palm021_collision" class="collision" mesh="palm021"/>
+              <geom name="palm022_collision" class="collision" mesh="palm022"/>
+              <geom name="palm023_collision" class="collision" mesh="palm023"/>
+              <geom name="palm024_collision" class="collision" mesh="palm024"/>
+              <geom name="palm025_collision" class="collision" mesh="palm025"/>
+              <geom name="palm026_collision" class="collision" mesh="palm026"/>
+              <geom name="palm027_collision" class="collision" mesh="palm027"/>
+              <geom name="palm028_collision" class="collision" mesh="palm028"/>
+              <geom name="palm029_collision" class="collision" mesh="palm029"/>
+              <geom name="palm030_collision" class="collision" mesh="palm030"/>
+              <geom name="palm031_collision" class="collision" mesh="palm031"/>
+              <!-- Palm collision --> 
+              <site name="imu_palm" type="box" size="0.003 0.0003 0.003" pos="-0.025 0 0.05" quat="0.5 0.5 -0.5 0.5"  rgba="1 0 0 1"/>
+              <body name="palm_imu" pos="-0.025 0 0.05" quat="1 0 0 0" childclass="IMU_Visual">
+                <geom type="mesh" mesh="palm_IMU" pos="-0.00000000000009 -0.087 0.125" quat="0 0.707107 0 -0.707107"/> </body>
+
+              <body name="thumb_CMC_VL" pos="0.01 0.026 0.0214" quat="0.707105 0 0 0.707108">
+                <inertial pos="-0.00065 0.0002 0" quat="0.557664 -0.434754 -0.557664 -0.434754" mass="0.0025" diaginertia="2.6e-07 2.12661e-07 1.34339e-07"/>
+                <joint name="thumb_CMC_Flex" class="CMC_joint" pos="0 0 0" axis="0 0 -1" range="-0.1745 1.9199"/>
+                <geom class="visual" mesh="thumb_CMC_VL"/>
+                <geom name="thumb_CMC_VL_fit" size="0.0120419 0.00625" pos="0.000957197 -0.000412167 1.20218e-10" type="cylinder" class="collision" />
+
+                <body name="thumb_MC" pos="0 0.005 0" quat="0.65328 -0.653282 -0.270598 -0.270599">
+                  <inertial pos="0.03643 0.01024 -0.00517" quat="-0.154462 0.683763 -0.151259 0.696943" mass="0.13587" diaginertia="4.69153e-05 4.29066e-05 1.92101e-05"/>
+                  <joint name="thumb_CMC_Abduc" class="CMC_joint" pos="0 0 0" axis="0 0 -1" range="-0.698132 0.698132"/>
+                  <geom class="visual" mesh="thumb_MC_visual"/>
+                  <geom name="thumb_MC_fit" size="0.0207081 0.0169273" pos="0.0397656 0.0106861 -0.0110947" quat="0.707107 0 0.707107 0" type="capsule" class="collision" />
+                  <site name="imu_thumb_cmc" type="box" size="0.003 0.0003 0.003" pos="0.0398 0.0275 -0.00075" quat="0.965926 0.258819 0 0" rgba="1 0 0 1"/>
+                  <body name="Thumb_MC_imu" pos="0.0398 0.0107 -0.0111" quat="0.707107 0.707107 0 0" childclass="IMU_Visual">
+                    <geom type="mesh" mesh="Knuckle_IMU" pos="0 0 0" quat="1 0 0 0"/>
+                  </body>
+
+                  <body name="thumb_MCP_VL" pos="0.065 0.006 -0.010392" quat="0.965926 0.25882 0 0">
+                    <joint name="thumb_MCP_Flex" class="MCP_joint" pos="0 0 0" axis="0 0 -1" range="-0.8727 1.7453"/>
+                    <geom class="visual" mass="8e-05" mesh="thumb_MCP_VL_visual"/>
+
+                    <body name="thumb_PP" quat="0.707105 -0.707108 0 0">
+                      <inertial pos="0.021256 0.00095 0.00092" quat="0.511613 -0.44358 0.554609 -0.483631" mass="0.03078" diaginertia="6.08344e-06 5.91207e-06 1.22148e-06"/>
+                      <joint name="thumb_MCP_Abduc" class="MCP_joint" pos="0 0 0" axis="0 0 -1" range="-0.8727 0.8727"/>
+                      <geom class="visual" mesh="thumb_PP_visual"/>
+                      <geom name="thumb_PP_fit" size="0.011707 0.0137066" pos="0.0237179 8.06477e-10 0.0012143" quat="0.707107 0 0.707107 0" type="capsule" class="collision"/>
+                      <site name="imu_thumb_prox" type="box" size="0.003 0.0003 0.003" pos="0.0229 0 0.01215" quat="0.707107 0.707107 0 0" rgba="1 0 0 1"/>
+                      <body name="Thumb_knuc_imu" pos="-0.025 0 0.05" quat="1 0 0 0" childclass="IMU_Visual">
+                        <geom type="mesh" mesh="Knuckle_IMU" pos="-0.019 -0.1245 -0.039" quat="0.707107 0 0 0.707107"/> </body>
+
+                      <body name="thumb_DP" pos="0.039 0 0" quat="0.707105 0.707108 0 0">
+                        <inertial pos="0.00823663 0.00178196 -0.00099988" quat="0.255956 0.713878 0.187417 0.624291" mass="0.00998" diaginertia="1.09014e-06 1.041e-06 2.95174e-07"/>
+                        <joint name="thumb_IP" class="PIP_joint" pos="0 0 0" axis="0 0 -1" range="0 1.7453"/>
+                        <geom class="visual" mesh="DP_Visual_HB1_TH"/>
+                        <geom class="visual" quat="-0.5 0.5 0.5 0.5" material="green" mesh="elastomer_HB1_TH"/>
+                        <geom name="thumb_fingertip_collision" class="elastomer_collision" size="0.00943065 0.00677499" pos="0.0163733 0.00176519 2.7474e-08" quat="0.508797 -0.508797 0.491045 -0.491045" type="capsule"/>
+                        <site name="imu_thumb_dist" type="box" size="0.003 0.0003 0.003" pos="0.015 0.011 0" euler="0 0 0" rgba="1 0 0 1"/>
+                        <body name="Thumb_TIP_imu" pos="-0.025 0 0.05" quat="1 0 0 0" childclass="IMU_Visual">
+                          <geom type="mesh" mesh="TIP_IMU" pos="-0.028 0.01 0.0745" quat="0.5 -0.5 0.5 0.5"/> </body>
+                      </body>
+                    </body>
+                  </body>
+                </body>
+              </body>
+              <body name="index_MCP_VL" pos="0.001 0.0303 0.0959" quat="0.499998 0.500002 -0.5 0.5">
+                <inertial pos="-0.0092 0.0013 0" quat="-0.479506 0.519686 0.479506 0.519686" mass="0.00221" diaginertia="2.23e-07 1.77435e-07 1.09965e-07"/>
+                <joint name="index_MCP_Flex" class="MCP_joint" pos="0 0 0" axis="0 0 -1" range="-0.174533 1.5708"/>
+                <geom class="visual" mesh="MCP_VL_visual"/>
+                <geom name="index_MCP_VL_fit" size="0.0125535 0.0057" pos="0.00165159 -0.00045 1.0897e-10" type="cylinder" class="collision" />
+                <body name="index_PP" quat="0.707105 -0.707108 0 0">
+                  <inertial pos="0.027 0.00055 -0.00068" quat="0.502719 -0.479286 0.512565 -0.504813" mass="0.04741" diaginertia="1.14061e-05 1.10467e-05 2.15425e-06"/>
+                  <joint name="index_MCP_Abduc" class="MCP_joint" pos="0 0 0" axis="0 0 -1" range="-0.8727 0.8727"/>
+                  <geom class="visual" mesh="PP_visual"/>
+                  <geom name="index_PP_fit" size="0.0104766 0.0172474" pos="0.0305371 -8.5591e-06 0.000140714" quat="0.707107 0 0.707107 0" type="capsule" class="collision" />
+                  <site name="imu_index_prox" type="box" size="0.003 0.0003 0.003" pos="0.03 0.0 0.0105" quat="0.707107 0.707107 0 0" rgba="1 0 0 1"/>
+                  <body name="index_knuc_imu" pos="-0.025 0 0.05" quat="1 0 0 0" childclass="IMU_Visual">
+                    <geom type="mesh" mesh="Knuckle_IMU" pos="-0.0125 -0.125 -0.04" quat="0.707107 0 0 0.707107"/> </body>
+
+                  <body name="index_MP" pos="0.047 0 0" quat="0.707105 0.707108 0 0">
+                    <inertial pos="0.01212 0.00116 0.00058" quat="0.0266408 0.732558 0.0189273 0.67992" mass="0.01824" diaginertia="2.00683e-06 1.9229e-06 5.68878e-07"/>
+                    <joint name="index_PIP" class="PIP_joint" pos="0 0 0" axis="0 0 -1" range="0 1.7453"/>
+                    <geom class="visual" mesh="MP_visual"/>
+                    <geom name="index_MP_fit" size="0.0104174 0.0147236" pos="0.0147146 0.00118535 -4.70523e-07" quat="0.707107 0 0.707107 0" type="capsule" class="collision" />
+                    <site name="imu_index_mid" type="box" size="0.003 0.0003 0.003" pos="0.0147146 0.0107 0" euler="0 0 0" rgba="1 0 0 1"/>
+                    <body name="index_MID_imu" pos="-0.025 0 0.05" quat="1 0 0 0" childclass="IMU_Visual">
+                      <geom type="mesh" mesh="MID_IMU" pos="-0.028 0.0095 0.075" quat="0.5 -0.5 0.5 0.5"/> </body>
+
+                    <body name="index_DP" pos="0.0315 0 0">
+                      <inertial pos="0.0124856 0.00257344 -0.000107634" quat="0.0491898 0.71664 0.0584115 0.69325" mass="0.00465" diaginertia="3.15145e-07 3.09574e-07 1.34852e-07"/>
+                      <joint name="index_DIP" class="DIP_joint" pos="0 0 0" axis="0 0 -1" range="0 1.3963"/>
+                      <geom class="visual" mesh="DP_visual_HB1_4F"/>
+                      <geom class="visual" quat="-0.5 0.5 0.5 0.5" material="green" mesh="elastomer_HB1_4F"/>
+                      <geom name="index_fingertip_collision" class="elastomer_collision" size="0.00806303 0.00535098" pos="0.0139214 0.00086892 -1.32248e-06" quat="0.0228873 0.706736 -0.0228873 0.706736" type="capsule"/>
+                      <site name="imu_index_dist" type="box" size="0.003 0.0003 0.003" pos="0.0150 0.00915 0" euler="0 0 0" rgba="1 0 0 1"/>
+                      <body name="index_TIP_imu" pos="-0.025 0 0.05" quat="1 0 0 0" childclass="IMU_Visual">
+                        <geom type="mesh" mesh="TIP_IMU" pos="-0.031 0.0085 0.075" quat="0.5 -0.5 0.5 0.5"/> </body>
+                    </body>
+                  </body>
+                </body>
+              </body>
+              <body name="middle_MCP_VL" pos="0 0.01 0.0989" quat="0.499998 0.500002 -0.5 0.5">
+                <inertial pos="-0.0092 0.0013 0" quat="-0.479506 0.519686 0.479506 0.519686" mass="0.00221" diaginertia="2.23e-07 1.77435e-07 1.09965e-07"/>
+                <joint name="middle_MCP_Flex" class="MCP_joint" pos="0 0 0" axis="0 0 -1" range="-0.174533 1.5708"/>
+                <geom class="visual" mesh="MCP_VL_visual"/>
+                <geom name="middle_MCP_VL_fit" size="0.0125535 0.0057" pos="0.00165159 -0.00045 1.0897e-10" type="cylinder" class="collision"/>
+                <body name="middle_PP" quat="0.707105 -0.707108 0 0">
+                  <inertial pos="0.027 0.00055 -0.00068" quat="0.502719 -0.479286 0.512565 -0.504813" mass="0.04741" diaginertia="1.14061e-05 1.10467e-05 2.15425e-06"/>
+                  <joint name="middle_MCP_Abduc" class="MCP_joint" pos="0 0 0" axis="0 0 -1" range="-0.8727 0.8727"/>
+                  <geom class="visual" mesh="PP_visual"/>
+                  <geom name="middle_PP_fit" size="0.00934798 0.0172474" pos="0.0305371 -8.5591e-06 0.000140714" quat="0.707107 0 0.707107 0" type="capsule" class="collision"/>
+                  <site name="imu_middle_prox" type="box" size="0.003 0.0003 0.003" pos="0.03 0.0 0.011" quat="0.707107 0.707107 0 0" rgba="1 0 0 1"/>
+                  <body name="MID_knuc_imu" pos="-0.025 0 0.05" quat="1 0 0 0" childclass="IMU_Visual">
+                    <geom type="mesh" mesh="Knuckle_IMU" pos="-0.0125 -0.125 -0.04" quat="0.707107 0 0 0.707107"/> </body>
+
+                  <body name="middle_MP" pos="0.047 0 0" quat="0.707105 0.707108 0 0">
+                    <inertial pos="0.01212 0.00116 0.00058" quat="0.0266408 0.732558 0.0189273 0.67992" mass="0.01824" diaginertia="2.00683e-06 1.9229e-06 5.68878e-07"/>
+                    <joint name="middle_PIP" class="PIP_joint" pos="0 0 0" axis="0 0 -1" range="0 1.7453"/>
+                    <geom class="visual" mesh="MP_visual"/>
+                    <geom name="middle_MP_fit" size="0.00940724 0.0147236" pos="0.0147146 0.00118535 -4.70523e-07" quat="0.707107 0 0.707107 0" type="capsule" class="collision"/>
+                    <site name="imu_middle_mid" type="box" size="0.003 0.0003 0.003" pos="0.0147146 0.01 0" euler="0 0 0" rgba="1 0 0 1"/>
+                    <body name="MID_MID_imu" pos="-0.025 0 0.05" quat="1 0 0 0" childclass="IMU_Visual">
+                      <geom type="mesh" mesh="MID_IMU" pos="-0.028 0.0095 0.075" quat="0.5 -0.5 0.5 0.5"/> </body>
+
+                    <body name="middle_DP" pos="0.0315 0 0">
+                      <inertial pos="0.0124856 0.00257344 -0.000107634" quat="0.0491898 0.71664 0.0584115 0.69325" mass="0.00465" diaginertia="3.15145e-07 3.09574e-07 1.34852e-07"/>
+                      <joint name="middle_DIP" class="DIP_joint" pos="0 0 0" axis="0 0 -1" range="0 1.3963"/>
+                      <geom class="visual" mesh="DP_visual_HB1_4F"/>
+                      <geom class="visual" quat="-0.5 0.5 0.5 0.5" material="green" mesh="elastomer_HB1_4F"/>
+                      <geom name="middle_fingertip_collision" class="elastomer_collision" size="0.00806303 0.00535098" pos="0.0139214 0.00086892 -1.32248e-06" quat="0.0228873 0.706736 -0.0228873 0.706736" type="capsule"/>
+                      <site name="imu_middle_dist" type="box" size="0.003 0.0003 0.003" pos="0.0150 0.0095 0" euler="0 0 0" rgba="1 0 0 1"/>
+                      <body name="MID_TIP_imu" pos="-0.025 0 0.05" quat="1 0 0 0" childclass="IMU_Visual">
+                        <geom type="mesh" mesh="TIP_IMU" pos="-0.031 0.0085 0.075" quat="0.5 -0.5 0.5 0.5"/> </body>
+
+                    </body>
+                  </body>
+                </body>
+              </body>
+              <body name="ring_MCP_VL" pos="0.0015 -0.0103 0.0929" quat="0.499998 0.500002 -0.5 0.5">
+                <inertial pos="-0.0092 0.0013 0" quat="-0.479506 0.519686 0.479506 0.519686" mass="0.00221" diaginertia="2.23e-07 1.77435e-07 1.09965e-07"/>
+                <joint name="ring_MCP_Flex" class="MCP_joint" pos="0 0 0" axis="0 0 -1" range="-0.174533 1.5708"/>
+                <geom class="visual" mesh="MCP_VL_visual"/>
+                <geom name="ring_MCP_VL_fit" size="0.0125535 0.0057" pos="0.00165159 -0.00045 1.0897e-10" type="cylinder" class="collision"/>
+                <body name="ring_PP" quat="0.707105 -0.707108 0 0">
+                  <inertial pos="0.027 0.00055 -0.00068" quat="0.502719 -0.479286 0.512565 -0.504813" mass="0.04741" diaginertia="1.14061e-05 1.10467e-05 2.15425e-06"/>
+                  <joint name="ring_MCP_Abduc" class="MCP_joint" pos="0 0 0" axis="0 0 -1" range="-0.8727 0.8727"/>
+                  <geom class="visual" mesh="PP_visual"/>
+                  <geom name="ring_PP_fit" size="0.00970157 0.0172474" pos="0.0305371 -8.5591e-06 0.000140714" quat="0.707107 0 0.707107 0" type="capsule" class="collision"/>
+                  <site name="imu_ring_prox" type="box" size="0.003 0.0003 0.003" pos="0.03 0.0 0.0105" quat="0.707107 0.707107 0 0" rgba="1 0 0 1"/>
+                  <body name="ring_knuc_imu" pos="-0.025 0 0.05" quat="1 0 0 0" childclass="IMU_Visual">
+                    <geom type="mesh" mesh="Knuckle_IMU" pos="-0.0125 -0.125 -0.04" quat="0.707107 0 0 0.707107"/> </body>
+
+                  <body name="ring_MP" pos="0.047 0 0" quat="0.707105 0.707108 0 0">
+                    <inertial pos="0.01212 0.00116 0.00058" quat="0.0266408 0.732558 0.0189273 0.67992" mass="0.01824" diaginertia="2.00683e-06 1.9229e-06 5.68878e-07"/>
+                    <joint name="ring_PIP" class="PIP_joint" pos="0 0 0" axis="0 0 -1" range="0 1.7453"/>
+                    <geom class="visual" mesh="MP_visual"/>
+                    <geom name="ring_MP_fit" size="0.0104481 0.0147236" pos="0.0147146 0.00118535 -4.70523e-07" quat="0.707107 0 0.707107 0" type="capsule" class="collision"/>
+                    <site name="imu_ring_mid" type="box" size="0.003 0.0003 0.003" pos="0.0147146 0.01 0" euler="0 0 0" rgba="1 0 0 1"/>
+                    <body name="ringMID_imu" pos="-0.025 0 0.05" quat="1 0 0 0" childclass="IMU_Visual">
+                      <geom type="mesh" mesh="MID_IMU" pos="-0.028 0.0095 0.075" quat="0.5 -0.5 0.5 0.5"/> </body>
+
+                    <body name="ring_DP" pos="0.0315 0 0">
+                      <inertial pos="0.0124856 0.00257344 -0.000107634" quat="0.0491898 0.71664 0.0584115 0.69325" mass="0.00465" diaginertia="3.15145e-07 3.09574e-07 1.34852e-07"/>
+                      <joint name="ring_DIP" class="DIP_joint" pos="0 0 0" axis="0 0 -1" range="0 1.3963"/>
+                      <geom class="visual" mesh="DP_visual_HB1_4F"/>
+                      <geom class="visual" quat="-0.499998 0.5 0.5 0.500002" material="green" mesh="elastomer_HB1_4F"/>
+                      <geom name="ring_fingertip_collision" class="elastomer_collision" size="0.00806303 0.00535098" pos="0.0139214 0.00086892 -1.32248e-06" quat="0.0228873 0.706736 -0.0228873 0.706736" type="capsule"/>
+                      <site name="imu_ring_dist" type="box" size="0.003 0.0003 0.003" pos="0.0150 0.0095 0" euler="0 0 0" rgba="1 0 0 1"/>
+                      <body name="ring_TIP_imu" pos="-0.025 0 0.05" quat="1 0 0 0" childclass="IMU_Visual">
+                        <geom type="mesh" mesh="TIP_IMU" pos="-0.031 0.0085 0.075" quat="0.5 -0.5 0.5 0.5"/> </body>
+                    </body>
+                  </body>
+                </body>
+              </body>
+              <body name="pinky_MC" pos="0.01136 -0.0263 0.0869" quat="-1.34924e-11 3.67321e-06 1 -3.67321e-06">
+                <geom class="visual" mass="0.12541" mesh="pinky_MC_visual"/>
+                <geom class="collision" mesh="pinky_MC"/>
+                <body name="pinky_MCP_VL" pos="0.00836 -0.0048 0" quat="-0.499998 -0.5 -0.5 0.500002">
+                  <inertial pos="-0.0092 0.0013 0" quat="-0.479506 0.519686 0.479506 0.519686" mass="0.00221" diaginertia="2.23e-07 1.77435e-07 1.09965e-07"/>
+                  <joint name="pinky_MCP_Flex" class="MCP_joint" pos="0 0 0" axis="0 0 -1" range="-0.174533 1.5708"/>
+                  <geom class="visual" mesh="MCP_VL_visual"/>
+                  <geom name="pinky_MCP_VL_fit" size="0.0125535 0.0057" pos="0.00165159 -0.00045 1.0897e-10" type="cylinder" class="collision"/>
+                  <body name="pinky_PP" quat="0.707105 -0.707108 0 0">
+                    <inertial pos="0.027 0.00055 -0.00068" quat="0.502719 -0.479286 0.512565 -0.504813" mass="0.04741" diaginertia="1.14061e-05 1.10467e-05 2.15425e-06"/>
+                    <joint name="pinky_MCP_Abduc" class="MCP_joint" pos="0 0 0" axis="0 0 -1" range="-0.8727 0.8727"/>
+                    <geom class="visual" mesh="PP_visual"/>
+                    <geom name="pinky_PP_fit" size="0.0106522 0.0172474" pos="0.0305371 -8.5591e-06 0.000140714" quat="0.707107 0 0.707107 0" type="capsule" class="collision"/>
+                    <site name="imu_pinky_prox" type="box" size="0.003 0.0003 0.003" pos="0.03 0.0 0.0105" quat="0.707107 0.707107 0 0" rgba="1 0 0 1"/>
+                    <body name="pinky_knuc_imu" pos="-0.025 0 0.05" quat="1 0 0 0" childclass="IMU_Visual">
+                      <geom type="mesh" mesh="Knuckle_IMU" pos="-0.0125 -0.125 -0.04" quat="0.707107 0 0 0.707107"/> </body>
+
+                    <body name="pinky_MP" pos="0.047 0 0" quat="0.707105 0.707108 0 0">
+                      <inertial pos="0.01212 0.00116 0.00058" quat="0.0266408 0.732558 0.0189273 0.67992" mass="0.01824" diaginertia="2.00683e-06 1.9229e-06 5.68878e-07"/>
+                      <joint name="pinky_PIP" class="PIP_joint" pos="0 0 0" axis="0 0 -1" range="0 1.7453"/>
+                      <geom class="visual" mesh="MP_visual"/>
+                      <geom name="pinky_MP_fit" size="0.00990499 0.0147236" pos="0.0147146 0.00118535 -4.70523e-07" quat="0.707107 0 0.707107 0" type="capsule" class="collision"/>
+                      <site name="imu_pinky_mid" type="box" size="0.003 0.0003 0.003" pos="0.0147146 0.01 0" euler="0 0 0" rgba="1 0 0 1"/>
+                      <body name="pinky_MID_imu" pos="-0.025 0 0.05" quat="1 0 0 0" childclass="IMU_Visual">
+                        <geom type="mesh" mesh="MID_IMU" pos="-0.028 0.0095 0.075" quat="0.5 -0.5 0.5 0.5"/> </body>
+
+                      <body name="pinky_DP" pos="0.0315 0 0">
+                        <inertial pos="0.0124856 0.00257344 -0.000107634" quat="0.0491898 0.71664 0.0584115 0.69325" mass="0.00465" diaginertia="3.15145e-07 3.09574e-07 1.34852e-07"/>
+                        <joint name="pinky_DIP" class="DIP_joint" pos="0 0 0" axis="0 0 -1" range="0 1.3963"/>
+                        <geom class="visual" mesh="DP_visual_HB1_4F"/>
+                        <geom class="visual" quat="-0.5 0.5 0.5 0.5" material="green" mesh="elastomer_HB1_4F"/>
+                        <geom name="pinky_fingertip_collision" class="elastomer_collision" size="0.00806303 0.00535098" pos="0.0139214 0.00086892 -1.32248e-06" quat="0.0228873 0.706736 -0.0228873 0.706736" type="capsule"/>
+                        <site name="imu_pinky_dist" type="box" size="0.003 0.0003 0.003" pos="0.0150 0.0095 0" euler="0 0 0" rgba="1 0 0 1"/>
+                        <body name="pinky_TIP_imu" pos="-0.025 0 0.05" quat="1 0 0 0" childclass="IMU_Visual">
+                          <geom type="mesh" mesh="TIP_IMU" pos="-0.031 0.0085 0.075" quat="0.5 -0.5 0.5 0.5"/> </body>
+                      </body>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+          </body>
+        </body>
+      </body>
+    </body>
+
+  </worldbody>
+
+  <contact>
+    <exclude body1="hand_C_MC" body2="thumb_CMC_VL"/>
+    <exclude body1="hand_C_MC" body2="thumb_MC"/>
+    <exclude body1="hand_C_MC" body2="index_MCP_VL"/>
+    <exclude body1="hand_C_MC" body2="middle_MCP_VL"/>
+    <exclude body1="hand_C_MC" body2="ring_MCP_VL"/>
+    <exclude body1="hand_C_MC" body2="pinky_MC"/>
+    <exclude body1="hand_C_MC" body2="pinky_MCP_VL"/>
+
+    <exclude body1="thumb_CMC_VL" body2="thumb_MC"/>
+    <exclude body1="thumb_MC" body2="thumb_PP"/>
+    <exclude body1="thumb_PP" body2="thumb_DP"/>
+
+    <exclude body1="index_MCP_VL" body2="index_PP"/>
+    <exclude body1="index_MCP_VL" body2="middle_MCP_VL"/>
+    <exclude body1="index_PP" body2="index_MP"/>
+    <exclude body1="index_MP" body2="index_DP"/>
+
+    <exclude body1="middle_MCP_VL" body2="middle_PP"/>
+    <exclude body1="middle_MCP_VL" body2="ring_MCP_VL"/>
+    <exclude body1="middle_PP" body2="middle_MP"/>
+    <exclude body1="middle_MP" body2="middle_DP"/>
+    <exclude body1="ring_MCP_VL" body2="ring_PP"/>
+
+    <exclude body1="ring_MCP_VL" body2="pinky_MCP_VL"/>
+    <exclude body1="ring_PP" body2="ring_MP"/>
+    <exclude body1="ring_MP" body2="ring_DP"/>
+    
+    <exclude body1="pinky_MC" body2="pinky_MCP_VL"/>
+    <exclude body1="pinky_MCP_VL" body2="pinky_PP"/>
+    <exclude body1="pinky_PP" body2="pinky_MP"/>
+    <exclude body1="pinky_MP" body2="pinky_DP"/>
+  </contact>
+
+  <actuator>
+    <position name="wrist_world_roll_ctrl" joint="wrist_world_roll" kp="40" ctrlrange="-3.14159 3.14159"/>
+    <position name="wrist_world_pitch_ctrl" joint="wrist_world_pitch" kp="40" ctrlrange="-1.5708 1.5708"/>
+    <position name="wrist_world_yaw_ctrl" joint="wrist_world_yaw" kp="40" ctrlrange="-3.14159 3.14159"/>
+
+    <general name="roll_joint_ctrl" class="sharpa" joint="roll_joint" gainprm="4.76"  ctrlrange="-0.8 1.1" biasprm="0 -4.76 0.9"/>
+    <general name="pitch_joint_ctrl" class="sharpa" joint="pitch_joint" gainprm="4.76"  ctrlrange="-1.0 1.5" biasprm="0 -4.76 0.9"/>
+    <general name="yaw_joint_ctrl" class="sharpa" joint="yaw_joint" gainprm="4.76"  ctrlrange="-0.17 0.5" biasprm="0 -4.76 0.9"/>
+    
+    <general name="thumb_CMC_Flex" class="sharpa" joint="thumb_CMC_Flex" ctrlrange="-0.1745 1.9199" gainprm="6.95" biasprm="0 -6.95 0.9"/>
+    <general name="thumb_CMC_Abduc" class="sharpa" joint="thumb_CMC_Abduc" ctrlrange="-0.698132 0.698132" gainprm="13.2" biasprm="0 -13.2 0.9"/>
+    <general name="thumb_MCP_Flex" class="sharpa" joint="thumb_MCP_Flex" ctrlrange="-0.8727 1.7453" gainprm="4.76" biasprm="0 -4.76 0.9"/>
+    <general name="thumb_MCP_Abduc" class="sharpa" joint="thumb_MCP_Abduc" ctrlrange="-0.8727 0.8727" gainprm="6.62" biasprm="0 -6.62 0.9"/>
+    <general name="thumb_IP" class="sharpa" joint="thumb_IP" ctrlrange="0 1.7453" gainprm="0.9" biasprm="0 -0.9 0.9"/>
+    <general name="index_MCP_Flex" class="sharpa" joint="index_MCP_Flex" ctrlrange="-0.174533 1.5708" gainprm="4.76" biasprm="0 -4.76 0.9"/>
+    <general name="index_MCP_Abduc" class="sharpa" joint="index_MCP_Abduc" ctrlrange="-0.8727 0.8727" gainprm="6.62" biasprm="0 -6.62 0.9"/>
+    <general name="index_PIP" class="sharpa" joint="index_PIP" ctrlrange="0 1.7453" gainprm="0.9" biasprm="0 -0.9 0.9"/>
+    <general name="index_DIP" class="sharpa" joint="index_DIP" ctrlrange="0 1.3963" gainprm="0.9" biasprm="0 -0.9 0.9"/>
+    <general name="middle_MCP_Flex" class="sharpa" joint="middle_MCP_Flex" ctrlrange="-0.174533 1.5708" gainprm="4.76" biasprm="0 -4.76 0.9"/>
+    <general name="middle_MCP_Abduc" class="sharpa" joint="middle_MCP_Abduc" ctrlrange="-0.8727 0.8727" gainprm="6.62" biasprm="0 -6.62 0.9"/>
+    <general name="middle_PIP" class="sharpa" joint="middle_PIP" ctrlrange="0 1.7453" gainprm="0.9" biasprm="0 -0.9 0.9"/>
+    <general name="middle_DIP" class="sharpa" joint="middle_DIP" ctrlrange="0 1.3963" gainprm="0.9" biasprm="0 -0.9 0.9"/>
+    <general name="ring_MCP_Flex" class="sharpa" joint="ring_MCP_Flex" ctrlrange="-0.174533 1.5708" gainprm="4.76" biasprm="0 -4.76 0.9"/>
+    <general name="ring_MCP_Abduc" class="sharpa" joint="ring_MCP_Abduc" ctrlrange="-0.8727 0.8727" gainprm="6.62" biasprm="0 -6.62 0.9"/>
+    <general name="ring_PIP" class="sharpa" joint="ring_PIP" ctrlrange="0 1.7453" gainprm="0.9" biasprm="0 -0.9 0.9"/>
+    <general name="ring_DIP" class="sharpa" joint="ring_DIP" ctrlrange="0 1.3963" gainprm="0.9" biasprm="0 -0.9 0.9"/>
+    <general name="pinky_MCP_Flex" class="sharpa" joint="pinky_MCP_Flex" ctrlrange="-0.174533 1.5708" gainprm="4.76" biasprm="0 -4.76 0.9"/>
+    <general name="pinky_MCP_Abduc" class="sharpa" joint="pinky_MCP_Abduc" ctrlrange="-0.8727 0.8727" gainprm="6.62" biasprm="0 -6.62 0.9"/>
+    <general name="pinky_PIP" class="sharpa" joint="pinky_PIP" ctrlrange="0 1.7453" gainprm="0.9" biasprm="0 -0.9 0.9"/>
+    <general name="pinky_DIP" class="sharpa" joint="pinky_DIP" ctrlrange="0 1.3963" gainprm="0.9" biasprm="0 -0.9 0.9"/>
+  </actuator>
+
+  <sensor>
+    <accelerometer name="acc_wrist" site="imu_wrist"/>
+    <gyro name="gyro_wrist" site="imu_wrist"/>
+
+    <accelerometer name="acc_palm" site="imu_palm"/>
+    <gyro name="gyro_palm" site="imu_palm"/>
+
+    <accelerometer name="acc_thumb_cmc" site="imu_thumb_cmc"/>
+    <gyro name="gyro_thumb_cmc" site="imu_thumb_cmc"/>
+
+    <accelerometer name="acc_thumb_prox" site="imu_thumb_prox"/>
+    <gyro name="gyro_thumb_prox" site="imu_thumb_prox"/>
+    <accelerometer name="acc_thumb_dist" site="imu_thumb_dist"/>
+    <gyro name="gyro_thumb_dist" site="imu_thumb_dist"/>
+
+    <accelerometer name="acc_index_prox" site="imu_index_prox"/>
+    <gyro name="gyro_index_prox" site="imu_index_prox"/>
+    <accelerometer name="acc_index_mid" site="imu_index_mid"/>
+    <gyro name="gyro_index_mid" site="imu_index_mid"/>
+    <accelerometer name="acc_index_dist" site="imu_index_dist"/>
+    <gyro name="gyro_index_dist" site="imu_index_dist"/>
+
+    <accelerometer name="acc_middle_prox" site="imu_middle_prox"/>
+    <gyro name="gyro_middle_prox" site="imu_middle_prox"/>
+    <accelerometer name="acc_middle_mid" site="imu_middle_mid"/>
+    <gyro name="gyro_middle_mid" site="imu_middle_mid"/>
+    <accelerometer name="acc_middle_dist" site="imu_middle_dist"/>
+    <gyro name="gyro_middle_dist" site="imu_middle_dist"/>
+
+    <accelerometer name="acc_ring_prox" site="imu_ring_prox"/>
+    <gyro name="gyro_ring_prox" site="imu_ring_prox"/>
+    <accelerometer name="acc_ring_mid" site="imu_ring_mid"/>
+    <gyro name="gyro_ring_mid" site="imu_ring_mid"/>
+    <accelerometer name="acc_ring_dist" site="imu_ring_dist"/>
+    <gyro name="gyro_ring_dist" site="imu_ring_dist"/>
+
+    <accelerometer name="acc_pinky_prox" site="imu_pinky_prox"/>
+    <gyro name="gyro_pinky_prox" site="imu_pinky_prox"/>
+    <accelerometer name="acc_pinky_mid" site="imu_pinky_mid"/>
+    <gyro name="gyro_pinky_mid" site="imu_pinky_mid"/>
+    <accelerometer name="acc_pinky_dist" site="imu_pinky_dist"/>
+    <gyro name="gyro_pinky_dist" site="imu_pinky_dist"/>
+  </sensor>
+
+</mujoco>
+
+
