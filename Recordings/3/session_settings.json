@@ -1,0 +1,16 @@
+{
+  "status": "stopped",
+  "created_at": "2026-11-02T23:44:23.048785+02:00",
+  "dashboard_log_file": "C:\\Users\\ceron\\Downloads\\Year 4\\Skripsie\\Main\\Glove\\dashboard_logs\\Dashboard_20261102_232535.log",
+  "filter": "Madgwick",
+  "gain": "0.1",
+  "raw_mode": false,
+  "abduction_enabled": true,
+  "middle_abduction_enabled": true,
+  "use_gyro_bias": true,
+  "calibration_file": "C:\\Users\\ceron\\Downloads\\Year 4\\Skripsie\\Main\\Glove\\live_tracking\\live_imu_calibration.json",
+  "mediapipe_cameras": [
+    0,
+    3
+  ]
+}
